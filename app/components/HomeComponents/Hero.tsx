@@ -14,7 +14,7 @@ const Hero = () => {
    
     <div className="container mx-auto pl-4 pr-4 sm:pr-6 lg:pr-14 ">
     
-    <div className="w-full mx-auto flex flex-col lg:flex-row gap-[40px] lg:gap-[108px] pt-60 lg:pt-30 ">
+    <div className="w-full mx-auto flex flex-col lg:flex-row gap-[40px] lg:gap-[108px] pt-60 lg:pt-26 ">
       {/* content section */}
       <div className="mt-6 lg:mt-[39px] relative z-20 container">
         <div>
