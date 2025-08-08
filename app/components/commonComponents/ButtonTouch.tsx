@@ -30,10 +30,10 @@ const ButtonTouch: React.FC<ButtonTouchProps> = ({
       onClick={onClick}
       className={`
         inline-flex items-center justify-center gap-2
-        px-[38px] py-[14px] border-[#0E1412] border-1 rounded-[170px]
+         border-[#0E1412] border-1 rounded-[170px]
         text-lg
-        
-        cursor-pointer
+        px-[38px] py-[14px]  xl:px-[38px] xl:py-[14px] 
+          lg:px-[28px] lg:py-[10px] 
         border-${borderColor}
         hover:bg-${hoverBgColor} hover:text-${hoverTextColor}
         transition duration-300
