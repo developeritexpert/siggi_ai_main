@@ -22,25 +22,78 @@ const Navbar = () => {
 
   return (
     <div className="h-[120px]">
-     
-      <nav className="absolute top-0 left-0 w-full z-50 bg-transparent">
-            <section className="w-full px-4 sm:px-6 lg:px-10">
+      <nav className="absolute top-0 left-0 w-full z-50 bg-transparent ">
+        <div className="w-full px-4 sm:px-6 lg:px-10">
+          <div className="container mx-auto flex items-center justify-between py-3">
+            <Logo />
 
-        <div className="container mx-auto flex items-center justify-between py-3">
-          <Logo />
+            {/* Desktop Menu */}
+            <div className="hidden  lg:text-[18pxl font-normal lg:flex items-center">
+              <ul className="w-[712px] md:w-[650px] flex justify-between">
+                {menuItems.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className={`hover:opacity-90 transition no-underline${
+                        active === item.name
+                          ? " text-blue-700"
+                          : "text-[#0E1412]"
+                      } `}
+                      onClick={() => handleMenuClick(item.name)}
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <Button
+              buttonText="Contact Us"
+              className="py-[12px] px-[18px] hidden  lg:block"
+            />
 
-          {/* Desktop Menu */}
-          <div className="hidden  lg:text-[18pxl font-normal lg:flex items-center">
-            <ul className="w-[712px] flex justify-between">
+            {/* Mobile Menu Button */}
+            <button
+              className="lg:hidden flex flex-col justify-center items-center w-8 h-8"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              <span
+                className={`block w-6 h-0.5 bg-[#0E1412] mb-1 transition-all duration-300 ${
+                  isMenuOpen ? "rotate-45 translate-y-2" : ""
+                }`}
+              ></span>
+              <span
+                className={`block w-6 h-0.5 bg-[#0E1412] mb-1 transition-all duration-300 ${
+                  isMenuOpen ? "opacity-0" : ""
+                }`}
+              ></span>
+              <span
+                className={`block w-6 h-0.5 bg-[#0E1412] transition-all duration-300 ${
+                  isMenuOpen ? "-rotate-45 -translate-y-2" : ""
+                }`}
+              ></span>
+            </button>
+          </div>
+
+          {/* Mobile Menu */}
+          <div
+            className={`lg:hidden bg-white/80 backdrop-blur-md px-4 py-4 transition-all duration-300 ${
+              isMenuOpen
+                ? "max-h-screen opacity-100"
+                : "max-h-0 opacity-0 overflow-hidden"
+            }`}
+          >
+            <ul className="flex flex-col gap-4 list-disc pl-5">
               {menuItems.map((item) => (
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    className={`hover:opacity-90 transition no-underline${
+                    className={`block py-2 px-2 rounded transition-colors duration-200 ${
                       active === item.name
-                        ? " text-blue-700"
+                        ? "bg-blue-100 text-blue-700 font-semibold"
                         : "text-[#0E1412]"
-                    } `}
+                    } hover:bg-blue-50`}
                     onClick={() => handleMenuClick(item.name)}
                   >
                     {item.name}
@@ -48,70 +101,15 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+            <Button
+              buttonText="Contact Us"
+              className="py-[19px] px-[42px] mt-4"
+            />
           </div>
-          <Button
-            buttonText="Contact Us"
-            className="py-[12px] px-[18px] hidden lg:flex"
-          />
-
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden flex flex-col justify-center items-center w-8 h-8"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <span
-              className={`block w-6 h-0.5 bg-[#0E1412] mb-1 transition-all duration-300 ${
-                isMenuOpen ? "rotate-45 translate-y-2" : ""
-              }`}
-            ></span>
-            <span
-              className={`block w-6 h-0.5 bg-[#0E1412] mb-1 transition-all duration-300 ${
-                isMenuOpen ? "opacity-0" : ""
-              }`}
-            ></span>
-            <span
-              className={`block w-6 h-0.5 bg-[#0E1412] transition-all duration-300 ${
-                isMenuOpen ? "-rotate-45 -translate-y-2" : ""
-              }`}
-            ></span>
-          </button>
-        </div>
-
-        {/* Mobile Menu */}
-        <div
-          className={`lg:hidden bg-white/80 backdrop-blur-md px-4 py-4 transition-all duration-300 ${
-            isMenuOpen
-              ? "max-h-screen opacity-100"
-              : "max-h-0 opacity-0 overflow-hidden"
-          }`}
-        >
-          <ul className="flex flex-col gap-4 list-disc pl-5">
-            {menuItems.map((item) => (
-              <li key={item.name}>
-                <a
-                  href={item.href}
-                  className={`block py-2 px-2 rounded transition-colors duration-200 ${
-                    active === item.name
-                      ? "bg-blue-100 text-blue-700 font-semibold"
-                      : "text-[#0E1412]"
-                  } hover:bg-blue-50`}
-                  onClick={() => handleMenuClick(item.name)}
-                >
-                  {item.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <Button
-            buttonText="Contact Us"
-            className="py-[19px] px-[42px] mt-4"
-          />
-        </div>
-            </section>
-
+    </div>
       </nav>
       </div>
+    
   );
 };
 

@@ -4,11 +4,10 @@ import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
-
 const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  weight: ['300', '400', '500', '700'], // ⬅️ Add the weights you actually use
+  subsets: ["latin"],
+  variable: "--font-inter",
+  weight: ["300", "400", "500", "700"], // ⬅️ Add the weights you actually use
 });
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,16 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.variable}>
-        <section>
-          
-          <Navbar />
-          {children}
-          <Footer />
-
-        </section>
-
+        <Navbar />
+        {children}
+        <Footer />
       </body>
-
     </html>
   );
 }

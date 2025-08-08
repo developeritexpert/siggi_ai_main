@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div >
+    <div>
            <div className="absolute top-0 right-0 w-full  min-h-screen z-10 ">
           <Image
             src="/assests/HeroSection.svg"

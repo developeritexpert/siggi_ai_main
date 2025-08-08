@@ -4,7 +4,7 @@ import Image from 'next/image'
 const SignalUpgrade = () => {
   return (
     // Signal Upgrade Section
-    <div className="w-full pt-8 sm:pt-12 lg:pt-16 bg-[#0e1412]">
+    <section className="w-full pt-8 sm:pt-12 lg:pt-16 bg-[#0e1412]">
       <div
         className="relative w-full min-h-[800px] sm:min-h-[1000px] lg:min-h-[1200px]"
         style={{
@@ -25,9 +25,9 @@ const SignalUpgrade = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col items-center justify-center min-h-full px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+        <div className="flex flex-col items-center justify-center min-h-full  py-12 sm:py-16 lg:py-20">
           {/* Feature Box */}
-          <div className="w-full max-w-5xl bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl p-8 sm:p-12 lg:p-16 mb-8 sm:mb-12 lg:mb-16">
+          <div className="w-full  bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl p-8 sm:p-12 lg:p-16 mb-8 sm:mb-12 lg:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-georgia font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
               The Signal Upgrade You Didn&apos;t Know You Needed
             </h2>
@@ -127,7 +127,7 @@ const SignalUpgrade = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
