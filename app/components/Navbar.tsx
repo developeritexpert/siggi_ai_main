@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-[120px]">
+    
       <nav className="absolute top-0 left-0 w-full z-50 bg-transparent ">
         <div className="w-full px-4 sm:px-6 lg:px-10">
           <div className="container mx-auto flex items-center justify-between py-3">
@@ -108,7 +108,7 @@ const Navbar = () => {
           </div>
     </div>
       </nav>
-      </div>
+   
     
   );
 };

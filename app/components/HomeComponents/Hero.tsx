@@ -5,21 +5,16 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div>
-           <div className="absolute top-0 right-0 w-full  min-h-screen z-10 ">
-          <Image
-            src="/assests/HeroSection.svg"
-            alt="Hero Section"
-            width={780}
-            height={1080}
-            
-            className="w-full  object-cover"
-          />
-        </div>
-   
-    <section className="container mx-auto pl-4 pr-4 sm:pr-6 lg:pr-14 ">
+    <section>
     
-    <div className="w-full mx-auto flex flex-col lg:flex-row gap-[40px] lg:gap-[108px] pt-10 lg:pt-14 ">
+           <div className="w-full 
+             bg-[url('/assests/HeroSection.svg')] min-h-screen    bg-no-repeat bg-cover  bg-center ">
+       
+       
+   
+    <div className="container mx-auto pl-4 pr-4 sm:pr-6 lg:pr-14 ">
+    
+    <div className="w-full mx-auto flex flex-col lg:flex-row gap-[40px] lg:gap-[108px] pt-60 lg:pt-30 ">
       {/* content section */}
       <div className="mt-6 lg:mt-[39px] relative z-20 container">
         <div>
@@ -49,14 +44,14 @@ const Hero = () => {
       <div className="w-full flex justify-center items-center relative z-10">
              {/* Background Icon - Hidden on small screens */}
                
-        <div className="w-full max-w-[360px] sm:max-w-[400px] md:max-w-[450px] lg:max-w-none  relative flex justify-center items-center">
+        <div className="w-full  flex justify-center items-center">
           {/* Phone Image */}
           <Image
              src="/assests/GroupMobile.png"
             alt="iPhone Mockup"
             width={363}
             height={515}
-            className="w-full h-auto object-contain  max-h-[515px]"
+            className="w-full h-auto object-cover"
             priority
           />
                <Image
@@ -71,8 +66,9 @@ const Hero = () => {
         </div>
       </div>
     </div>
-    </section>
-     </div>
+    </div>
+    </div>
+     </section>
   )
 }
 
