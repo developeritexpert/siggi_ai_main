@@ -2,7 +2,7 @@ import React from 'react'
 import Image  from "next/image"
 const CallSection = () => {
   return (
-    <div className="flex flex-col items-center w-full pt-8 sm:pt-12 lg:pt-[160px]">
+    <section className="flex flex-col items-center w-full pt-8 sm:pt-12 lg:pt-[160px]">
     
   <div 
   className="relative w-full min-h-[500px] sm:min-h-[600px] lg:min-h-[800px] -mt-8 sm:-mt-12 lg:-mt-16 
@@ -76,7 +76,7 @@ const CallSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
   )
 }
 

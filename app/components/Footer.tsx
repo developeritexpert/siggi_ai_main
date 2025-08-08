@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   return (
     <footer
-      className="w-full bg-cover bg-[#161b21] bg-center relative text-white"
+      className="w-full bg-cover bg-[#161b21] bg-center relative text-white mt-[-2px]"
       style={{ backgroundImage: "url('/images/img_mask_group.png')" }}
     >
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12 md:py-16 lg:py-24">
@@ -54,34 +54,31 @@ const Footer: React.FC = () => {
           {/* Right Column */}
           <div className="flex flex-col gap-8 sm:gap-16 md:gap-20 lg:gap-[122px] justify-start items-start self-end w-full lg:w-[60%] mt-0 sm:mt-12 md:mt-16 lg:mt-[96px]">
             {/* Links Section */}
-            <div className="flex flex-col gap-3 sm:gap-4 lg:gap-[14px] justify-start items-center self-end w-full lg:w-[74%]">
-              {/* Headings */}
-              <div className="flex flex-col sm:flex-row justify-between items-center w-full gap-4 sm:gap-0">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-georgia font-normal leading-6 sm:leading-7 lg:leading-[30px] text-center text-global-3 w-auto">
+            <div className="flex flex-col sm:flex-row justify-between items-start w-full gap-6 sm:gap-4">
+              {/* Quick Links */}
+              <div className="w-full sm:w-[26%]">
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-georgia font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
                   Quick Links
                 </h3>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-georgia font-normal leading-6 sm:leading-7 lg:leading-[30px] text-center text-global-3 w-auto">
-                  Help & Support
-                </h3>
+                <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 space-y-1">
+                  <Link href="/#home" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Home</Link>
+                  <Link href="/#how-it-works" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">How it works</Link>
+                  <Link href="/#features" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Features & Benefits</Link>
+                  <Link href="/#why-siggy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Why Siggy?</Link>
+                  <Link href="/#compliance-privacy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Compliance & Privacy</Link>
+                </div>
               </div>
 
-              {/* Clickable Links */}
-              <div className="flex flex-col sm:flex-row justify-between items-start w-full gap-6 sm:gap-4">
-                {/* Quick Links */}
-                <div className="text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 w-full sm:w-[26%] space-y-1">
-                  <Link href="/" className="hover:opacity-90 block">Home</Link>
-                  <Link href="/how-it-works" className="hover:opacity-90  block">How it works</Link>
-                  <Link href="/features" className="hover:opacity-90  block">Features & Benefits</Link>
-                  <Link href="/why-siggy" className="hover:opacity-90  block">Why Siggy?</Link>
-                  <Link href="/compliance-privacy" className="hover:opacity-90 block">Compliance & Privacy</Link>
-                </div>
-
-                {/* Help & Support */}
-                <div className="text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 w-full sm:w-[26%] space-y-1">
-                  <Link href="/about" className="hover:opacity-90 block">About Us</Link>
-                  <Link href="/contact" className="hover:opacity-90  block">Contact Us</Link>
-                  <Link href="/privacy-policy" className="hover:opacity-90  block">Privacy Policy</Link>
-                  <Link href="/terms" className="hover:opacity-90  block">Terms and Conditions</Link>
+              {/* Help & Support */}
+              <div className="w-full sm:w-[26%]">
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-georgia font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
+                  Help & Support
+                </h3>
+                <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 space-y-1">
+                  <Link href="/#about" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">About Us</Link>
+                  <Link href="/#contact" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Contact Us</Link>
+                  <Link href="/#privacy-policy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Privacy Policy</Link>
+                  <Link href="/#terms" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Terms and Conditions</Link>
                 </div>
               </div>
             </div>

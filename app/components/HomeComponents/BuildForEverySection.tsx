@@ -10,8 +10,8 @@ const BuildForEverySection = () => {
 
           <div className='w-full relative'>
   <div 
-  className="relative w-full min-h-[400px] sm:min-h-[500px] lg:min-h-[750px] z-10
-             bg-[url('/images/img_rectangle_21.png')] bg-contain bg-no-repeat  bg-center bg-[#161b21]"
+  className="w-full flex justify-end items-end pb-6 max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-hidden
+             bg-[url('/images/img_rectangle_21.png')] py-1 pr-[73px] bg-no-repeat bg-cover  bg-center bg-[#161b21]"
 >
             {/* Background Icon - Hidden on small screens */}
             <Image
@@ -19,16 +19,19 @@ const BuildForEverySection = () => {
               alt="Background Icon"
               width={184}
               height={148}
-              className="hidden sm:block absolute top-[-20px] left-8 lg:left-16 w-20 sm:w-24 lg:w-32 h-auto z-[-2]"
-            />
 
-         
-          </div>
-   <div className="absolute right-[155px] bottom-[-5px]">
-              <div className="w-full max-w-[576px]">
-                <div className="space-y-4 sm:space-y-6">
+   className="hidden sm:block absolute top-[-47px] lg:left-[-21px] w-20 sm:w-24 lg:w-32 h-auto "
+            />
+             <div className="w-full max-w-[576px] max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-auto scrollbar-thin scrollbar-thumb-[#8ed3fa]/50  no-scrollbar scrollbar-track-transparent pr-2">
+                <div className="space-y-4 sm:space-y-6 p-0 mt-4px">
                   {/* User Types */}
                   {[
+                      { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
+                    { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
+                    { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
+                    { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
+                    { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
+                    { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
                     { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
                     { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
                     { icon: '/images/img_group_13_gray_900.svg', title: 'Remote Workers', desc: 'Reliable internet, anywhere.' },
@@ -56,7 +59,10 @@ const BuildForEverySection = () => {
                   ))}
                 </div>
               </div>
-            </div>
+
+         
+          </div>
+
           </div>
           
       

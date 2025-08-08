@@ -37,7 +37,7 @@ const TestmonialSection = () => {
   const testimonial = testimonials[current]
 
   return (
-    <div className="flex flex-col justify-start items-center w-full bg-[#19212a] pt-12 sm:py-16 lg:pt-[115px] px-4 sm:px-6 lg:px-8">
+    <section className="flex flex-col justify-start items-center w-full bg-[#19212a] pt-12 sm:py-16 lg:pt-[115px] px-4 sm:px-6 lg:px-8">
       {/* Main Heading - Unchanged */}
       <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
         What Users Are Saying
@@ -108,7 +108,7 @@ const TestmonialSection = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -4,12 +4,12 @@ import SingnalMagicCard from './SingnalMagicCard'
 
 const SingalMagic = () => {
   return (
-    <section className=" py-12">
+    <section className="  px-4">
       {/* ✅ Wrapped content inside container with mx-auto for horizontal centering */}
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         
         {/* ✅ Ensured heading spacing is responsive and font is correct */}
-        <h2 className="text-2xl sm:text-3xl md:text-[65px] text-center text-white mb-12 font-normal georgia-text">
+        <h2 className="text-2xl sm:text-3xl md:text-[65px] xl:mt-60 text-center text-white mb-12 font-normal georgia-text">
           <span className="text-white">Behind the </span>
           <span className="text-[#8ed3fa]">Signal</span>
           <span className="text-white"> Magic</span>
