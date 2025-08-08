@@ -4,9 +4,9 @@ import Image from 'next/image'
 const SignalUpgrade = () => {
   return (
     // Signal Upgrade Section
-    <section className="w-full pt-8 sm:pt-12 lg:pt-16 bg-[#0e1412]">
+    <section className="w-full pt-8  bg-[#0e1412]">
       <div
-        className="relative w-full min-h-[800px] sm:min-h-[1000px] lg:min-h-[1200px]"
+        className="relative w-full "
         style={{
           backgroundImage: "url('/images/img_mask_group.png')",
           backgroundSize: 'cover',
@@ -25,9 +25,9 @@ const SignalUpgrade = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col items-center justify-center min-h-full  py-12 sm:py-16 lg:py-20">
+        <div className="flex flex-col items-center justify-center min-h-full  ">
           {/* Feature Box */}
-          <div className="w-full  bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl p-8 sm:p-12 lg:p-16 mb-8 sm:mb-12 lg:mb-16">
+          <div className="w-full  bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl  sm:p-12 lg:p-16   ">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-georgia font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
               The Signal Upgrade You Didn&apos;t Know You Needed
             </h2>
@@ -104,27 +104,7 @@ const SignalUpgrade = () => {
             </div>
           </div>
 
-          {/* Connecting You Section */}
-          <div className="flex flex-col items-center">
-            <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-georgia font-normal leading-tight text-white max-w-4xl mx-auto">
-                <span className="text-white">Connecting You to What </span>
-                <span className="text-[#8ed3fa]">Matters</span>
-                <span className="text-white"> Most</span>
-              </h2>
-            </div>
-
-            {/* Logo Circle */}
-            <div className="sm:-top-12 bg-[#90d5fc] border-4 border-white rounded-full p-3 sm:p-4 lg:p-6 shadow-xl">
-              <Image
-                src="/images/img_siggy_logo_4.png"
-                alt="Siggy Logo"
-                width={148}
-                height={146}
-                className="w-12 sm:w-16 lg:w-20 xl:w-24 h-auto rounded-full"
-              />
-            </div>
-          </div>
+     
         </div>
       </div>
     </section>

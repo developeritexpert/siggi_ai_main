@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section
-      className="w-full 
+      className="w-full pb-[40px] lg:pb-[73px] xl:pb-[4px] 2xl:pb-[53px]
              bg-[url('/assests/HeroSection.svg')]    bg-no-repeat bg-cover  bg-center "
     >
       <div className="px-4">
@@ -45,23 +45,23 @@ const Hero = () => {
           {/* <div className="w-full flex justify-center items-center relative z-10"> */}
           {/* Background Icon - Hidden on small screens */}
 
-          <div className="w-[50%] relative ">
+          <div className="w-[50%] lg:w-[43%] xl-[50%] relative ">
             {/* Phone Image */}
             <Image
               src="/assests/GroupMobile.png"
               alt="iPhone Mockup"
               width={363}
               height={515}
-              className="w-full h-auto object-cover"
+              className="w-full relative z-2 h-auto object-cover"
               priority
             />
-            <div className="absolute bottom-[-20px] right-[-800px] ">
+            <div className="absolute bottom-[-20px] right-[-40px] lg:bottom-[-30px] lg:right-[-37px] xl:bottom-[-50px] xl:right-[-36px] ">
             <Image
                       src="/images/group_3457411.png"
                       alt="Background Icon"
                       width={184}
                       height={148}
-                      className="hidden sm:block  lg:left-16 w-20 sm:w-24 lg:w-40 h-auto "
+                      className="hidden sm:block  lg:left-16 w-20 sm:w-24  lg:w-30 xl-60 h-auto "
                     />
           </div>
           </div>
