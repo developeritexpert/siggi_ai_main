@@ -29,11 +29,11 @@ const Hero = () => {
             <div className="mt-6 sm:mt-[33px] flex flex-wrap items-center gap-4 sm:gap-[15px]">
               <Button
                 buttonText="Discover How It Works"
-                className="text-[12px] text-white px-[10px] py-[16px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
+                className="text-[12px] lg:text-[18px] text-white px-[10px] py-[16px] xl:px-[29px] xl:py-[19px]   lg:px-[16px] lg:py-[16px]  "
               />
               <ButtonTouch
                 label="Get in Touch"
-                className="text-[12px] px-[10px] py-[10px] lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
+                className=" text-[12px] lg:text-[18px] text-white px-[10px] py-[16px] xl:px-[29px] xl:py-[15px]   lg:px-[16px] lg:py-[10px]    lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
               />
             </div>
           </div>
