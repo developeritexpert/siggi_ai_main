@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Button from '../commonComponents/Button'
+import ButtonCustomize from '../commonComponents/ButtonCustomize'
 
 const HomeAboutSection = () => {
   return (
@@ -50,7 +51,7 @@ const HomeAboutSection = () => {
             </span>
           </p>
 
-       <Button
+       <ButtonCustomize
                 buttonText="Read Our Story"
                 className="text-[12px] bg-[#8ED3FA] text-[#0E1412] px-[10px] py-[16px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
               />

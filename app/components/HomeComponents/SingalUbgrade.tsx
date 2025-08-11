@@ -4,7 +4,7 @@ import Image from 'next/image'
 const SignalUpgrade = () => {
   return (
     // Signal Upgrade Section
-    <section className="w-full pt-8  bg-[#0e1412]">
+    <section className="w-full pt-8  bg-[#0e1412] ">
       <div
         className="relative w-full "
         style={{
@@ -14,7 +14,7 @@ const SignalUpgrade = () => {
         }}
       >
         {/* Signal Towers - Hidden on mobile */}
-        <div className="hidden lg:block absolute top-8 right-0 overflow-hidden">
+        <div className="hidden lg:block absolute top-8 right-0 overflow-hidden ">
           <div className="flex space-x-4">
             <Image src="/images/img_vector.svg" alt="Signal Tower" width={98} height={142} className="w-16 h-auto" />
             <Image src="/images/img_vector_white_a700.svg" alt="Signal Tower" width={56} height={138} className="w-12 h-auto" />
@@ -25,7 +25,7 @@ const SignalUpgrade = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col items-center justify-center min-h-full  ">
+        <div className="flex flex-col items-center justify-center min-h-full   ">
           {/* Feature Box */}
           <div className="w-full  bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl  p-4 sm:p-12 lg:p-16   ">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-georgia font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
