@@ -31,8 +31,9 @@ const ButtonTouch: React.FC<ButtonTouchProps> = ({
       className={`
         inline-flex items-center justify-center gap-2
          border-[#0E1412] border-1 rounded-[170px]
-        text-lg
-        px-[38px] py-[14px]  xl:px-[38px] xl:py-[14px] 
+         text-[12px] px-[10px] 
+        
+         py-[0px]  xl:px-[38px] xl:py-[14px] 
           lg:px-[28px] lg:py-[10px] 
         border-${borderColor}
         hover:bg-${hoverBgColor} hover:text-${hoverTextColor}

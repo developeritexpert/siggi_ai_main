@@ -2,28 +2,29 @@ import React from 'react'
 import Image from 'next/image'
 const BuildForEverySection = () => {
   return (
-     <div className=" flex flex-col justify-start items-center w-full lg:py-[126px] px-4 sm:px-6 lg:px-8">
+     <section className=" flex flex-col justify-start items-center w-full lg:pt-[50px] lg:pb-[76px] px-4 sm:px-6 lg:px-46">
           <h2 className="heading-h2 georgia-text">
             <span className="text-white">Built for Everyone Who Depends on Their </span>
             <span className="text-[#8ed3fa]">Signal</span>
           </h2>
 
-          <div className='w-full relative'>
-  <div 
-  className="w-full flex justify-end items-end pb-6 max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-hidden
-             bg-[url('/images/img_rectangle_21.png')] py-1 pr-[73px] bg-no-repeat bg-cover  bg-center bg-[#161b21]"
->
-            {/* Background Icon - Hidden on small screens */}
+          <div className='w-full relative z-10'>
+                {/* Background Icon - Hidden on small screens */}
             <Image
               src="/images/group_3457411.png"
               alt="Background Icon"
               width={184}
               height={148}
 
-   className="hidden sm:block absolute top-[-47px] lg:left-[-21px] w-20 sm:w-24 lg:w-32 h-auto "
+   className="hidden sm:block absolute top-[-43px] left-[-28px] lg:top-[-47px] lg:left-[-34px] w-20 sm:w-24 lg:w-[185px] h-auto z-8 "
             />
-             <div className="w-full max-w-[576px] max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-auto scrollbar-thin scrollbar-thumb-[#8ed3fa]/50  no-scrollbar scrollbar-track-transparent pr-2">
-                <div className="space-y-4 sm:space-y-6 p-0 mt-4px">
+  <div 
+  className="w-full flex justify-end items-end pb-6 max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-hidden
+            relative  z-9 bg-[url('/images/img_rectangle_21.png')] pt-6 pr-[73px] bg-no-repeat bg-cover  bg-center bg-[#161b21]"
+>
+        
+             <div className="w-full r max-w-[576px] max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-auto scrollbar-thin scrollbar-thumb-[#8ed3fa]/50  no-scrollbar scrollbar-track-transparent pr-2">
+                <div className="space-y-4 sm:space-y-6 pt-10 pb-1 mt-4px">
                   {/* User Types */}
                   {[
                       { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
@@ -66,7 +67,7 @@ const BuildForEverySection = () => {
           </div>
           
       
-        </div>
+        </section>
 
   )
 }

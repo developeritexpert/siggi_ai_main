@@ -23,10 +23,11 @@ const Navbar = () => {
   return (
     
       <nav className="absolute top-0 left-0 w-full z-50 bg-transparent ">
-        <div className="w-full px-4 sm:px-6 lg:px-10">
+        <div className="w-full px-4 sm:px-6 lg:px-4 xl:px-10">
           <div className="container mx-auto flex items-center justify-between py-3">
+   
             <Logo />
-
+   
             {/* Desktop Menu */}
             <div className="hidden  lg:text-[18pxl font-normal lg:flex items-center">
               <ul className="w-[712px] md:w-[650px] flex justify-between">
@@ -49,7 +50,7 @@ const Navbar = () => {
             </div>
             <Button
               buttonText="Contact Us"
-              className="py-[12px] px-[18px] hidden  lg:block"
+              className="py-[12px] px-[18px] hidden text-white  lg:block"
             />
 
             {/* Mobile Menu Button */}

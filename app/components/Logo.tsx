@@ -7,6 +7,8 @@ const Logo = () => {
         <svg xmlns="http://www.w3.org/2000/svg"
          xmlnsXlink="http://www.w3.org/1999/xlink" 
          width="123" height="120" viewBox="0 0 123 120" 
+             className="w-14 h-14 lg:w-full lg:h-auto"
+
          fill="none"><path fill="url(#a)" d="M0 .961h122.977v119.038H0z"/><defs>
          <pattern id="a" patternContentUnits="objectBoundingBox" width="1" 
          height="1"><use xlinkHref="#b" transform="matrix(.00112 0 0 .00115 -.064 0)"/>

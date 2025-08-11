@@ -12,9 +12,6 @@ import DownloadSection from "./components/HomeComponents/DownloadSection";
 export default function Home() {
   return (
     <>
-    
-     
-     
         <div className="bg-[#161b21]">
          
             <Hero />

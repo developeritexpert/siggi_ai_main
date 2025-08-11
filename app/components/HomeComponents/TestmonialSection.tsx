@@ -37,7 +37,18 @@ const TestmonialSection = () => {
   const testimonial = testimonials[current]
 
   return (
-    <section className="flex flex-col justify-start items-center w-full bg-[#19212a] pt-12 sm:py-16 lg:pt-[115px] px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#19212a] py-10 lg:pt-[115px] lg:pb-[119px] px-4 sm:px-6 lg:px-8 ">
+    <div className="flex flex-col justify-start items-center w-full relative z-0">
+          {/* Signal Towers - Hidden on mobile for better performance */}
+            <div className="hidden md:block  bottom-126 absolute xl:bottom-[-114px] xl:left-[-88px] overflow-hidden z-10">
+              <div className="flex flex-row  items-center space-x-2 lg:space-x-4">
+                <Image src="/assests/img_vector.svg" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-20 h-auto" />
+                <Image src="/images/img_vector_white_a700.svg" alt="Signal Tower" width={56} height={136} className="w-8 lg:w-10 xl:w-12 h-auto" />
+                <Image src="/images/img_vector_white_a700_140x134.svg" alt="Signal Tower" width={134} height={140} className="w-16 lg:w-20 xl:w-24 h-auto" />
+                <Image src="/images/img_vector_white_a700_138x134.svg" alt="Signal Tower" width={134} height={138} className="w-16 lg:w-20 xl:w-24 h-auto" />
+                <Image src="/images/img_vector_white_a700_136x140.svg" alt="Signal Tower" width={140} height={136} className="w-16 lg:w-20 xl:w-24 h-auto" />
+              </div>
+            </div>
       {/* Main Heading - Unchanged */}
       <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
         What Users Are Saying
@@ -64,11 +75,11 @@ const TestmonialSection = () => {
 
       {/* Testimonial */}
       <div className="w-full mx-auto lg:max-w-[1080px]">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8 ">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 lg:gap-8 ">
           {/* Prev */}
           <button
             onClick={handlePrev}
-            className="order-2 lg:order-1 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 flex-shrink-0"
+            className="hidden md:order-1 md:block  bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 flex-shrink-0"
           >
             <Image
               src="/images/img_group_245.svg"
@@ -80,7 +91,7 @@ const TestmonialSection = () => {
           </button>
 
           {/* Quote */}
-          <div className="order-1 lg:order-2 flex-1 lg:max-w-[980px]">
+          <div className="order-1 md:order-2 flex-1 lg:max-w-[980px]">
             <blockquote className="text-sm sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white">
               &quot;{testimonial.quote}&quot;
             </blockquote>
@@ -89,7 +100,7 @@ const TestmonialSection = () => {
           {/* Next */}
           <button
             onClick={handleNext}
-            className="order-3 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 flex-shrink-0"
+            className="hidden order-3 md:block  bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 flex-shrink-0"
           >
             <Image
               src="/images/img_group_244.svg"
@@ -108,6 +119,7 @@ const TestmonialSection = () => {
           </p>
         </div>
       </div>
+    </div>
     </section>
   )
 }

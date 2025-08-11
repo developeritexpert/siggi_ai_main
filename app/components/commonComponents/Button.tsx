@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
         href={href}
         aria-label={ariaLabel || buttonText}
         className={`
-       rounded-full bg-[#0E1412] text-white text-lg font-normal hover:opacity-90 transition no-underline
+       rounded-full bg-[#0E1412] text-lg font-normal hover:opacity-90 transition no-underline
           ${className}
         `}
       >

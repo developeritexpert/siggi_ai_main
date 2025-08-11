@@ -37,7 +37,7 @@ const FAQSection = () => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
   return (
-           <section className="flex flex-col lg:flex-row justify-start items-start w-full  mx-auto px-4 sm:px-6 lg:px-8 lg:pb-[120px] pt-12 sm:pt-16 lg:pt-20 gap-8 lg:gap-12">
+           <section className="flex flex-col lg:flex-row justify-start items-start w-full  mx-auto px-4 sm:px-6 lg:px-44 lg:pb-[120px] pt-12 sm:pt-16 lg:pt-20 gap-8 lg:gap-12">
           {/* FAQ Header */}
           <div className="w-full lg:w-2/5">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-georgia font-normal leading-tight text-left text-white mb-4 sm:mb-6">

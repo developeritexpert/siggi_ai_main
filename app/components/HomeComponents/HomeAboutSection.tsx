@@ -5,7 +5,7 @@ import Button from '../commonComponents/Button'
 const HomeAboutSection = () => {
   return (
     // About Section - Mobile responsive
-    <section className="pt-30 pb-30 px-10 lg:pt-30 lg:pb-30 xl:pt-40 xl:pb:30 xl:px-70">
+    <section className="pt-30 pb-10 px-10 lg:pt-30 lg:pb-10 xl:pt-40 xl:pb:10 xl:px-70">
            {/* Connecting You Section */}
           <div className="flex flex-row w-full items-center justify-between">
             <div className="text-center mb-8 sm:mb-12 lg:mb-16">
@@ -28,7 +28,7 @@ const HomeAboutSection = () => {
             </div>
           </div>
   
-    <div className="flex flex-col lg:flex-row justify-between items-center w-full  mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-20 gap-8 lg:gap-12">
+    <div className="flex flex-col lg:flex-row justify-between items-center w-full  mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-4 gap-8 lg:gap-12">
       
       <div className="w-full lg:w-3/5 order-2 lg:order-1">
         <div className="space-y-6 sm:space-y-8">
@@ -50,9 +50,14 @@ const HomeAboutSection = () => {
             </span>
           </p>
 
-          <Button buttonText="Read Our Story" />
+       <Button
+                buttonText="Read Our Story"
+                className="text-[12px] bg-[#8ED3FA] text-[#0E1412] px-[10px] py-[16px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
+              />
         </div>
       </div>
+     
+
 
       <div className="w-full lg:w-2/5 order-1 lg:order-2">
         <Image
