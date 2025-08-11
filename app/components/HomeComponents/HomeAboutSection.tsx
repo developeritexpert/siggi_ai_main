@@ -9,8 +9,8 @@ const HomeAboutSection = () => {
     <section className="pt-30 pb-10 px-10 lg:pt-30 lg:pb-10 xl:pt-40 xl:pb:10 xl:px-70">
            {/* Connecting You Section */}
           <div className="flex flex-row w-full items-center justify-between">
-            <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-georgia font-normal leading-tight text-white max-w-3xl mx-auto">
+            <div className=" mb-8 sm:mb-12 lg:mb-16">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[90px] georgia-text font-normal leading-tight text-white max-w-[913px] mx-auto">
                 <span className="text-white">Connecting You to Whats</span>
                 <span className="text-[#8ed3fa]"> Matters</span>
                 <span className="text-white"> Most</span>
