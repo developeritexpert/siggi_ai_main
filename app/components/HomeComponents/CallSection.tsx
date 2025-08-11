@@ -6,11 +6,11 @@ const CallSection = () => {
     
   <section 
   className="relative w-full min-h-[500px] sm:min-h-[600px] lg:min-h-[800px] -mt-8 sm:-mt-12 lg:-mt-16 
-             bg-[url('/images/img_xmlid106.png')] bg-cover bg-center bg-[#161b21] px-4 "
+             bg-[url('/images/img_xmlid106.png')] bg-cover bg-center bg-[#161b21] "
 >
             {/* Signal Towers - Hidden on mobile for better performance */}
            
-            <div className="container mt-60">
+            <div className="container mt-60 px-4 lg:px-4 xl:px-40">
             <div className="hidden md:block  bottom-126 right-10 absolute lg:top-16 lg:right-10 xl:-top-[-120px] xl:right-0 overflow-hidden">
               <div className="flex flex-row  items-center space-x-2 lg:space-x-4">
                 <Image src="/assests/img_vector.svg" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-20 h-auto" />
