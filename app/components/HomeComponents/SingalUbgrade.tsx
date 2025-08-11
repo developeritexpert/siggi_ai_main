@@ -27,10 +27,13 @@ const SignalUpgrade = () => {
         {/* Main Content */}
         <div className="flex flex-col items-center justify-center min-h-full   ">
           {/* Feature Box */}
-          <div className="w-full  bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl  p-4 sm:p-12 lg:p-16   ">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-georgia font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
+          <div className="w-full  bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl  p-4 sm:p-12 lg:px-[150px] lg:py-[64px]  ">
+            <div className="w-full ">
+                <h2 className="mx-auto  text-2xl w-[60%] sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
               The Signal Upgrade You Didn&apos;t Know You Needed
             </h2>
+            </div>
+          
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
               {/* Left Features */}
@@ -49,15 +52,15 @@ const SignalUpgrade = () => {
                 </div>
 
                 {/* Feature 2 */}
-                <div className="flex flex-col items-start space-y-3 sm:space-y-4">
+    <div className="flex flex-col items-start space-y-3 sm:space-y-4">
                   <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
-                    <Image src="/images/img_group_3.svg" alt="Feature Icon" width={28} height={28} className="w-6 sm:w-7 h-6 sm:h-7" />
+                    <Image src="/images/img_group_4.svg" alt="Feature Icon" width={32} height={32} className="w-6 sm:w-7 h-6 sm:h-7" />
                   </div>
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
-                    Private & Secure
+                    Works Anywhere, Anytime
                   </h3>
                   <p className="text-sm sm:text-base lg:text-lg font-inter font-normal text-[#0e1412] leading-relaxed">
-                    Your personal data stays protected. Siggy only uses what&apos;s necessary to enhance performance.
+                    Whether you&apos;re at home, commuting, or traveling, Siggy adapts to your environment.
                   </p>
                 </div>
               </div>
@@ -78,13 +81,13 @@ const SignalUpgrade = () => {
                 {/* Feature 3 */}
                 <div className="flex flex-col items-start space-y-3 sm:space-y-4">
                   <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
-                    <Image src="/images/img_group_4.svg" alt="Feature Icon" width={32} height={32} className="w-6 sm:w-7 h-6 sm:h-7" />
+                    <Image src="/images/img_group_3.svg" alt="Feature Icon" width={28} height={28} className="w-6 sm:w-7 h-6 sm:h-7" />
                   </div>
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
-                    Works Anywhere, Anytime
+                    Private & Secure
                   </h3>
                   <p className="text-sm sm:text-base lg:text-lg font-inter font-normal text-[#0e1412] leading-relaxed">
-                    Whether you&apos;re at home, commuting, or traveling, Siggy adapts to your environment.
+                    Your personal data stays protected. Siggy only uses what&apos;s necessary to enhance performance.
                   </p>
                 </div>
 
