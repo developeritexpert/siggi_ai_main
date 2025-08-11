@@ -29,14 +29,12 @@ const BuildForEverySection = () => {
                   {[
                       { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
                     { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
-                    { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
-                    { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
-                    { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
-                    { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
-                    { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
-                    { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
                     { icon: '/images/img_group_13_gray_900.svg', title: 'Remote Workers', desc: 'Reliable internet, anywhere.' },
-                    { icon: '/images/img_group_34606.svg', title: 'Telecom Professionals', desc: 'Real-world data insights and diagnostics.' }
+                                        { icon: '/images/img_group_34606.svg', title: 'Telecom Professionals', desc: 'Real-world data insights and diagnostics.' },
+
+                    { icon: '/images/img_group_15.svg', title: 'Travelers', desc: 'Stay connected on the move.' },
+                    { icon: '/images/img_group_17.svg', title: 'Everyday Users', desc: 'Fewer dropped calls, better browsing.' },
+                  
                   ].map((userType, index) => (
                     <div key={index} className="flex items-center space-x-4 bg-[#ffffff07] border border-[#ffffff33] rounded-xl p-4 sm:p-6 shadow-lg backdrop-blur-sm hover:bg-[#ffffff10] transition-all duration-300">
                       <div className="bg-[#8ed3fa] rounded-full p-3 sm:p-4 flex-shrink-0">

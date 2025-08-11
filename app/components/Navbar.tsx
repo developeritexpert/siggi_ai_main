@@ -102,10 +102,9 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <Button
-              buttonText="Contact Us"
-              className="py-[19px] px-[42px] mt-4"
-            />
+           <button className="rounded-full bg-[#0E1412] font-normal hover:opacity-90 transition no-underline m-2 px-5 py-2 text-white">
+  Contact Us
+</button>
           </div>
     </div>
       </nav>

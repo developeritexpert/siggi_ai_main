@@ -12,9 +12,9 @@ import DownloadSection from "./components/HomeComponents/DownloadSection";
 export default function Home() {
   return (
     <>
-        <div className="bg-[#161b21]">
-         
-            <Hero />
+        <main className="bg-[#161b21]">
+     
+       <Hero />
             <SingalMagic />
             <CallSection />
             <BuildForEverySection />
@@ -23,7 +23,7 @@ export default function Home() {
             <SingalUbgrade />
             <HomeAboutSection />
             <DownloadSection />
-          </div>
+          </main>
      
     
     </>

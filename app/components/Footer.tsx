@@ -56,8 +56,8 @@ const Footer: React.FC = () => {
             {/* Links Section */}
             <div className="flex flex-col sm:flex-row justify-between items-start w-full gap-6 sm:gap-4">
               {/* Quick Links */}
-              <div className="w-full sm:w-[26%]">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-georgia font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
+              <div className="w-full sm:w-[48%]">
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] georgia-text font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
                   Quick Links
                 </h3>
                 <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 space-y-1">
@@ -70,8 +70,8 @@ const Footer: React.FC = () => {
               </div>
 
               {/* Help & Support */}
-              <div className="w-full sm:w-[26%]">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] font-georgia font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
+              <div className="w-full sm:w-[48%]">
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] georgia-text font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
                   Help & Support
                 </h3>
                 <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 space-y-1">

@@ -17,6 +17,8 @@ interface ButtonTouchProps {
 const ButtonTouch: React.FC<ButtonTouchProps> = ({
   label,
   onClick,
+  
+  textColor = '#0E1412',
 
   borderColor = '#0E1412',
   hoverBgColor = '#0E1412',
