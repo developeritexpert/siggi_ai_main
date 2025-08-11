@@ -65,7 +65,7 @@ const SignalUpgrade = () => {
               {/* Center Graphic */}
               <div className="flex flex-col items-center relative">
                 <Image
-                  src="/images/img_group_34569.svg"
+                  src="/images/group_36366123.png"
                   alt="Central Graphic"
                   width={474}
                   height={596}
