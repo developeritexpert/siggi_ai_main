@@ -14,13 +14,13 @@ const Hero = () => {
         <div className=" mx-auto flex flex-col gap-[50px] lg:gap-[140px] lg:flex-row  pt-[51px] lg:pt-38 ">
           {/* content section */}
           <div className="w-full lg:w-[41%]  xl:w-[80%] mt-6 lg:mt-[39px]  ">
-          <h1 className="font-normal text-[20px] leading-[30px] sm:text-[48px] md:text-[60px] lg:text-[40px] xl:text-[50px] 2xl:text-[90px] text-white sm:leading-[55px] md:leading-[70px] lg:leading-[60px] 2xl:leading-[89px] georgia-text">
+          <h1 className="font-normal text-[20px] leading-[30px] sm:text-[48px] md:text-[60px] lg:text-[40px] xl:text-[50px] 2xl:text-[90px] text-white sm:leading-[55px] md:leading-[70px] lg:leading-[60px] 2xl:leading-[89px] font-georgia">
             Smarter Signal,
-            <span className="text-[#8ED3FA]"> Seamless Connectivity.</span>
+            <span className="text-[#8ED3FA] font-georgia"> Seamless Connectivity.</span>
           </h1>
            
 
-            <p className="text-[12px] sm:text-lg font-normal mt-4 sm:mt-[18px] lg:[10px] xl:text-[20px] 2xl:text-base   text-white  lg:text-[#0E1412] lg:w-[460px] xl-w-[618px]">
+            <p className="text-[12px] font-georgia  sm:text-lg font-normal mt-4 sm:mt-[18px] lg:[10px] xl:text-[20px] 2xl:text-base   text-white  lg:text-[#0E1412] lg:w-[460px] xl-w-[618px]">
               Siggy is the AI-powered mobile app that transforms how devices
               connect to cell towers—boosting signal reliability and optimizing
               telecom performance in real time.

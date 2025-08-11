@@ -42,9 +42,25 @@ a {
 } */
 
 @import "tailwindcss";
-body {
-  font-family: var(--font-inter), sans-serif;
+
+@font-face {
+  font-family: 'GeorgiaWeb';
+  src: url('/fonts/georgia/georgia.woff2') format('woff2'),
+       url('/fonts/georgia/georgia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: 'GeorgiaWeb';
+  src: url('/fonts/georgia/georgiab.woff2') format('woff2'),
+       url('/fonts/georgia/georgiab.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 :root {
   --font-georgia: Georgia, 'Times New Roman', Times, serif;
@@ -56,7 +72,9 @@ body {
 .inter-text {
   font-family: var(--font-inter), sans-serif;
 }
-
+h1, h2, h3, h4, h5, h6, p, li , span{
+  font-family:  Georgia, 'Times New Roman' !important;
+}
 .heading-h2 {
   @apply text-2xl sm:text-3xl md:text-4xl lg:text-[65px]  font-normal leading-tight text-center text-white mb-8 sm:mb-12 lg:mb-16 max-w-4xl;
 }

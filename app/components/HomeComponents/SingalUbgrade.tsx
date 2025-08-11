@@ -29,9 +29,11 @@ const SignalUpgrade = () => {
           {/* Feature Box */}
           <div className="w-full  bg-gradient-to-b from-[#90d5fd] to-[#005c93] rounded-2xl sm:rounded-3xl  p-4 sm:p-12 lg:px-[150px] lg:py-[64px]  ">
             <div className="w-full ">
-                <h2 className="mx-auto  text-2xl w-[60%] sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
-              The Signal Upgrade You Didn&apos;t Know You Needed
-            </h2>
+              <div className="w-full item-center flex justify-center">
+<h2 className="w-[82%] text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
+  The Signal Upgrade You Didn&apos;t Know You Needed
+</h2>
+</div>
             </div>
           
 
