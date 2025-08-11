@@ -2,14 +2,19 @@ import React from 'react'
 import Image  from "next/image"
 const CallSection = () => {
   return (
+    <div className="relative xl:block">
+        <div className="hidden xl:block bottom-126 right-10 absolute lg:top-[89px] xl:w-[641px] z-10 lg:right-10 xl:top-[70px] xl:right-[56px] overflow-hidden">
+
+      <Image src="/images/group_3457011.png" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-[641px] h-auto" />
+</div>
     <section className="flex flex-col items-center w-full pt-8 sm:pt-12 lg:pt-[160px]">
     
   <div 
-  className="relative w-full min-h-[500px] sm:min-h-[600px] lg:min-h-[800px] -mt-8 sm:-mt-12 lg:-mt-16 
+  className="relative w-full min-h-[500px] sm:min-h-[600px] lg:min-h-[929px] -mt-8 sm:-mt-12 lg:-mt-16 
              bg-[url('/images/img_xmlid106.png')] bg-cover bg-center bg-[#161b21]"
 >
             {/* Signal Towers - Hidden on mobile for better performance */}
-            <div className="hidden md:block  bottom-126 right-10 absolute lg:top-16 lg:right-10 xl:-top-5 xl:right-40 overflow-hidden">
+          <div className="hidden md:block lg:block xl:hidden  bottom-126 right-10 absolute lg:top-16 lg:right-10 xl:-top-5 xl:right-40 overflow-hidden">
               <div className="flex flex-row  items-center space-x-2 lg:space-x-4">
                 <Image src="/assests/img_vector.svg" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-20 h-auto" />
                 <Image src="/images/img_vector_white_a700.svg" alt="Signal Tower" width={56} height={136} className="w-8 lg:w-10 xl:w-12 h-auto" />
@@ -19,9 +24,10 @@ const CallSection = () => {
               </div>
             </div>
 
+
             {/* Content */}
-            <div className="flex flex-col lg:flex-row items-center justify-center max-w-[1287px] mx-auto  md:gap-[92px] px-4 sm:px-6 lg:px-26 py-8 sm:py-12 lg:py-16">
-              <div className="w-full lg:w-1/2 max-w-2xl ">
+            <div className="flex flex-col lg:flex-row items-center justify-center max-w-[1287px] mx-auto  md:gap-[92px] px-4 sm:px-6 lg:px-26 py-8 sm:py-12 lg:pt-30 lg:pb-16">
+              <div className="w-full lg:w-[60%] max-w-2xl ">
                 <h2 className="text-2xl  georgia-text sm:text-2xl md:text-3xl lg:text-[45px]  font-normal leading-tight text-left text-white mb-3 sm:mb-4">
                   <span className="text-white">Never Drop a </span>
                   <p>
@@ -65,7 +71,7 @@ const CallSection = () => {
               </div>
 
               {/* Signal Visualization - Responsive */}
-              <div className="w-full lg:w-[60%] flex justify-center mt-8 lg:mt-0">
+              <div className="w-full lg:w-[99%] flex justify-center mt-8 lg:mt-0">
                 <Image
                   src="/images/img_rectangle_20.png"
                   alt="Signal Visualization"
@@ -77,6 +83,7 @@ const CallSection = () => {
             </div>
           </div>
         </section>
+        </div>
   )
 }
 
