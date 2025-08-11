@@ -40,13 +40,17 @@ const FAQSection = () => {
            <section className="flex flex-col lg:flex-row justify-start items-start w-full  mx-auto px-4 sm:px-6 lg:px-44 lg:pb-[120px] pt-12 sm:pt-16 lg:pt-20 gap-8 lg:gap-12">
           {/* FAQ Header */}
           <div className="w-full lg:w-2/5">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-georgia font-normal leading-tight text-left text-white mb-4 sm:mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[22px] font-georgia font-normal leading-tight text-left text-white mb-4 sm:mb-6">
               Frequently Asked Questions
             </h2>
             <p className="text-sm sm:text-base lg:text-lg font-inter font-light leading-relaxed text-left text-white">
               <span className="font-light">If you need further assistance, feel free to email us at </span>
-              <span className="font-medium text-[#8ed3fa]">Support@siggy.com.</span>
-            </p>
+            <a
+              href="mailto:Support@siggy.com"
+              className="font-medium lg:text-[22px] hover:no-underline"
+            >
+              Support@siggy.com
+            </a>            </p>
           </div>
 
           {/* FAQ Items */}
@@ -73,7 +77,7 @@ const FAQSection = () => {
                       />
                     </div>
                     {expandedFaq === index && (
-                      <div className="mt-4 pt-4 border-t border-[#ffffff1a]">
+                      <div className="mt-4 pt-4  border-[#ffffff1a]">
                         <p className="text-sm sm:text-base font-inter font-normal leading-relaxed text-white/90">
                           {faq.answer}
                         </p>
