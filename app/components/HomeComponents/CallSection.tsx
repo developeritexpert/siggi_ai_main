@@ -71,13 +71,13 @@ const CallSection = () => {
               </div>
 
               {/* Signal Visualization - Responsive */}
-              <div className="w-full lg:w-[99%] flex justify-center mt-8 lg:mt-0">
+              <div className="w-full lg:w-[634px] flex justify-center mt-8 lg:mt-0">
                 <Image
                   src="/images/img_rectangle_20.png"
                   alt="Signal Visualization"
                   width={634}
                   height={676}
-                  className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto rounded-xl shadow-2xl"
+                  className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-[634px] h-auto rounded-xl shadow-2xl"
                 />
               </div>
             </div>
