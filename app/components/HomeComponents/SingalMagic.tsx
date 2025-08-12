@@ -5,17 +5,17 @@ import SingnalMagicCard from './SingnalMagicCard'
 const SingalMagic = () => {
   return (
     <section className="px-4">
-      {/* ✅ Wrapped content inside container with mx-auto for horizontal centering */}
+      {/* Wrapped content inside container with mx-auto for horizontal centering */}
       <div className="container mx-auto">
         
-        {/* ✅ Ensured heading spacing is responsive and font is correct */}
-        <h2 className="text-2xl sm:text-3xl md:text-[65px] sm:mt-[85px] xl:mt-[148px] text-center text-white mb-[30px] font-normal georgia-text">
+        {/*  Ensured heading spacing is responsive and font is correct */}
+        <h2 className="text-2xl sm:text-3xl md:text-[65px] sm:mt-[69px] xl:mt-[69px] text-center text-white mb-[30px] font-normal georgia-text">
           <span className="text-white">Behind the </span>
           <span className="text-[#8ed3fa]">Signal</span>
           <span className="text-white"> Magic</span>
         </h2>
 
-        {/* ✅ Grid layout with gap between cards */}
+        {/*Grid layout with gap between cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <SingnalMagicCard 
             imageUrl="/assests/img_group_34565.svg" 
