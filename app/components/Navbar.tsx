@@ -37,7 +37,7 @@ const Navbar = () => {
                       href={item.href}
                       className={`hover:opacity-90 transition no-underline${
                         active === item.name
-                          ? " text-blue-700"
+                          ? ""
                           : "text-[#0E1412]"
                       } `}
                       onClick={() => handleMenuClick(item.name)}
