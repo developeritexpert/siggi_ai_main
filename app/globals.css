@@ -79,7 +79,7 @@ h1, h2, h4, h5, h6{
   font-family:  Georgia, 'Times New Roman' !important;
 }
 .heading-h2 {
-  @apply text-2xl sm:text-3xl md:text-4xl lg:text-[65px]  font-normal leading-tight text-center text-white mb-8 sm:mb-12 lg:mb-16 max-w-4xl;
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-[65px]  font-normal leading-tight text-center text-white mb-8 sm:mb-12 lg:mb-16 ;
 }
 
 

@@ -85,7 +85,7 @@ const Navbar = () => {
                 : "max-h-0 opacity-0 overflow-hidden"
             }`}
           >
-            <ul className="flex flex-col gap-4 list-disc pl-5">
+            <ul className="flex flex-col gap-4 pl-5">
               {menuItems.map((item) => (
                 <li key={item.name}>
                   <a
@@ -94,7 +94,7 @@ const Navbar = () => {
                       active === item.name
                         ? "bg-blue-100 text-blue-700 font-semibold"
                         : "text-[#0E1412]"
-                    } hover:bg-blue-50`}
+                    } hover:bg-blue-200`}
                     onClick={() => handleMenuClick(item.name)}
                   >
                     {item.name}

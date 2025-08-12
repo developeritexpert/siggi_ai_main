@@ -7,36 +7,36 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section
-      className="w-full pb-[40px]  lg:pb-[73px] xl:pb-[4px] 2xl:pb-[53px]
+      className="w-full px-[16px] py-[18px] pb-[40px]  lg:pb-[73px] xl:pb-[195px] md:px-[60px]
              bg-[url('/assests/HeroSection.svg')]    bg-no-repeat bg-cover  bg-center "
     >
-      <div className="px-4">
-      <div className="container mx-auto  ">
-        <div className=" mx-auto flex flex-col gap-[50px] lg:gap-[140px] lg:flex-row  pt-[51px] lg:pt-38 ">
+     
+      <div className="w-full container mx-auto  ">
+        <div className="w-full flex flex-col  md:flex-row  pt-[91px] lg:pt-38  ">
           {/* content section */}
-          <div className="w-full lg:w-[41%]  xl:w-[80%] mt-6 lg:mt-[39px]  ">
-          <h1 className="font-normal text-[20px] leading-[30px] sm:text-[48px] md:text-[60px] lg:text-[40px] xl:text-[50px] 2xl:text-[90px] text-white sm:leading-[55px] md:leading-[70px] lg:leading-[60px] 2xl:leading-[89px] font-georgia">
+          <div className="w-full md:w-[50%] mt-6 lg:mt-[39px] ">
+          <h1 className="font-normal text-[36px] leading-[40px] max-w-[251px] md:max-w-none  md:text-[61px]  text-white  md:leading-[60px] xl:text-[84px] xl:leading-[89px]  font-georgia">
             Smarter Signal,
             <span className="text-[#8ED3FA] font-georgia"> Seamless Connectivity.</span>
           </h1>
            
 
-            <p className="text-[12px] font-georgia  sm:text-lg font-normal mt-4 sm:mt-[18px]  xl:text-[18px] text-white  lg:text-[#0E1412] lg:w-[640px] 2xl:w-[564px] ">
+            <p className="text-[16px] font-georgia  font-normal mt-4 md:mt-[18px]  md:text-[18px] text-[#0E1412]  lg:text-[#0E1412] lg:w-[470px] xl:w-[612px]">
               Siggy is the AI-powered mobile app that transforms how devices
               connect to cell towers—boosting signal reliability and optimizing
               telecom performance in real time.
             </p>
 
-            <div className="mt-6 sm:mt-[33px] flex flex-wrap items-center gap-4 sm:gap-[15px]">
+            <div className="mt-10 sm:mt-[33px] flex flex-wrap items-center gap-10 sm:gap-[15px]">
               <Button
                 buttonText="Discover How It Works"
-                className="text-[12px] text-white lg:text-[18px]  px-[10px] py-[16px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
+                className="text-[16px] text-white lg:text-[18px]  px-[29px] py-[19px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
               />
 
            <Link href="#/contact">
               <ButtonTouch
                 label="Get in Touch"
-                className="text-[12px] text-white lg:text-[18px]  px-[10px] py-[16px] xl:px-[29px] xl:py-[14px]  lg:px-[16px] lg:py-[14px]  lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
+                className="text-[16px] text-[#0E1412]  lg:text-[18px]  px-[64px] py-[16px] xl:px-[29px] xl:py-[14px]  lg:px-[16px] lg:py-[14px]  lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
               />
               </Link>
             </div>
@@ -46,17 +46,17 @@ const Hero = () => {
           {/* <div className="w-full flex justify-center items-center relative z-10"> */}
           {/* Background Icon - Hidden on small screens */}
 
-          <div className="w-[82%]  sm:w-[82%]  lg:w-full  xl:w-full  text-center  lg:relative ">
+          <div className="w-[90%] mt-[38px] md:w-[50%]  lg:relative ">
             {/* Phone Image */}
             <Image
               src="/assests/GroupMobile.png"
               alt="iPhone Mockup"
               width={363}
               height={515}
-              className="w-full sm:w-[82%] lg:[w-40%]  xl:w-[89%] lg:relative lg:z-10 h-auto object-cover"
+              className="w-full  lg:relative lg:z-10 h-auto object-cover"
               priority
             />-
-            <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[10px] ">
+            <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[-52px] ">
             <Image
                       src="/images/group_3457411.png"
                       alt="Background Icon"
@@ -69,7 +69,7 @@ const Hero = () => {
           {/* </div> */}
         </div>
       </div>
-      </div>
+    
     </section>
   );
 };

@@ -4,7 +4,7 @@ const CallSection = () => {
   return (
     
    <section className="relative w-full">
-    <div className="hidden sm:w-[661px] sm:block absolute z-9 w-full xl:top-20 xl:right-0 ">
+    <div className="hidden sm:w-[661px] sm:block absolute z-9 lg:top-[99px]  lg:right-0 w-full xl:top-20 xl:right-0 ">
       <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/>
     </div>
   <div
@@ -13,7 +13,7 @@ const CallSection = () => {
 >
             {/* Signal Towers - Hidden on mobile for better performance */}
            
-            <div className="container mx-auto py-[160px] px-4 "> 
+            <div className="container mx-auto py-[30px] md:py-[160px] px-4 "> 
             {/* <div className="hidden md:block  bottom-126 right-10 absolute lg:top-0 lg:right-10 xl:-top-[-100px] xl:right-[-29px] ">
               <div className="flex flex-row  items-center space-x-2 lg:space-x-5">
                 <Image src="/assests/img_vector.svg" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-26 h-auto" />
