@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Right Column */}
-          <div className="flex flex-col gap-8 sm:gap-16 md:gap-20 lg:gap-[122px] justify-start items-start self-end w-full lg:w-[60%] mt-0 sm:mt-12 md:mt-16 lg:mt-[96px]">
+          <div className="flex flex-col gap-8 pb-[25px] sm:gap-16 md:gap-20 lg:gap-[122px] justify-start items-start self-end w-full lg:w-[60%] mt-0 sm:mt-12 md:mt-16 lg:mt-[96px]">
             {/* Links Section */}
             <div className="flex flex-col sm:flex-row justify-between items-start w-full gap-6 sm:gap-4">
               {/* Quick Links */}
