@@ -9,7 +9,7 @@ const SingalMagic = () => {
       <div className="container mx-auto">
         
         {/*  Ensured heading spacing is responsive and font is correct */}
-        <h2 className="text-2xl sm:text-3xl md:text-[65px] sm:mt-[69px] xl:mt-[69px] text-center text-white mb-[30px] font-normal georgia-text">
+        <h2 className="text-2xl sm:text-3xl md:text-[65px] sm:mb-[69px] xl:mb-[69px] text-center text-white mb-[30px] font-normal georgia-text">
           <span className="text-white">Behind the </span>
           <span className="text-[#8ed3fa]">Signal</span>
           <span className="text-white"> Magic</span>
