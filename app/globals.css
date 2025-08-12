@@ -75,7 +75,7 @@ body {
 .inter-text {
   font-family: var(--font-inter), sans-serif;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h4, h5, h6{
   font-family:  Georgia, 'Times New Roman' !important;
 }
 .heading-h2 {

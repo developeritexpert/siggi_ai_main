@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
            
 
-            <p className="text-[12px] font-georgia  sm:text-lg font-normal mt-4 sm:mt-[18px] lg:[10px] xl:text-[20px] 2xl:text-base   text-white  lg:text-[#0E1412] lg:w-[640px] 2xl:w-[540px] ">
+            <p className="text-[12px] font-georgia  sm:text-lg font-normal mt-4 sm:mt-[18px]  xl:text-[18px] text-white  lg:text-[#0E1412] lg:w-[640px] 2xl:w-[564px] ">
               Siggy is the AI-powered mobile app that transforms how devices
               connect to cell towers—boosting signal reliability and optimizing
               telecom performance in real time.
@@ -36,7 +36,7 @@ const Hero = () => {
            <Link href="#/contact">
               <ButtonTouch
                 label="Get in Touch"
-                className="text-[12px] text-white lg:text-[18px]  px-[10px] py-[16px] xl:px-[29px] xl:py-[16px]  lg:px-[16px] lg:py-[16px]  lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
+                className="text-[12px] text-white lg:text-[18px]  px-[10px] py-[16px] xl:px-[29px] xl:py-[14px]  lg:px-[16px] lg:py-[14px]  lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
               />
               </Link>
             </div>
