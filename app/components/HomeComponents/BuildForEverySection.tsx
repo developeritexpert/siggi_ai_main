@@ -4,7 +4,7 @@ const BuildForEverySection = () => {
   return (
      <section className=" flex flex-col justify-start items-center w-full lg:pt-[50px] lg:pb-[76px] px-4 sm:px-6 lg:px-46">
           <h2 className="heading-h2 georgia-text">
-            <span className="text-white">Built for Everyone Who Depends on Their </span>
+            <span className="text-white ">Built for Everyone Who Depends on Their </span>
             <span className="text-[#8ed3fa]">Signal</span>
           </h2>
 

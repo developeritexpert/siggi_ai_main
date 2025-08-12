@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
            
 
-            <p className="text-[12px] font-georgia  sm:text-lg font-normal mt-4 sm:mt-[18px] lg:[10px] xl:text-[20px] 2xl:text-base   text-white  lg:text-[#0E1412] lg:w-[620px] ">
+            <p className="text-[12px] font-georgia  sm:text-lg font-normal mt-4 sm:mt-[18px] lg:[10px] xl:text-[20px] 2xl:text-base   text-white  lg:text-[#0E1412] lg:w-[640px] 2xl:w-[540px] ">
               Siggy is the AI-powered mobile app that transforms how devices
               connect to cell towers—boosting signal reliability and optimizing
               telecom performance in real time.
@@ -30,13 +30,13 @@ const Hero = () => {
             <div className="mt-6 sm:mt-[33px] flex flex-wrap items-center gap-4 sm:gap-[15px]">
               <Button
                 buttonText="Discover How It Works"
-                className="text-[12px] text-white lg:text-[18px] xl:text-[18px] px-[10px] py-[16px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
+                className="text-[12px] text-white lg:text-[18px]  px-[10px] py-[16px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
               />
 
-<Link href="#/contact">
+           <Link href="#/contact">
               <ButtonTouch
                 label="Get in Touch"
-                className="text-[12px] px-[10px] py-[10px] lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
+                className="text-[12px] text-white lg:text-[18px]  px-[10px] py-[16px] xl:px-[29px] xl:py-[16px]  lg:px-[16px] lg:py-[16px]  lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
               />
               </Link>
             </div>
@@ -46,19 +46,19 @@ const Hero = () => {
           {/* <div className="w-full flex justify-center items-center relative z-10"> */}
           {/* Background Icon - Hidden on small screens */}
 
-          <div className="w-[82%]  sm:w-[82%]  lg:w-[40%]  xl:w-[91%]  text-center  lg:relative ">
+          <div className="w-[82%]  sm:w-[82%]  lg:w-full  xl:w-full  text-center  lg:relative ">
             {/* Phone Image */}
             <Image
               src="/assests/GroupMobile.png"
               alt="iPhone Mockup"
               width={363}
               height={515}
-              className="w-full sm:w-[50%] lg:w-[94%]  xl:w-[95%] lg:relative lg:z-10 h-auto object-cover"
+              className="w-full sm:w-[82%] lg:[w-40%]  xl:w-[89%] lg:relative lg:z-10 h-auto object-cover"
               priority
             />-
-            <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[-6px] ">
+            <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[10px] ">
             <Image
-                      src="/images/group_1111111.png"
+                      src="/images/group_3457411.png"
                       alt="Background Icon"
                       width={184}
                       height={148}

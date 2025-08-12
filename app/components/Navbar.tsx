@@ -50,7 +50,7 @@ const Navbar = () => {
             </div>
             <Button
               buttonText="Contact Us"
-              className="py-[12px] px-[18px] hidden text-white  lg:block"
+              className="text-[18px] py-[19px] px-[42px] xl:py-[19px] xl:px-[42px] hidden text-white  lg:block"
             />
 
             {/* Mobile Menu Button */}
@@ -102,7 +102,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-           <button className="rounded-full bg-[#0E1412] font-normal hover:opacity-90 transition no-underline m-2 px-5 py-2 text-white">
+           <button className="rounded-full bg-[#0E1412]  font-normal hover:opacity-90 transition no-underline m-2 px-5 py-2 text-white">
   Contact Us
 </button>
           </div>
