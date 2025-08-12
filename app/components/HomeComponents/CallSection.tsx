@@ -13,7 +13,7 @@ const CallSection = () => {
 >
             {/* Signal Towers - Hidden on mobile for better performance */}
            
-            <div className="container mx-auto py-[30px] md:py-[160px] px-4 "> 
+            <div className="container mx-auto py-[20px] md:py-[160px] px-4 "> 
             {/* <div className="hidden md:block  bottom-126 right-10 absolute lg:top-0 lg:right-10 xl:-top-[-100px] xl:right-[-29px] ">
               <div className="flex flex-row  items-center space-x-2 lg:space-x-5">
                 <Image src="/assests/img_vector.svg" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-26 h-auto" />
@@ -25,9 +25,9 @@ const CallSection = () => {
             </div> */}
 
             {/* Content */}
-            <div className="flex flex-col lg:flex-row gap-[92px] items-center justify-center lg:max-w-[1287px] mx-auto ">
+            <div className="flex flex-col gap-[20px] md:flex-row md:gap-[92px] items-center justify-center lg:max-w-[1287px] mx-auto ">
               <div className="w-full  ">
-                <h2 className="text-2xl  georgia-text sm:text-2xl md:text-3xl lg:text-[65px]  font-normal leading-tight text-left text-white mb-3 sm:mb-4">
+                <h2 className="text-2xl flex justify-center gap-[10px] md:block georgia-text sm:text-2xl md:text-3xl lg:text-[65px]  font-normal leading-tight text-left text-white mb-3 sm:mb-4">
                   <span className="text-white">Never Drop a </span>
                   <p>
                      <span className="text-[#8ed3fa]">Call</span>

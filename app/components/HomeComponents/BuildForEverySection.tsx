@@ -22,10 +22,10 @@ const BuildForEverySection = () => {
             />
   <div 
   className="w-full flex justify-end items-end max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-hidden
-            relative  z-9 bg-[url('/images/img_rectangle_21.png')] pt-6 pr-[73px] bg-no-repeat bg-cover  bg-center bg-[#161b21]"
+            relative  z-9 bg-[url('/images/img_rectangle_21.png')] pt-6 pr-[0px] md:pr-[73px] bg-no-repeat bg-cover  bg-center bg-[#161b21]"
 >
         
-             <div className="w-full  max-w-[576px] max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-auto scrollbar-thin scrollbar-thumb-[#8ed3fa]/50  no-scrollbar scrollbar-track-transparent pr-2">
+             <div className="w-full  max-w-[576px] max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-auto scrollbar-thin scrollbar-thumb-[#8ed3fa]/50  no-scrollbar scrollbar-track-transparent pl-2 md:pl-0 pr-2">
                 <div className="space-y-4 sm:space-y-6 pt-10 pb-1 mt-[243px]">
                   {/* User Types */}
                   {[

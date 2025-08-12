@@ -6,9 +6,10 @@ import ButtonCustomize from '../commonComponents/ButtonCustomize'
 const HomeAboutSection = () => {
   return (
     // About Section - Mobile responsive
-    <section className="pt-30 pb-10 px-10 lg:pt-30 lg:pb-10 xl:pt-40 xl:pb:10 xl:px-70">
+    <section className="px-[10px] mb-[20px] md:pt-30 md:pb-10 md:px-16 ">
+      <div className="container mx-auto pt-[20px] px-[10px] md:mb-[0px] md:px-[0px]">
            {/* Connecting You Section */}
-          <div className="flex flex-row w-full items-center justify-between">
+          <div className="flex flex-col md:flex-row w-full items-center justify-between">
             <div className=" mb-8 sm:mb-12 lg:mb-16">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[90px] georgia-text font-normal leading-tight text-white max-w-[813px] mx-auto">
                 <span className="text-white">Connecting You to Whats</span>
@@ -18,7 +19,7 @@ const HomeAboutSection = () => {
             </div>
 
             {/* Logo Circle */}
-            <div className="sm:-top-12 bg-[#90d5fc] rounded-full p-3 sm:p-4 lg:p-6 shadow-xl">
+            <div className="hidden sm:block sm:-top-12 bg-[#90d5fc] rounded-full p-3 sm:p-4 lg:p-6 shadow-xl">
               <Image
                 src="/images/img_siggy_logo_4.png"
                 alt="Siggy Logo"
@@ -29,11 +30,11 @@ const HomeAboutSection = () => {
             </div>
           </div>
   
-    <div className="flex flex-col lg:flex-row justify-between  max-w-[1237px]  mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-4 gap-8 lg:gap-12">
+    <div className="flex flex-col lg:flex-row justify-between mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-4 gap-8 lg:gap-12">
       
-      <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[14px]">
+      <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[20px]">
         <div className="space-y-6 sm:space-y-8">
-          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white">
+          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[534px]">
             <span className="block mb-4">
               Siggy was created with a simple goal: to make mobile signal stronger, smarter, and more reliable—no matter where you are.
             </span>
@@ -69,6 +70,7 @@ const HomeAboutSection = () => {
           className="w-full object-cover rounded-xl shadow-2xl"
         />
       </div>
+    </div>
     </div>
       </section>
   )
