@@ -27,12 +27,11 @@ const testimonials = [
   },
 ];
 
-// ✅ Custom Arrows
 const NextArrow = ({ onClick }: { onClick?: () => void }) => (
   <button
     type="button"
     onClick={onClick}
-    className="absolute right-[-50px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
+    className="absolute right-0 md:!right-[-100px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
   >
     <Image src="/images/img_group_244.svg" alt="Next" width={20} height={20} />
   </button>
@@ -42,7 +41,7 @@ const PrevArrow = ({ onClick }: { onClick?: () => void }) => (
   <button
     type="button"
     onClick={onClick}
-    className="absolute left-[-50px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
+    className="absolute left-0 md:!left-[-100px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
   >
     <Image src="/images/img_group_245.svg" alt="Prev" width={20} height={20} />
   </button>
@@ -69,7 +68,7 @@ export default function TestmonialSection() {
         </h2>
 
         {/* Slider */}
-        <div className="w-full lg:max-w-[980px] mx-auto relative">
+        <div className="w-full lg:max-w-[980px]  mx-auto relative">
           <Slider {...settings}>
             {testimonials.map((t, index) => (
               <div key={index} className="px-4">
@@ -92,7 +91,7 @@ export default function TestmonialSection() {
                 </div>
 
                 {/* Quote */}
-                <blockquote className="text-sm sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white">
+                <blockquote className="px-[54px] text-sm sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white">
                   &quot;{t.quote}&quot;
                 </blockquote>
 
