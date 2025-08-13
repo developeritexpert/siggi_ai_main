@@ -27,7 +27,7 @@ const testimonials = [
   },
 ];
 
-
+// ✅ Custom Arrows
 const NextArrow = ({ onClick }: { onClick?: () => void }) => (
   <button
     type="button"
@@ -61,15 +61,15 @@ export default function TestmonialSection() {
   };
 
   return (
-    <section className="bg-[#19212a] py-10 lg:pt-[115px] lg:pb-[119px] px-[16px] md:px-[60px]">
-      <div className="container mx-auto flex flex-col justify-start items-center w-full relative z-0">
+    <section className="bg-[#19212a] py-10 lg:pt-[115px] lg:pb-[119px] px-4 sm:px-6 lg:px-8">
+      <div className="flex flex-col justify-start items-center w-full relative z-0">
         {/* Heading */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
           What Users Are Saying
         </h2>
 
         {/* Slider */}
-        <div className="w-full mx-auto relative">
+        <div className="w-full lg:max-w-[980px] mx-auto relative">
           <Slider {...settings}>
             {testimonials.map((t, index) => (
               <div key={index} className="px-4">
@@ -92,7 +92,7 @@ export default function TestmonialSection() {
                 </div>
 
                 {/* Quote */}
-                <blockquote className="text-sm sm:text-base  lg:max-w-[980px]  lg:text-lg inter-text font-light leading-relaxed text-center text-white">
+                <blockquote className="text-sm sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white">
                   &quot;{t.quote}&quot;
                 </blockquote>
 
