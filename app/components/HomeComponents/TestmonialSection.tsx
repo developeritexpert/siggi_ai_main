@@ -61,18 +61,19 @@ export default function TestmonialSection() {
   };
 
   return (
-    <section className="bg-[#1A222B] py-[50px] px-[20px] md:px-[60px] relative">
+    <section className="bg-[#1A222B] py-[50px] px-[20px] md:py-[100px] md:px-[60px] relative">
       
-    <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-auto h-auto " />
-     
-      <div className="flex flex-col w-full  container ">
+      <div className="w-[368px] absolute left-0 bottom-0 ">
+    <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-full" />
+     </div>
+      <div className="flex flex-col w-full  container mx-auto">
         {/* Heading */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
           What Users Are Saying
         </h2>
 
         {/* Slider */}
-        <div className="w-full lg:max-w-[980px]  ">
+        <div className="w-full">
           <Slider {...settings}>
             {testimonials.map((t, index) => (
               <div key={index} className="px-4">
@@ -95,7 +96,7 @@ export default function TestmonialSection() {
                 </div>
 
                 {/* Quote */}
-                <blockquote className="px-[54px] text-sm sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white">
+                <blockquote className="px-[32px] md:px-0 text-sm sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white lg:max-w-[980px] mx-auto">
                   &quot;{t.quote}&quot;
                 </blockquote>
 

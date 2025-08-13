@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   return (
     <footer
-      className="w-full py-[50px] px-[20px] md:px-[60px] bg-cover bg-no-repeat bg-[#161b21] bg-center relative text-white mt-[-2px]"
+      className="w-full py-[50px] md:py-[100px]  px-[20px] md:px-[60px] bg-cover bg-no-repeat bg-[#161b21] bg-center relative text-white mt-[-2px]"
       style={{ backgroundImage: "url('/images/img_mask_group.png')" }}
     >
       <div className="w-full container mx-auto  ">
@@ -39,14 +39,14 @@ const Footer: React.FC = () => {
                 alt="Facebook"
                 width={44}
                 height={44}
-                className="w-[22px] sm:w-[33px] md:w-[38px] lg:w-[44px] h-[22px] sm:h-[33px] md:h-[38px] lg:h-[44px]"
+                className="w-[45px] sm:w-[33px] md:w-[38px] lg:w-[44px] h-[51px] sm:h-[33px] md:h-[38px] lg:h-[44px]"
               />
               <Image
                 src="/images/img_group_34603.svg"
                 alt="Twitter"
                 width={44}
                 height={44}
-                className="w-[22px] sm:w-[33px] md:w-[38px] lg:w-[44px] h-[22px] sm:h-[33px] md:h-[38px] lg:h-[44px]"
+                className="w-[45px] sm:w-[33px] md:w-[38px] lg:w-[44px] h-[51px] sm:h-[33px] md:h-[38px] lg:h-[44px]"
               />
             </div>
           </div>

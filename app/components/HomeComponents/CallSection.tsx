@@ -3,15 +3,15 @@ import Image  from "next/image"
 const CallSection = () => {
   return (
     
-   <section className="relative w-full py-[50px] 
+   <section className="relative w-full py-[50px] md:pt-[100px] md:pb-[148]
              bg-[url('/images/img_xmlid107.png')] bg-cover bg-center px-[20px] md:px-[60px]">
-    <div className="hidden  sm:w-[661px] sm:block absolute z-9 lg:top-[99px]  lg:right-0 w-full xl:top-20 xl:right-0 ">
+    <div className="hidden  sm:w-[661px] sm:block absolute z-9 lg:top-[99px]  lg:right-0 w-full xl:top-[-14px] xl:right-0 ">
       <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/>
     </div>
   
             {/* Signal Towers - Hidden on mobile for better performance */}
            
-            <div className="container mx-auto py-[20px] md:py-[160px]  "> 
+            <div className="container mx-auto  "> 
             {/* <div className="hidden md:block  bottom-126 right-10 absolute lg:top-0 lg:right-10 xl:-top-[-100px] xl:right-[-29px] ">
               <div className="flex flex-row  items-center space-x-2 lg:space-x-5">
                 <Image src="/assests/img_vector.svg" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-26 h-auto" />

@@ -6,11 +6,11 @@ import ButtonCustomize from '../commonComponents/ButtonCustomize'
 const HomeAboutSection = () => {
   return (
     // About Section - Mobile responsive
-    <section className="py-[50px] px-[20px] md:px-[60px]">
+    <section className="py-[50px] md:py-[100px] px-[20px] md:px-[60px]">
       <div className="container mx-auto">
            {/* Connecting You Section */}
           <div className="flex flex-col md:flex-row w-full items-center justify-between">
-            <div className=" mb-8 sm:mb-12 lg:mb-16">
+            <div className=" flex items-center justify-center md:!block mb-8 sm:mb-12 lg:mb-16">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[90px] georgia-text font-normal leading-tight text-white max-w-[813px] mx-auto">
                 <span className="text-white">Connecting You to Whats</span>
                 <span className="text-[#8ed3fa]"> Matters</span>
@@ -34,7 +34,7 @@ const HomeAboutSection = () => {
       
       <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[20px]">
         <div className="space-y-6 sm:space-y-8">
-          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[534px]">
+          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[549px]">
             <span className="block mb-4">
               Siggy was created with a simple goal: to make mobile signal stronger, smarter, and more reliable—no matter where you are.
             </span>

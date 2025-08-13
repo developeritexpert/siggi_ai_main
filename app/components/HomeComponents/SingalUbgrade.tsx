@@ -4,7 +4,7 @@ import Image from "next/image";
 const SignalUpgrade = () => {
   return (
     // Signal Upgrade Section
-    <section className="py-[50px] w-full   md:px-[60px] bg-gradient-to-b from-[#90d5fd] to-[#005c93]  ">
+    <section className="py-[50px] w-full  md:py-[100px] md:px-[60px] bg-[url('/images/rectangle_61.png')] bg-cover bg-center ">
       {/* <div
         className="relative w-full "
         style={{
@@ -70,7 +70,7 @@ const SignalUpgrade = () => {
               {/* Left Features */}
               <div className="flex flex-col space-y-8">
                 {/* Feature 1 */}
-                <div className="flex flex-col items-start space-y-3 sm:space-y-4">
+<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
                   <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
                     <Image
                       src="/images/img_group_5.svg"
@@ -80,16 +80,18 @@ const SignalUpgrade = () => {
                       className="w-6 sm:w-7 h-6 sm:h-7"
                     />
                   </div>
+                  <div className="flex flex-col md:block">
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
                     Stronger Signal, Fewer Drops
                   </h3>
                   <p className="text-sm md:text-[20px]  font-normal text-[#0e1412] leading-relaxed">
                     Enjoy more reliable calls and faster data—even in weak  coverage areas.
                   </p>
+                  </div>
                 </div>
 
                 {/* Feature 2 */}
-                <div className="flex flex-col items-start space-y-3 sm:space-y-4">
+<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
                   <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
                     <Image
                       src="/images/img_group_4.svg"
@@ -99,6 +101,8 @@ const SignalUpgrade = () => {
                       className="w-6 sm:w-7 h-6 sm:h-7"
                     />
                   </div>
+                                    <div className="flex flex-col md:block">
+
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
                     Works Anywhere, Anytime
                   </h3>
@@ -106,6 +110,7 @@ const SignalUpgrade = () => {
                     Whether you&apos;re at home, commuting, or traveling, Siggy
                     adapts to your environment.
                   </p>
+                  </div>
                 </div>
               </div>
 
@@ -123,7 +128,7 @@ const SignalUpgrade = () => {
               {/* Right Features */}
               <div className="flex flex-col space-y-8">
                 {/* Feature 3 */}
-                <div className="flex flex-col items-start space-y-3 sm:space-y-4">
+<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
                   <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
                     <Image
                       src="/images/img_group_3.svg"
@@ -133,6 +138,7 @@ const SignalUpgrade = () => {
                       className="w-6 sm:w-7 h-6 sm:h-7"
                     />
                   </div>
+                                    <div className="flex flex-col md:block">
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
                     Private & Secure
                   </h3>
@@ -141,9 +147,10 @@ const SignalUpgrade = () => {
                     what&apos;s necessary to enhance performance.
                   </p>
                 </div>
+                </div>
 
                 {/* Feature 4 */}
-                <div className="flex flex-col items-start space-y-3 sm:space-y-4">
+<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
                   <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
                     <Image
                       src="/images/img_group_2.svg"
@@ -153,6 +160,8 @@ const SignalUpgrade = () => {
                       className="w-6 sm:w-7 h-6 sm:h-7"
                     />
                   </div>
+                                                      <div className="flex flex-col md:block">
+
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
                     Battery Efficient
                   </h3>
@@ -160,6 +169,7 @@ const SignalUpgrade = () => {
                     Optimized to run in the background without draining your
                     phone&apos;s power.
                   </p>
+                </div>
                 </div>
               </div>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const BuildForEverySection = () => {
   return (
-    <section className=" py-[50px]  w-full l px-[20px] md:px-[60px]">
+    <section className=" py-[50px]  md:py-[100px] w-full l px-[20px] md:px-[60px]">
       <div className="container mx-auto flex flex-col justify-center items-center w-full">
       <h2 className="max-w-[1033px] heading-h2 georgia-text">
         <span className="text-white ">
