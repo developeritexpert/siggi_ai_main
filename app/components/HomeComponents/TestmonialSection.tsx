@@ -31,7 +31,7 @@ const NextArrow = ({ onClick }: { onClick?: () => void }) => (
   <button
     type="button"
     onClick={onClick}
-    className="absolute right-0 md:!right-[-100px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
+    className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
   >
     <Image src="/images/img_group_244.svg" alt="Next" width={20} height={20} className="w-3 md:!w-full"/>
   </button>
@@ -41,7 +41,7 @@ const PrevArrow = ({ onClick }: { onClick?: () => void }) => (
   <button
     type="button"
     onClick={onClick}
-    className="absolute left-0 md:!left-[-100px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
+    className="absolute left-0  top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
   >
     <Image src="/images/img_group_245.svg" alt="Prev" width={20} height={20} className="w-3 md:!w-full " />
   </button>
@@ -61,15 +61,18 @@ export default function TestmonialSection() {
   };
 
   return (
-    <section className="bg-[#19212a] py-[50px] px-[20px] md:px-[60px]">
-      <div className="flex flex-col w-full relative z-0 container mx-auto">
+    <section className="bg-[#1A222B] py-[50px] px-[20px] md:px-[60px] relative">
+      
+    <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-auto h-auto " />
+     
+      <div className="flex flex-col w-full  container ">
         {/* Heading */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
           What Users Are Saying
         </h2>
 
         {/* Slider */}
-        <div className="w-full lg:max-w-[980px]  mx-auto relative">
+        <div className="w-full lg:max-w-[980px]  ">
           <Slider {...settings}>
             {testimonials.map((t, index) => (
               <div key={index} className="px-4">
