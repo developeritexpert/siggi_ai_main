@@ -33,7 +33,7 @@ const NextArrow = ({ onClick }: { onClick?: () => void }) => (
     onClick={onClick}
     className="absolute right-0 md:!right-[-100px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
   >
-    <Image src="/images/img_group_244.svg" alt="Next" width={20} height={20} />
+    <Image src="/images/img_group_244.svg" alt="Next" width={20} height={20} className="w-3 md:!w-full"/>
   </button>
 );
 
@@ -43,7 +43,7 @@ const PrevArrow = ({ onClick }: { onClick?: () => void }) => (
     onClick={onClick}
     className="absolute left-0 md:!left-[-100px] top-1/2 transform -translate-y-1/2 bg-[#ffffff33] hover:bg-[#ffffff4d] rounded-full p-3 lg:p-4 transition-all duration-200 z-10"
   >
-    <Image src="/images/img_group_245.svg" alt="Prev" width={20} height={20} />
+    <Image src="/images/img_group_245.svg" alt="Prev" width={20} height={20} className="w-3 md:!w-full " />
   </button>
 );
 
@@ -55,7 +55,7 @@ export default function TestmonialSection() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    
+    fade:true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
