@@ -37,13 +37,13 @@ const FAQSection = () => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
   return (
-       <section className="relative pb-20 sm:pb-0">
+       <section className="relative pb-20 sm:pb-0 md:px-4" >
     
          <Image src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] sm:w-[300px] sm:block absolute z-9  bottom-0 right-0"/>
        
-           <div className="flex flex-col lg:flex-row  w-full  mx-auto px-4 sm:px-6 lg:px-44 lg:pb-[120px] pt-12 sm:pt-16 lg:pt-20 gap-8 lg:gap-12">
+           <div className="container flex flex-col lg:flex-row  w-full  mx-auto  lg:pb-[120px] pt-12 sm:pt-16 lg:pt-20 gap-8 lg:gap-12">
           {/* FAQ Header */}
-          <div className="w-full lg:w-[40%]">
+          <div className="w-full lg:w-[50%] ">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] font-georgia font-normal leading-tight text-left text-white mb-4 sm:mb-6">
               Frequently Asked Questions
             </h2>
@@ -58,12 +58,12 @@ const FAQSection = () => {
           </div>
 
           {/* FAQ Items */}
-          <div className="w-full lg:w-[53%] ">
+          <div className="w-full lg:w-[50%] ">
             <div className="space-y-4 sm:space-y-6">
               {faqData.map((faq, index) => (
                 <div key={index} className="w-full">
                   <div 
-                    className="bg-[#161a20] border border-[#ffffff1e] rounded-xl p-4 sm:p-6 lg:py-8 lg:pr-[58px] lg:pl-[40px] cursor-pointer hover:border-[#8ed3fa] transition-all duration-300"
+                    className="bg-[#161a20] border border-[#ffffff1e] rounded-xl p-4  cursor-pointer hover:border-[#8ed3fa] transition-all duration-300"
                     onClick={() => toggleFaq(index)}
                   >
                     <div className="flex justify-between items-center">
@@ -82,7 +82,7 @@ const FAQSection = () => {
                     </div>
                     {expandedFaq === index && (
                       <div className=" pt-[15px]  border-[#ffffff1a]">
-                        <p className="text-sm sm:text-base font-inter font-normal leading-relaxed text-white/90">
+                        <p className="text-sm sm:text-base font-inter font-normal leading-[28px] md:max-w-[719px] text-white/90">
                           {faq.answer}
                         </p>
                       </div>

@@ -9,7 +9,7 @@ const CallSection = () => {
     </div>
   <div
   className="relative w-full 
-             bg-[url('/images/img_xmlid106.png')] bg-cover bg-center bg-[#161b21] "
+             bg-[url('/images/img_xmlid107.png')] bg-cover bg-center bg-[#161b21] "
 >
             {/* Signal Towers - Hidden on mobile for better performance */}
            
