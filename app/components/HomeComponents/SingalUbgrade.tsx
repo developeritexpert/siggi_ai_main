@@ -4,7 +4,7 @@ import Image from "next/image";
 const SignalUpgrade = () => {
   return (
     // Signal Upgrade Section
-    <section className="py-[50px] w-full  px-[16px] md:px-[60px]  bg-gradient-to-b from-[#90d5fd] to-[#005c93]  p-4 sm:p-12 lg:px-[150px] lg:py-[64px] ">
+    <section className="py-[50px] w-full  px-[16px] md:px-[60px]  bg-gradient-to-b from-[#90d5fd] to-[#005c93]  ">
       {/* <div
         className="relative w-full "
         style={{
