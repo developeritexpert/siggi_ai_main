@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 const BuildForEverySection = () => {
   return (
-    <section className=" py-[50px] flex flex-col justify-center items-center w-full lg:pt-[50px] lg:pb-[76px] px-[20px] md:px-[60px]">
-      <div className="container mx-auto">
+    <section className=" py-[50px]  w-full l px-[20px] md:px-[60px]">
+      <div className="container mx-auto flex flex-col justify-center items-center w-full">
       <h2 className="max-w-[1033px] heading-h2 georgia-text">
         <span className="text-white ">
           Built for Everyone Who Depends on Their{" "}

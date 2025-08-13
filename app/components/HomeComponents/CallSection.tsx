@@ -3,14 +3,12 @@ import Image  from "next/image"
 const CallSection = () => {
   return (
     
-   <section className="relative w-full py-[50px] ">
+   <section className="relative w-full py-[50px] 
+             bg-[url('/images/img_xmlid107.png')] bg-cover bg-center px-[20px] md:px-[60px]">
     <div className="hidden  sm:w-[661px] sm:block absolute z-9 lg:top-[99px]  lg:right-0 w-full xl:top-20 xl:right-0 ">
       <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/>
     </div>
-  <div
-  className="relative w-full 
-             bg-[url('/images/img_xmlid107.png')] bg-cover bg-center bg-[#161b21] px-[20px] md:px-[60px]"
->
+  
             {/* Signal Towers - Hidden on mobile for better performance */}
            
             <div className="container mx-auto py-[20px] md:py-[160px]  "> 
@@ -83,7 +81,7 @@ const CallSection = () => {
             </div>
        
          
-        </div>
+       
         </section> 
   )
 }

@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       className="w-full py-[50px] px-[20px] md:px-[60px] bg-cover bg-no-repeat bg-[#161b21] bg-center relative text-white mt-[-2px]"
       style={{ backgroundImage: "url('/images/img_mask_group.png')" }}
     >
-      <div className="w-full container mx-auto   pt-6 pb-6 md:pb-0">
+      <div className="w-full container mx-auto  ">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-0 mt-[10px] sm:mt-[213px] md:mt-[256px] lg:mt-[284px]">
           {/* Left Column */}
           <div className="flex flex-col justify-start items-start w-full lg:w-[34%] gap-4 sm:gap-6">

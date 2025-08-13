@@ -4,7 +4,7 @@ import Image from "next/image";
 const SignalUpgrade = () => {
   return (
     // Signal Upgrade Section
-    <section className="py-[50px] w-full  px-[16px] md:px-[60px]  bg-gradient-to-b from-[#90d5fd] to-[#005c93]  ">
+    <section className="py-[50px] w-full   md:px-[60px] bg-gradient-to-b from-[#90d5fd] to-[#005c93]  ">
       {/* <div
         className="relative w-full "
         style={{
@@ -58,13 +58,13 @@ const SignalUpgrade = () => {
        
           {/* Feature Box */}
          
-            <div className="w-full container mx-auto">
+            <div className="w-full container mx-auto px-[16px] ">
               <div className="w-full item-center flex justify-center">
                 <h2 className="max-w-[1033px] text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
                   The Signal Upgrade You Didn&apos;t Know You Needed
                 </h2>
               </div>
-            </div>
+           
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
               {/* Left Features */}
@@ -163,7 +163,7 @@ const SignalUpgrade = () => {
                 </div>
               </div>
             </div>
-        
+         </div>
         
      
     </section>

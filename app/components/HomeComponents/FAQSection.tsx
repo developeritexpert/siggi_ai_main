@@ -37,11 +37,11 @@ const FAQSection = () => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
   return (
-       <section className="relative py-[50px]  sm:pb-0 px-[20px] md:px-[60px]" >
+       <section className="relative py-[50px]   px-[20px] md:px-[60px]" >
     
          <Image src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0"/>
        
-           <div className="container mx-auto  flex flex-col lg:flex-row  w-full   lg:pb-[120px] pt-12 sm:pt-16 lg:pt-20 gap-8 lg:gap-12">
+           <div className="container mx-auto  flex flex-col lg:flex-row  w-full    gap-8 lg:gap-12">
           {/* FAQ Header */}
           <div className="w-full lg:w-[50%] ">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] font-georgia font-normal leading-tight text-left text-white mb-4 sm:mb-6">
