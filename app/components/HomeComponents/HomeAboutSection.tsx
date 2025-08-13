@@ -34,7 +34,7 @@ const HomeAboutSection = () => {
       
       <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[20px]">
         <div className="space-y-6 sm:space-y-8">
-          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[549px]">
+          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[535px]">
             <span className="block mb-4">
               Siggy was created with a simple goal: to make mobile signal stronger, smarter, and more reliable—no matter where you are.
             </span>
