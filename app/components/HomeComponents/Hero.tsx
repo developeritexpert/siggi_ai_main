@@ -58,7 +58,7 @@ const Hero = () => {
             />-
             <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[-52px] ">
             <Image
-                      src="/images/group_000211.png"
+                      src="/images/group_3457411.png"
                       alt="Background Icon"
                       width={184}
                       height={148}
