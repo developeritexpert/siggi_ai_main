@@ -6,7 +6,7 @@ import ButtonCustomize from '../commonComponents/ButtonCustomize'
 const HomeAboutSection = () => {
   return (
     // About Section - Mobile responsive
-    <section className="px-[10px] mb-[20px] md:pt-30 md:pb-10 md:px-16 ">
+    <section className="py-[50px] px-[20px]  md:pt-30 md:pb-10 md:px-16 ">
       <div className="container mx-auto pt-[20px]  md:mb-[0px] md:px-[0px]">
            {/* Connecting You Section */}
           <div className="flex flex-col md:flex-row w-full items-center justify-between">
@@ -30,7 +30,7 @@ const HomeAboutSection = () => {
             </div>
           </div>
   
-    <div className="flex flex-col lg:flex-row justify-between mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-4 gap-8 lg:gap-12">
+    <div className="flex flex-col lg:flex-row justify-between mx-auto  sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-4 gap-8 lg:gap-12">
       
       <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[20px]">
         <div className="space-y-6 sm:space-y-8">

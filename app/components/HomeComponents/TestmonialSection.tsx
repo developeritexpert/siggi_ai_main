@@ -61,7 +61,7 @@ export default function TestmonialSection() {
   };
 
   return (
-    <section className="bg-[#19212a] py-10 lg:pt-[115px] lg:pb-[119px] px-[16px] md:px-[60px]">
+    <section className="bg-[#19212a] py-[50px]  lg:pt-[115px] lg:pb-[119px] px-[20px] md:px-[60px]">
       <div className="flex flex-col w-full relative z-0 container mx-auto">
         {/* Heading */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
