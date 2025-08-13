@@ -3,7 +3,7 @@ import Image  from "next/image"
 const CallSection = () => {
   return (
     
-   <section className="relative w-full py-[50px] md:pt-[100px] md:pb-[148]
+   <section className="relative w-full py-[50px] md:pt-[100px] md:pb-[148] 2xl:pb-[230px]
              bg-[url('/images/img_xmlid107.png')] bg-cover bg-center px-[20px] md:px-[60px]">
     <div className="hidden  sm:w-[661px] sm:block absolute z-9 lg:top-[99px]  lg:right-0 w-full xl:top-[-14px] xl:right-0 ">
       <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/>

@@ -42,8 +42,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.variable}>
         <Navbar />
-
-
         {children}
         <Footer />
       </body>
