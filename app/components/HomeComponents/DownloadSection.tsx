@@ -3,8 +3,9 @@ import Image from 'next/image'
 const DownloadSection = () => {
        {/* Download Section - Mobile responsive */}
   return (
-    
-        <section className="container mx-auto flex flex-col justify-start items-center w-full pt-12 sm:pt-16 lg:pt-20 px-4 sm:px-6 lg:px-8 pb-6">
+       
+        <section className=" px-[16px] md:px-[60px] flex flex-col justify-start items-center w-full pt-12 sm:pt-16 lg:pt-20 pb-6">
+          <div className="container mx-auto flex flex-col justify-start items-center w-full">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] font-georgia font-normal leading-tight text-center text-white mb-4 sm:mb-6 max-w-4xl">
             <span className="text-white">Download </span>
             <span className="text-[#8ed3fa]">Siggy</span>
@@ -18,7 +19,7 @@ const DownloadSection = () => {
           {/* Download Buttons */}
           <div className="flex flex-col items-center md:items-start sm:flex-row gap-4 sm:gap-6 w-full max-w-md">
             {/* Apple Store */}
-            <div className="flex items-center w-[172px] sm:w-auto bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <div className="flex items-center w-[172px] md:w-[239px] md:h-[90px] bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <Image
                 src="/images/img_apple_logo_black.svg"
                 alt="Apple Logo"
@@ -37,7 +38,7 @@ const DownloadSection = () => {
             </div>
 
             {/* Google Play */}
-            <div className="flex items-center w-[172px] sm:w-auto bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <div className="flex items-center w-[172px] md:w-[239px] md:h-[90px]  bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <Image
                 src="/images/img_capa_1.svg"
                 alt="Google Play Icon"
@@ -54,6 +55,7 @@ const DownloadSection = () => {
                 </p>
               </div>
             </div>
+          </div>
           </div>
         </section>
   )

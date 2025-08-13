@@ -7,7 +7,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section
-      className="w-full px-[16px] py-[18px] pb-[20px]  md:px-[60px]
+      className="w-full px-[16px] pt-[18px] pb-[20px]  md:px-[60px]
              bg-[url('/assests/HeroSection.svg')]    bg-no-repeat bg-cover  bg-center "
     >
      
