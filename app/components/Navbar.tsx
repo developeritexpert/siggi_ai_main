@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     
-      <nav className="absolute top-0 left-0 w-full z-50 bg-transparent ">
+      <header className="absolute top-0 left-0 w-full z-50 bg-transparent ">
         <div className="w-full px-4 sm:px-6 lg:px-4 xl:px-10">
           <div className="container mx-auto flex items-center justify-between py-3">
    
@@ -107,7 +107,7 @@ const Navbar = () => {
 </button>
           </div>
     </div>
-      </nav>
+      </header>
    
     
   );

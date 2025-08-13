@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   return (
     <footer
-      className="w-full py-[50px] md:py-[100px]  px-[20px] md:px-[60px] bg-cover bg-no-repeat bg-[#161b21] bg-center relative text-white mt-[-2px]"
+      className="w-full py-[50px] md:pt-[100px] md:pb-[25px] px-[20px] md:px-[60px] bg-cover bg-no-repeat bg-[#161b21] bg-center relative text-white mt-[-2px]"
       style={{ backgroundImage: "url('/images/img_mask_group.png')" }}
     >
       <div className="w-full container mx-auto  ">
@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
        {/* Copyright */}
-            <p className="text-sm container mx-auto pt-[50px] md:py-[25px] px-[68px] md:mt-[95px] sm:text-base lg:text-[16px]  font-inter font-normal leading-4 sm:leading-5 lg:leading-[20px] text-center border-t-1 border-[#FFFFFF1A] w-auto">
+            <p className="text-sm container mx-auto pt-[50px] md:pt-[25px] px-[68px] md:mt-[95px] sm:text-base lg:text-[16px]  font-inter font-normal leading-4 sm:leading-5 lg:leading-[20px] text-center border-t-1 border-[#FFFFFF1A] w-auto">
               Copyright © 2025 Siggy. All Rights Reserv
             </p>
     </footer>
