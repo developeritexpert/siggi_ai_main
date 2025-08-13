@@ -55,6 +55,7 @@ export default function TestmonialSection() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
