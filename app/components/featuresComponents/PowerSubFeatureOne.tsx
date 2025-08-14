@@ -4,9 +4,9 @@ import FeatureTextComponent from "./FeatureTextComponent";
 
 const PowerSubFeatureOne = () => {
   return (
-    <div className="w-full flex flex-row-reverse items-center gap-[79px] mt-[35px]">
-      <div className="w-1/2 max-w-[557px]">
-        <h4 className="font-normal text-[40px] ">Benefits</h4>
+    <div className="w-full flex flex-col md:flex-row-reverse items-center gap-[30px] md:gap-[79px] mt-[35px]">
+      <div className="w-full md:w-1/2 max-w-[557px]">
+        <h4 className="font-normal text-[18px] md:text-[40px]  ">Benefits</h4>
         <div className="w-full flex flex-col">
           <FeatureTextComponent
             imageParaText="Consumers: "
@@ -29,7 +29,7 @@ const PowerSubFeatureOne = () => {
         alt="power-feature-img"
         height={447}
         width={634}
-        className="w-1/2 h-auto"
+        className="w-full md:w-1/2 h-auto"
       />
     </div>
   );

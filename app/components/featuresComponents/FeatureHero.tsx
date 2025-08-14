@@ -2,13 +2,13 @@ import React from 'react'
 
 const FeatureHero = () => {
   return (
-      <section className="w-full px-[20px] pt-[226px] pb-[140px] 2xl:pb-[389px]  md:px-[60px]
-             bg-[url('/assests/HeroSection.svg')]    bg-no-repeat bg-cover ">
+      <section className="w-full pb-[149px] px-[20px] pt-[130px] md:pt-[226px] md:pb-[178px] 2xl:pb-[201px] 2xl:bg-bottom  md:px-[60px]
+             bg-[url('/assests/HeroSection.svg')]  bg-no-repeat bg-cover ">
              <div className="container mx-auto">
-             <h1 className="text-[90px] leading-[89px] max-w-[665px] font-normal text-white">
+             <h1 className="text-[36px] leading-[40px]   max-w-[295px] md:text-[90px] md:leading-[89px] max-w-[665px] font-normal text-white">
                 Packed with Power. Built for Everyone
              </h1>
-             <p className="font-normal text-[18px] leading-[28px] max-w-[524px] mt-[18px]">
+             <p className="font-normal leading-[24px] mt:[16px] text-[16px] md:text-[18px] md:leading-[28px] max-w-[524px] md:mt-[18px]">
                Siggy combines advanced AI and real-time analytics to deliver seamless connectivity
              </p>
              </div>
