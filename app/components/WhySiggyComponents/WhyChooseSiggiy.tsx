@@ -3,9 +3,9 @@ import WhyTextComponent from "../WhySiggyComponents/WhyTextComponent";
 import Image from "next/image";
 const WhyChooseSiggiy = () => {
   return (
-    <section className="px-[20px] py-[50px] md:py-[100px] md:px-[60px] text-white">
+    <section className="px-[20px] py-[50px] md:pt-[10px] md:pb-[122px] md:px-[60px] text-white">
       <div className="container mx-auto">
-        <div className="w-full flex flex-col md:flex-row-reverse md:justify-between items-center gap-[30px] md:gap-[79px] mt-[35px] md:mt-[112px]">
+        <div className="w-full flex flex-col md:flex-row-reverse md:justify-between items-center gap-[30px] md:gap-[79px] mt-[35px] md:mt-[100px]">
           <div className="w-full md:w-1/2 ">
             <h2 className="w-full font-normal text-[24px]  md:text-[65px] md:leading-[75px] mb-[20px] mx-auto">
                Why 
