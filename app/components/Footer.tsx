@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
               className="w-[35px] sm:w-[52px] md:w-[61px] lg:w-[70px] h-auto ml-4 sm:ml-6 md:ml-8 lg:ml-[20px] mt-2 sm:mt-3 md:mt-4 lg:mt-[16px]"
             />
 
-            <p className="text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-6 sm:leading-7 lg:leading-[28px] text-left text-global-3 w-full -mt-1 sm:-mt-1.5 lg:-mt-[2px]">
+            <p className="text-sm max-w-[448px] sm:text-base lg:text-[16px] font-inter font-normal leading-6 sm:leading-7 lg:leading-[28px] text-left text-global-3 w-full -mt-1 sm:-mt-1.5 lg:-mt-[2px]">
               Siggy was founded to ensure connectivity is smart, seamless, and scalable. Our mission is to deliver reliable mobile experiences worldwide through intelligence and innovation.
             </p>
 
