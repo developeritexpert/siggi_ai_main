@@ -6,7 +6,7 @@ import Button from "./commonComponents/Button";
 const menuItems = [
   { name: "How it works", href: "#how" },
   { name: "Features & Benefits", href: "features" },
-  { name: "Why Siggy?", href: "why" },
+  { name: "Why Siggy?", href: "whysiggy" },
   { name: "About Us", href: "#about" },
   { name: "Partners", href: "#partners" },
 ];
