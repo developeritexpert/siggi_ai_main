@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import FeatureTextComponent from './FeatureTextComponent'
+import FeatureTextComponent from '../featuresComponents/FeatureTextComponent'
 
 const PowerSubFeatureSecond = () => {
   return (
