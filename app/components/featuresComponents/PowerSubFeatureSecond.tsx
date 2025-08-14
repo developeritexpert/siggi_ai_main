@@ -5,7 +5,7 @@ import FeatureTextComponent from './FeatureTextComponent'
 const PowerSubFeatureSecond = () => {
   return (
     <div className="w-full flex flex-col md:justify-between md:flex-row gap-[30px] md:gap-[79px] items-center  mt-[35px]">
-         <div className="w-full md:w-1/2 max-w-[557px]">
+         <div className="w-full md:w-1/2 max-w-[584px]">
              <h4 className="font-normal text-[18px] md:text-[40px] md:mb-[14px]">
                          Features
                           </h4>
