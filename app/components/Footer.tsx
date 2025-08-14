@@ -89,8 +89,7 @@ const Footer: React.FC = () => {
       </div>
        {/* Copyright */}
             <p className="text-sm container mx-auto pt-[50px] md:pt-[25px] px-[68px] md:mt-[95px] sm:text-base lg:text-[16px]  font-inter font-normal leading-4 sm:leading-5 lg:leading-[20px] text-center border-t-1 border-[#FFFFFF1A] w-auto">
-              Copyright © 2025 Siggy. All Rights Reserv
-            </p>
+              Copyright © 2025 Siggy. All Rights Reserve
     </footer>
   );
 };
