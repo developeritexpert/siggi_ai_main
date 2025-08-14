@@ -4,7 +4,7 @@ import FeatureTextComponent from './FeatureTextComponent'
 
 const PowerSubFeatureSecond = () => {
   return (
-    <div className="w-full flex flex-row gap-[79px] mt-[35px]">
+    <div className="w-full flex flex-row gap-[79px] items-center  mt-[35px]">
          <div className="w-1/2 max-w-[557px]">
              <h4 className="font-normal text-[40px] ">
                          Features
@@ -17,18 +17,18 @@ const PowerSubFeatureSecond = () => {
 />
     <FeatureTextComponent
 
-  imageParaText="Predictive Tower Switching:"
-  imageSpanText="Stay on the strongest, least congested signal"
+  imageParaText="Congestion Forecasting:"
+  imageSpanText="AI anticipates network bottlenecks beforehand."
 />
     <FeatureTextComponent
 
-  imageParaText="Predictive Tower Switching:"
-  imageSpanText="Stay on the strongest, least congested signal"
+  imageParaText="Seamless Dashboards:"
+  imageSpanText="Real-time insights for engineers and decision-makers."
 />
     <FeatureTextComponent
 
-  imageParaText="Predictive Tower Switching:"
-  imageSpanText="Stay on the strongest, least congested signal"
+  imageParaText="API Integration:"
+  imageSpanText=" Easily embeds with carrier or enterprise systems."
 />
 </div>
 </div>
