@@ -2,7 +2,7 @@ import React from 'react'
 
 const FeatureHero = () => {
   return (
-      <section className="w-full px-[20px] pt-[226px] pb-[400px]  md:px-[60px]
+      <section className="w-full px-[20px] pt-[226px] pb-[140px] 2xl:pb-[350px]  md:px-[60px]
              bg-[url('/assests/HeroSection.svg')]    bg-no-repeat bg-cover ">
              <div className="container mx-auto">
              <h1 className="text-[90px] leading-[89px] max-w-[665px] font-normal text-white">
