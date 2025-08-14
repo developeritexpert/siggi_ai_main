@@ -84,7 +84,7 @@ const SignalUpgrade = () => {
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
                     Stronger Signal, Fewer Drops
                   </h3>
-                  <p className="text-sm md:text-[20px] mx-w-[336px] font-normal text-[#0e1412] leading-relaxed">
+                  <p className="text-sm md:text-[20px] max-w-[331px] font-normal text-[#0e1412] leading-relaxed">
                     Enjoy more reliable calls and faster data—even in weak  coverage areas.
                   </p>
                   </div>
@@ -106,7 +106,7 @@ const SignalUpgrade = () => {
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
                     Works Anywhere, Anytime
                   </h3>
-                  <p className="text-sm md:text-[20px] font-inter font-normal mx-w-[300px] text-[#0e1412] leading-relaxed">
+                  <p className="text-sm md:text-[20px] font-inter font-normal max-w-[300px]   text-[#0e1412] leading-relaxed">
                     Whether you&apos;re at home, commuting, or traveling, Siggy
                     adapts to your environment.
                   </p>
@@ -142,7 +142,7 @@ const SignalUpgrade = () => {
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412] ">
                     Private & Secure
                   </h3>
-                  <p className="text-sm md:text-[20px] max-w-[349px]font-inter font-normal text-[#0e1412] leading-relaxed">
+                  <p className="text-sm md:text-[20px] max-w-[349px] font-inter font-normal text-[#0e1412] leading-relaxed">
                     Your personal data stays protected. Siggy only uses
                     what&apos;s necessary to enhance performance.
                   </p>
