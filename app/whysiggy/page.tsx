@@ -1,13 +1,13 @@
 import React from 'react'
-import WhySiggyHero from '../components/WhySiggyComponents/WhySiggyHero'
-import WhyChooseSiggiy from '../components/WhySiggyComponents/WhyChooseSiggiy'
+import SiggyHero from '../components/WhySiggyComponents/SiggyHero'
+import WhyChooseSiggy from '../components/WhySiggyComponents/WhyChooseSiggy'
 import HomeAboutSection from '../components/HomeComponents/HomeAboutSection'
-import ChallegesSolve from '../components/WhySiggyComponents/ChallegesSolve'
+import ChallegesSolve from '../components/WhySiggyComponents/ChallengesSolve'
 const page = () => {
   return (
   <main className="bg-[#161b21]">
-      <WhySiggyHero/>
-      <WhyChooseSiggiy/>
+      <SiggyHero/>
+      <WhyChooseSiggy/>
       <ChallegesSolve/>
        <HomeAboutSection />
         </main>

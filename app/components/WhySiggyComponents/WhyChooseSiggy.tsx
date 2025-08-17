@@ -1,5 +1,5 @@
 import React from "react";
-import WhyTextComponent from "../WhySiggyComponents/WhyTextComponent";
+import WhyTextComponent from "./WhyTextComponent";
 import Image from "next/image";
 const WhyChooseSiggiy = () => {
   return (

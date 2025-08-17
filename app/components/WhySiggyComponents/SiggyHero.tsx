@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WhySiggyHero = () => {
+const SiggyHero = () => {
   return (
       <section className="w-full pb-[149px] px-[20px] pt-[130px] md:pt-[226px] md:pb-[125px] 2xl:pb-[145px] 2xl:bg-bottom  md:px-[60px]
              bg-[url('/assests/HeroSection.svg')]  bg-no-repeat bg-cover ">
@@ -18,4 +18,4 @@ const WhySiggyHero = () => {
   )
 }
 
-export default WhySiggyHero
+export default SiggyHero
