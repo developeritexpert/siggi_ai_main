@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Hero from "./components/HomeComponents/Hero";
-import SingalMagic from "./components/HomeComponents/SingalMagic";
-import CallSection from "./components/HomeComponents/CallSection";
-import BuildForEverySection from "./components/HomeComponents/BuildForEverySection";
-import TestmonialSection from "./components/HomeComponents/TestmonialSection";
-import FAQSection from "./components/HomeComponents/FAQSection";
-import SingalUbgrade from "./components/HomeComponents/SingalUbgrade";
-import HomeAboutSection from "./components/HomeComponents/HomeAboutSection";
-import DownloadSection from "./components/HomeComponents/DownloadSection";
+import Hero from "./components/home/Hero";
+import SingalMagic from "./components/home/SingalMagic";
+import CallSection from "./components/home/CallSection";
+import BuildForEverySection from "./components/home/BuildForEverySection";
+import TestmonialSection from "./components/home/TestmonialSection";
+import FAQSection from "./components/home/FAQSection";
+import SingalUbgrade from "./components/home/SingalUbgrade";
+import HomeAboutSection from "./components/home/HomeAboutSection";
+import DownloadSection from "./components/home/DownloadSection";
 
 export default function Home() {
   return (

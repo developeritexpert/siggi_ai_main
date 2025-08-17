@@ -1,8 +1,8 @@
 import React from 'react'
-import SiggyHero from '../components/WhySiggyComponents/SiggyHero'
-import WhyChooseSiggy from '../components/WhySiggyComponents/WhyChooseSiggy'
-import HomeAboutSection from '../components/HomeComponents/HomeAboutSection'
-import ChallegesSolve from '../components/WhySiggyComponents/ChallengesSolve'
+import SiggyHero from '../components/whysiggy/SiggyHero'
+import WhyChooseSiggy from '../components/whysiggy/WhyChooseSiggy'
+import HomeAboutSection from '../components/home/HomeAboutSection'
+import ChallegesSolve from '../components/whysiggy/ChallengesSolve'
 const page = () => {
   return (
   <main className="bg-[#161b21]">

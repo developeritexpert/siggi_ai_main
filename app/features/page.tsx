@@ -1,8 +1,8 @@
 import React from 'react'
-import FeatureHero from '../components/featuresComponents/FeatureHero'
-import PowerFeature from '../components/featuresComponents/PowerFeature'
-import TestmonialSection from '../components/HomeComponents/TestmonialSection'
-import FAQSection from '../components/HomeComponents/FAQSection'
+import FeatureHero from '../components/featureAndBenefits/FeatureHero'
+import PowerFeature from '../components/featureAndBenefits/PowerFeature'
+import TestmonialSection from '../components/home/TestmonialSection'
+import FAQSection from '../components/home/FAQSection'
 const page = () => {
   return (
       <main className="bg-[#161b21]">

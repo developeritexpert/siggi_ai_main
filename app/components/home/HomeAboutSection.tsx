@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Button from '../commonComponents/Button'
-import ButtonCustomize from '../commonComponents/ButtonCustomize'
+import Button from '../common/Button'
+import ButtonCustomize from '../common/ButtonCustomize'
 
 const HomeAboutSection = () => {
   return (
