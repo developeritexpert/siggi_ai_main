@@ -3,8 +3,8 @@ import ChallegesSolveTextSubText from "./ChallemgesSolveTextSubText";
 
 const ChallegesSolveTextOne = ({heading,className}) => {
   return (
-      <div className={`w-full  max-w-[584px] ${className}`}>
-        <h4 className="font-normal text-white text-[18px] md:text-[40px] md:mb-[14px]">
+      <div className={`w-full  ${className}`}>
+        <h4 className="font-normal text-white text-[18px] mb-[14px] lg:text-[40px] lg:mb-[14px]">
          {heading}
         </h4>
          <div className="w-full flex flex-col">
