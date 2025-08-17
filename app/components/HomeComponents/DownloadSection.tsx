@@ -17,9 +17,9 @@ const DownloadSection = () => {
           </p>
           
           {/* Download Buttons */}
-          <div className="flex flex-col items-center md:items-start sm:flex-row gap-4 sm:gap-6 w-full max-w-md">
+          <div className="flex flex-col items-cente justify-center md:items-start sm:flex-row gap-4 lg:gap-6 w-full ">
             {/* Apple Store */}
-            <div className="flex items-center w-[172px] md:w-[239px] md:h-[90px] bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <div className="flex items-center w-[172px] md:h-[60px] lg:w-[239px] lg:h-[90px] bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <Image
                 src="/images/img_apple_logo_black.svg"
                 alt="Apple Logo"
@@ -28,17 +28,17 @@ const DownloadSection = () => {
                 className="w-8 sm:w-10 h-10 sm:h-12 mr-3"
               />
               <div className="flex-1">
-                <p className="text-xs sm:text-[16px] font-inter font-normal text-[#0e1412]">
+                <p className="text-xs lg:text-[16px] font-inter font-normal text-[#0e1412]">
                   Download on the
                 </p>
-                <p className="text-sm sm:text-base font-inter font-semibold text-[#0e1412]">
+                <p className="text-sm lg:text-[20px] font-inter font-semibold text-[#0e1412]">
                   App Store
                 </p>
               </div>
             </div>
 
             {/* Google Play */}
-            <div className="flex items-center w-[172px] md:w-[239px] md:h-[90px]  bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <div className="flex items-center w-[172px] md:h-[60px] lg:w-[239px] lg:h-[90px]  bg-white rounded-xl p-3 lg:p-4 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <Image
                 src="/images/img_capa_1.svg"
                 alt="Google Play Icon"
@@ -47,10 +47,10 @@ const DownloadSection = () => {
                 className="w-8 sm:w-10 h-9 sm:h-11 mr-3"
               />
               <div className="flex-1">
-                <p className="text-xs  sm:text-[16px] font-inter font-normal text-[#0e1412]">
+                <p className="text-xs  lg:text-[16px] font-inter font-normal text-[#0e1412]">
                   Get it on
                 </p>
-                <p className="text-sm sm:text-base font-inter font-semibold text-[#0e1412]">
+                <p className="text-sm lg:text-[20px] font-inter font-semibold text-[#0e1412]">
                   Google Play
                 </p>
               </div>

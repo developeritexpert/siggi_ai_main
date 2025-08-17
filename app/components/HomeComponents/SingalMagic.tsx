@@ -4,7 +4,7 @@ import SingnalMagicCard from './SingnalMagicCard'
 
 const SingalMagic = () => {
   return (
-    <section className="py-[50px] md:py-[100px] px-[20px] md:px-[60px]">
+    <section className="py-[50px] lg:py-[100px] px-[20px]  2xl:pt-[162px]">
       {/* Wrapped content inside container with mx-auto for horizontal centering */}
       <div className="container mx-auto">
         

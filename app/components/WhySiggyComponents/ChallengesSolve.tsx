@@ -3,7 +3,7 @@ import ChallegesSolveTextOne from "./ChallegesSolveTextOne";
 import ChallengesSolveTextTwo from "./ChallengesSolveTextTwo";
 const ChallegesSolve = () => {
   return (
-    <section className="py-[50px] md:py-[100px] px-[20px] md:px-[60px]">
+    <section className="py-[50px] px-[20px] lg:py-[100px]  lg:px-[60px]">
       <div className="container mx-auto">
         <div className="w-full text-center ">
           <h1 className="w-full text-[24px] font-normal md:text-[65px] text-white text-center">

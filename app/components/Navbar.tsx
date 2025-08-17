@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
 import Button from "./commonComponents/Button";
-
+import Link from "next/link";
 const menuItems = [
   { name: "How it works", href: "#how" },
   { name: "Features & Benefits", href: "features" },
@@ -30,7 +30,7 @@ const Navbar = () => {
    
             {/* Desktop Menu */}
             <div className="hidden  lg:text-[18pxl font-normal lg:flex items-center">
-              <ul className="w-[712px] md:w-[650px] flex justify-between">
+              <ul className="w-[712px] lg:w-[570px] xl:w-[772px] flex justify-between">
                 {menuItems.map((item) => (
                   <li key={item.name}>
                     <a
@@ -48,10 +48,12 @@ const Navbar = () => {
                 ))}
               </ul>
             </div>
-            <Button
-              buttonText="Contact Us"
-              className="text-[18px] py-[19px] px-[42px] xl:py-[19px] xl:px-[42px] hidden text-white  lg:block"
-            />
+      <Link href="#/contact">
+              <Button
+                buttonText="Contact Us"
+                className="hidden lg:block px-[42px] py-[19px]   text-white bg-[#0E1412]   "
+              />
+             </Link>
 
             {/* Mobile Menu Button */}
             <button
@@ -102,9 +104,12 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-           <button className="rounded-full bg-[#0E1412]  font-normal hover:opacity-90 transition no-underline m-2 px-5 py-2 text-white">
-  Contact Us
-</button>
+            <Link href="#/contact">
+              <Button
+                buttonText="Contact Us"
+                className=" text-white bg-[#0E1412]  px-[29px] py-[19px] lg:px-[29px] lg:py-[19px]  "
+              />
+             </Link>
           </div>
     </div>
       </header>

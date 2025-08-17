@@ -9,17 +9,12 @@ interface ButtonProps {
   ariaLabel?: string
 }
 
-const ButtonCustomize: React.FC<ButtonProps> = ({
-  buttonText,
-  href = '/#contact',
-  className = '',
-  ariaLabel,
-}) => {
+const ButtonCustomize: React.FC<ButtonProps> = ({buttonText,  href = '/#contact', className = ''}) => {
   return (
     <div>
       <Link
         href={href}
-        aria-label={ariaLabel || buttonText}
+
         className={`
        rounded-full bg-[#0E1412] text-lg font-normal hover:opacity-90 transition no-underline
           ${className}

@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../commonComponents/Button";
-import ButtonTouch from "../commonComponents/ButtonTouch";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,14 +7,14 @@ const Hero = () => {
   return (
     <section
       className="w-full px-[20px] pt-[18px] pb-[50px]  md:px-[60px]
-             bg-[url('/assests/HeroSection.svg')]    bg-no-repeat bg-cover  bg-center "
+             bg-[url('/assests/HeroSection.svg')]    bg-no-repeat bg-cover  bg-bottom "
     >
      
       <div className="w-full container mx-auto  ">
-        <div className="w-full flex flex-col  md:flex-row  pt-[91px] lg:pt-38  ">
+        <div className="w-full flex flex-col  lg:flex-row  pt-[91px] lg:pt-[89px] xl:pt-38 2xl:h-[892px] ">
           {/* content section */}
-          <div className="w-full md:w-[50%] mt-6 lg:mt-[39px] ">
-          <h1 className="font-normal text-[36px] leading-[40px] max-w-[251px] md:max-w-none  md:text-[61px]  text-white  md:leading-[60px] xl:text-[84px] xl:leading-[89px]  font-georgia">
+          <div className="w-full lg:w-[50%] mt-6 lg:mt-[39px] ">
+          <h1 className="font-normal text-[36px] leading-[48px] max-w-[251px] lg:max-w-none  lg:text-[61px]  text-white   xl:text-[84px] xl:leading-[89px]  font-georgia 2xl:text-[90px]">
             Smarter Signal,
             <span className="text-[#8ED3FA] font-georgia"> Seamless Connectivity.</span>
           </h1>
@@ -27,26 +26,24 @@ const Hero = () => {
               telecom performance in real time.
             </p>
 
-            <div className="mt-10 sm:mt-[33px] flex flex-wrap items-center gap-10 sm:gap-[15px]">
+            <div className="mt-10 sm:mt-[33px] flex flex-wrap items-center gap-4 sm:gap-[15px]">
+               <Link href="#/discover">
               <Button
                 buttonText="Discover How It Works"
-                className="text-[16px] text-white lg:text-[18px]  px-[29px] py-[19px] xl:px-[29px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
+                className=" px-[29px] py-[19px]   text-white bg-[#0E1412]  "
               />
-
+             </Link>
            <Link href="#/contact">
-              <ButtonTouch
-                label="Get in Touch"
-                className="text-[16px] text-[#0E1412]  lg:text-[18px]  px-[64px] py-[16px] xl:px-[29px] xl:py-[14px]  lg:px-[16px] lg:py-[14px]  lg:text-[#0E1412] font-normal  hover:opacity-80 hover:text-white hover:bg-[#0E1412] transition no-underline "
+              <Button
+                 buttonText="Get in Touch"
+                className=" text-[#0E1412] px-[38px] py-[19px] border-[1px] border-[#0E1412]   hover:text-white hover:bg-[#0E1412]"
               />
               </Link>
             </div>
           </div>
 
-          {/* mobile image section */}
-          {/* <div className="w-full flex justify-center items-center relative z-10"> */}
-          {/* Background Icon - Hidden on small screens */}
-
-          <div className="w-[90%] mt-[38px] md:w-[50%]  lg:relative ">
+     
+          <div className="w-[90%] mt-[38px] md:w-[50%]  lg:relative 2xl:w-[674px] ">
             {/* Phone Image */}
             <Image
               src="/assests/GroupMobile.png"
@@ -56,7 +53,7 @@ const Hero = () => {
               className="w-full  lg:relative lg:z-10 h-auto object-cover"
               priority
             />
-            <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[-52px] ">
+            <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[-39px] 2xl:bottom-[-103px] ">
             <Image
                       src="/images/group_3457411.png"
                       alt="Background Icon"
@@ -66,7 +63,7 @@ const Hero = () => {
                     />
           </div>
           </div>
-          {/* </div> */}
+    
         </div>
       </div>
     

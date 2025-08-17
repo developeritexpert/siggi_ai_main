@@ -6,10 +6,10 @@ import ButtonCustomize from '../commonComponents/ButtonCustomize'
 const HomeAboutSection = () => {
   return (
     // About Section - Mobile responsive
-    <section className="py-[50px] md:py-[100px] px-[20px] md:px-[60px]">
+    <section className="py-[50px] px-[20px] lg:py-[100px]  lg:px-[60px]">
       <div className="container mx-auto">
            {/* Connecting You Section */}
-          <div className="flex flex-col md:flex-row w-full items-center justify-between">
+          <div className="flex flex-col md:flex-row w-full items-center justify-between ">
             <div className=" flex items-center justify-center md:!block mb-8 sm:mb-12 lg:mb-16">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[90px] georgia-text font-normal leading-tight text-white max-w-[813px] mx-auto">
                 <span className="text-white">Connecting You to Whats</span>
@@ -34,7 +34,7 @@ const HomeAboutSection = () => {
       
       <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[20px]">
         <div className="space-y-6 sm:space-y-8">
-          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[535px]">
+          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[538px]">
             <span className="block mb-4">
               Siggy was created with a simple goal: to make mobile signal stronger, smarter, and more reliable—no matter where you are.
             </span>
@@ -47,14 +47,14 @@ const HomeAboutSection = () => {
               Built for everyday users, remote workers, travelers, and telecom pros, Siggy empowers you to stay connected without the hassle. No extra hardware, no complicated setup—just intelligent signal performance from the palm of your hand.
             </span>
 
-            <span className="block font-medium">
+            <span className="block pb-4">
               We believe better connectivity should not be a luxury—it should be a given.
             </span>
           </p>
 
        <ButtonCustomize
                 buttonText="Read Our Story"
-                className="text-[12px] lg:text-[18px] bg-[#8ED3FA] text-[#0E1412] px-[10px] py-[16px] xl:px-[50px] xl:py-[19px]  lg:px-[16px] lg:py-[16px]  "
+                className=" bg-[#8ED3FA] text-[#0E1412] py-[19px] px-[50px]  "
               />
         </div>
       </div>

@@ -11,22 +11,22 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({
   buttonText,
-  href = '/#contact',
-  className = '',
-  ariaLabel,
+ 
+  className ,
 }) => {
   return (
-    <div>
-      <Link
-        href={href}
-        aria-label={ariaLabel || buttonText}
-        className={`
-       rounded-full bg-[#0E1412]  font-normal hover:opacity-90 transition no-underline
+    <div
+      className={`
+        w-[240px] lg:w-full text-center
+          text-[16px]
+        lg:text-[18px]
+          box-border leading-none
+       rounded-full  font-normal hover:opacity-90 transition no-underline
           ${className}
         `}
       >
         {buttonText}
-      </Link>
+      
     </div>
   )
 }

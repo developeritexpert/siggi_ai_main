@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -12,21 +12,21 @@ const inter = Inter({
   weight: ['300', '400', '500', '700'], // ⬅️ Add the weights you actually use
 });
 
-const georgia = localFont({
-  src: [
-    {
-      path: "./georgia/georgia.ttf", 
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "./georgia/georgiab.ttf",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-georgia",
-});
+// const georgia = localFont({
+//   src: [
+//     {
+//       path: "./georgia/georgia.ttf", 
+//       weight: "400",
+//       style: "normal",
+//     },
+//     {
+//       path: "./georgia/georgiab.ttf",
+//       weight: "700",
+//       style: "normal",
+//     },
+//   ],
+//   variable: "--font-georgia",
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
