@@ -6,7 +6,7 @@ const PowerSubFeatureOne = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row-reverse lg:mx-auto lg:items-center gap-[30px] lg:gap-[79px] mt-[35px] lg:mt-[112px]  lg:max-w-[1307px]">
       <div className="w-full lg:w-1/2 lg:max-w-[584px]">
-        <h4 className="font-normal text-[18px] lg:text-[40px] md:mb-[14px]  ">Benefits</h4>
+        <h4 className="font-normal mb-[16px] text-[18px] lg:text-[40px] lg:mb-[14px]  ">Benefits</h4>
         <div className="w-full flex flex-col">
           <FeatureTextComponent
             imageParaText="Consumers: "
