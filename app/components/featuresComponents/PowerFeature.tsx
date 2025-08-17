@@ -5,7 +5,7 @@ import PowerSubFeatureOne from './PowerSubFeatureOne'
 import PowerSubFeatureSecond from './PowerSubFeatureSecond'
 const PowerFeature = () => {
   return (
-    <section className="px-[20px] py-[50px] md:py-[100px] md:px-[60px] text-white">
+    <section className="px-[20px] py-[50px] lg:py-[100px] lg:px-[60px] text-white">
         <div className="container mx-auto">
         <h2 className="w-full font-normal text-[24px]  md:text-[65px] md:leading-[75px] text-center max-w-[738px] mx-auto">
           

@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import {useState} from 'react'
 const FAQSection = () => {
-  const [expandedFaq, setExpandedFaq] = useState<number | null>(0);
+  const [expandedFaq, setExpandedFaq] = useState<number | null>(-1);
 
     const faqData = [
     {
