@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import Logo from "./Logo";
-import Button from "./commonComponents/Button";
+import Button from "./common/Button";
 import Link from "next/link";
 const menuItems = [
   { name: "How it works", href: "#how" },
   { name: "Features & Benefits", href: "features" },
   { name: "Why Siggy?", href: "whysiggy" },
-  { name: "About Us", href: "#about" },
+  { name: "About Us", href: "about-us" },
   { name: "Partners", href: "#partners" },
 ];
 
