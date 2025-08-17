@@ -61,9 +61,9 @@ export default function TestmonialSection() {
   };
 
   return (
-    <section className="bg-[#1A222B] py-[50px] px-[20px] md:py-[100px] md:px-[60px] relative">
+    <section className="bg-[#1A222B] py-[50px] px-[20px] lg:py-[100px] lg:px-[60px] relative">
       
-      <div className="w-[368px] absolute left-0 bottom-0 ">
+      <div className="hidden lg:w-[368px] lg:absolute lg:left-0 lg:bottom-0 ">
     <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-full" />
      </div>
       <div className="flex flex-col w-full  container mx-auto">
@@ -96,7 +96,7 @@ export default function TestmonialSection() {
                 </div>
 
                 {/* Quote */}
-                <blockquote className="px-[32px] md:px-0 text-sm sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white lg:max-w-[980px] mx-auto">
+                <blockquote className="px-[32px] md:px-0 text-sm  sm:text-base lg:text-lg inter-text font-light leading-relaxed text-center text-white sm:max-w-[600px] lg:max-w-[600px] xl:max-w-[980px] mx-auto">
                   &quot;{t.quote}&quot;
                 </blockquote>
 
