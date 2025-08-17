@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="w-full flex flex-col  lg:flex-row  pt-[91px] lg:pt-[89px] xl:pt-38 2xl:h-[892px] ">
           {/* content section */}
           <div className="w-full lg:w-[50%] mt-6 lg:mt-[39px] ">
-          <h1 className="font-normal text-[36px] leading-[48px] max-w-[251px] lg:max-w-none  lg:text-[61px]  text-white   xl:text-[84px] xl:leading-[89px]  font-georgia 2xl:text-[90px]">
+          <h1 className="font-normal text-[36px] leading-[48px] max-w-[251px] lg:max-w-none  lg:text-[61px]  text-white lg:leading-[60px]   xl:text-[84px] xl:leading-[89px]  font-georgia 2xl:text-[90px]">
             Smarter Signal,
             <span className="text-[#8ED3FA] font-georgia"> Seamless Connectivity.</span>
           </h1>
