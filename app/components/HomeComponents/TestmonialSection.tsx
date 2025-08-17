@@ -63,7 +63,7 @@ export default function TestmonialSection() {
   return (
     <section className="bg-[#1A222B] py-[50px] px-[20px] lg:py-[100px] lg:px-[60px] relative">
       
-      <div className="hidden lg:w-[368px] lg:absolute lg:left-0 lg:bottom-0 ">
+      <div className="hidden lg:w-[368px] lg:absolute lg:left-0 lg:bottom-0 sm:block">
     <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-full" />
      </div>
       <div className="flex flex-col w-full  container mx-auto">
