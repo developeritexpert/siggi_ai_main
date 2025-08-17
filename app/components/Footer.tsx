@@ -6,14 +6,14 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   return (
     <footer
-      className="w-full py-[50px] lg:pt-[100px] lg:pb-[25px] px-[20px]   bg-cover md:px-[60px] bg-no-repeat bg-[#161b21] bg-bottom relative text-white mt-[-2px]"
+      className="w-full pt-[50px] pb-[25px] lg:pt-[254px] xl:pt-[254px] 2xl:pt-[254px] lg:pb-[25px] px-[20px]   bg-cover md:px-[60px] bg-no-repeat bg-[#161b21] bg-bottom relative text-white mt-[-2px]"
       style={{ backgroundImage: "url('/images/img_mask_group.png')" }}
     
     >
-      <div className="w-full container mx-auto  ">
-        <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-0 mt-[10px] sm:mt-[213px] md:mt-[256px] lg:mt-[284px]">
+      <div className="container mx-auto  ">
+        <div className="flex flex-col lg:flex-row justify-between  gap-8 lg:mt-[62px] ">
           {/* Left Column */}
-          <div className="flex flex-col justify-start items-start w-full lg:w-[34%] gap-4 sm:gap-6">
+          <div className="flex flex-col  w-full lg:w-[50%] ">
             <Image
               src="/images/img_group_34593.svg"
               alt="Siggy Logo"
@@ -30,11 +30,11 @@ const Footer: React.FC = () => {
               className="w-[35px] sm:w-[52px] md:w-[61px] lg:w-[70px] h-auto ml-4 sm:ml-6 md:ml-8 lg:ml-[20px] mt-2 sm:mt-3 md:mt-4 lg:mt-[16px]"
             />
 
-            <p className="text-sm max-w-[448px] sm:text-base lg:text-[16px] font-inter font-normal leading-6 sm:leading-7 lg:leading-[28px] text-left text-global-3 w-full -mt-1 sm:-mt-1.5 lg:-mt-[2px]">
+            <p className="text-sm max-w-[448px] sm:text-base lg:text-[16px] font-inter font-normal leading-6 sm:leading-7 lg:leading-[28px] w-full ">
               Siggy was founded to ensure connectivity is smart, seamless, and scalable. Our mission is to deliver reliable mobile experiences worldwide through intelligence and innovation.
             </p>
 
-            <div className="flex flex-row gap-2 justify-start items-center w-auto mt-2 sm:mt-3 lg:mt-[14px]">
+            <div className="flex flex-row gap-4  items-center w-auto mt-2 sm:mt-3 lg:mt-[26px]">
               <Image
                 src="/images/img_group_34602.svg"
                 alt="Facebook"
@@ -53,15 +53,15 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Right Column */}
-          <div className="flex flex-col gap-8 pb-[25px] sm:gap-16 md:gap-20 lg:gap-[122px] justify-start items-start self-end w-full lg:w-[60%] mt-0 sm:mt-12 md:mt-16 lg:mt-[96px]">
+       
             {/* Links Section */}
-            <div className="flex flex-col sm:flex-row justify-between items-start w-full gap-6 sm:gap-4">
+            <div className=" pb-[25px] lg:w-[50%] mt-0  lg:mt-[96px] flex flex-col lg:flex-row justify-between  w-full gap-6  lg:gap-4">
               {/* Quick Links */}
-              <div className="w-full sm:w-[48%]">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] georgia-text font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
+              <div>
+                <h2 className="text-base  lg:text-[26px] georgia-text font-normal leading-6   lg:leading-[30px]   mb-2 lg:mb-4">
                   Quick Links
-                </h3>
-                <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 space-y-1">
+                </h2>
+                <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px]  space-y-1">
                   <Link href="/#home" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Home</Link>
                   <Link href="/#how-it-works" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">How it works</Link>
                   <Link href="/#features" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Features & Benefits</Link>
@@ -71,11 +71,11 @@ const Footer: React.FC = () => {
               </div>
 
               {/* Help & Support */}
-              <div className="w-full sm:w-[48%]">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-[26px] georgia-text font-normal leading-6 sm:leading-7 lg:leading-[30px] text-global-3 mb-2 sm:mb-4">
+              <div>
+                <h2 className="text-lg lg:text-[26px] georgia-text font-normal leading-6 sm:leading-7 lg:leading-[30px]  mb-2 lg:mb-4">
                   Help & Support
-                </h3>
-                <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px] text-left text-global-3 space-y-1">
+                </h2>
+                <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px]  space-y-1">
                   <Link href="/#about" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">About Us</Link>
                   <Link href="/#contact" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Contact Us</Link>
                   <Link href="/#privacy-policy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Privacy Policy</Link>
@@ -85,11 +85,11 @@ const Footer: React.FC = () => {
             </div>
 
            
-          </div>
+      
         </div>
       </div>
        {/* Copyright */}
-            <p className="text-sm container mx-auto pt-[50px] md:pt-[25px] px-[68px] md:mt-[95px] sm:text-base lg:text-[16px]  font-inter font-normal leading-7 sm:leading-7 lg:leading-[20px] text-center border-t-1 border-[#FFFFFF1A] w-auto">
+            <p className=" container mx-auto pt-[25px] lg:mt-[32px] lg:pt-[25px] px-[20px] lg:px-[60px]  lg:text-[16px]  font-inter font-normal leading-7  lg:leading-[26px] text-center border-t-1 border-[#FFFFFF1A] ">
               Copyright © 2025 Siggy. All Rights Reserve
             </p>
     </footer>
