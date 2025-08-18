@@ -1,7 +1,7 @@
 import React from "react";
-import ChallegesSolveTextSubText from "./ChallemgesSolveTextSubText";
+import ChallegesSolveTextSubText from "./ChallengesSolveTextSubText";
 
-const ChallegesSolveTextOne = ({heading,className}) => {
+const ChallengesSolveTextOne = ({heading,className}) => {
   return (
       <div className={`w-full  ${className}`}>
         <h4 className="font-normal text-white text-[18px] mb-[14px] lg:text-[40px] lg:mb-[14px]">
@@ -21,4 +21,4 @@ const ChallegesSolveTextOne = ({heading,className}) => {
   );
 };
 
-export default ChallegesSolveTextOne;
+export default ChallengesSolveTextOne;

@@ -1,5 +1,5 @@
 import React from "react";
-import ChallegesSolveTextOne from "./ChallegesSolveTextOne";
+import ChallengesSolveTextOne from "./ChallengesSolveTextOne";
 import ChallengesSolveTextTwo from "./ChallengesSolveTextTwo";
 const ChallegesSolve = () => {
   return (
@@ -20,7 +20,7 @@ const ChallegesSolve = () => {
     
           <div className="flex lg:flex-row flex-col w-full gap-[30px] lg:gap-0 mt-[43px] lg:items-center lg:max-w-[1274px] lg:mx-auto ">
             <div className="flex items-center  bg-[#161B21] border-[1px]  border-[#FFFFFF1F] w-full lg:w-1/2 rounded-lg">
-              <ChallegesSolveTextOne heading={"Problem"} className="pl-[30px] py-[30px] lg:py-[50px]"/>
+              <ChallengesSolveTextOne heading={"Problem"} className="pl-[30px] py-[30px] lg:py-[50px]"/>
             </div>
             <div className="w-full lg:w-1/2 bg-[#1A222B] rounded-lg  flex lg:flex-row flex-col lg:items-center  ">
                < ChallengesSolveTextTwo heading={"Solution"} className="pl-[32px] pr-[11px] py-[30px] lg:py-[85px]" />

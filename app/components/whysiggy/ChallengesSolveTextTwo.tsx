@@ -1,5 +1,5 @@
 import React from "react";
-import ChallegesSolveTextSubText from "./ChallemgesSolveTextSubText";
+import ChallegesSolveTextSubText from "./ChallengesSolveTextSubText";
 
 const ChallengesSolveTextTwo = ({heading,className}) => {
   return (
@@ -7,10 +7,12 @@ const ChallengesSolveTextTwo = ({heading,className}) => {
         <h4 className="font-normal text-white text-[18px] mb-[14px] lg:text-[40px] lg:mb-[14px]">
          {heading}
         </h4>
+    
         <div className="w-full flex flex-col">
                  <ChallegesSolveTextSubText 
           imageParaText="
-          Siggy’s predictive AI forecasts congestion and switches users to the best-performing tower before issues occur." />
+          Siggy’s predictive AI forecasts congestion and switches users to the best-performing tower before issues occur."
+           />
           <ChallegesSolveTextSubText 
           imageParaText="Siggy uses reinforcement learning to dynamically choose the optimal tower in real time.
 " />

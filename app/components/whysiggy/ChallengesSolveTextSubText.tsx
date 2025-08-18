@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-const ChallegesSolveTextSubText = ({imageParaText}) => {
+const ChallengesSolveTextSubText = ({imageParaText}) => {
   return (
   
                    <div className="flex flex-row gap-2 mb-[20px] items-baseline">
@@ -12,4 +12,4 @@ const ChallegesSolveTextSubText = ({imageParaText}) => {
   )
 }
 
-export default ChallegesSolveTextSubText
+export default ChallengesSolveTextSubText
