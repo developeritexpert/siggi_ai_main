@@ -13,9 +13,10 @@ const page = () => {
       />
      
       <ImageTextContent
-        headingText1="Smarter Signal."
-        spanText="Stronger"
-        headingText2="Connections"
+        headingText1="Smarter Signal. "
+        spanText=" Stronger "
+        headingText2=" Connections "
+        headingMaxWidth="max-w-[453px]"
         ParaTextOne="Siggy integrates machine learning and real-time analytics to determine the best possible cell tower connection for any user, anytime. Our Databricks-powered backend ingests live telemetry, applies predictive models, and delivers instant decisions via robust REST APIs."
         ParaTextTwo=""
         imageParaText1="Real-time signal telemetry from mobile devices"

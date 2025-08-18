@@ -17,9 +17,10 @@ const page = () => {
       />
       <PartnersName />
       <ImageTextContent
-        headingText1="Who We "
-        spanText="Work"
-        headingText2="With"
+      headingMaxWidth="max-w-400px"
+        headingText1=" Who We "
+        spanText=" Work "
+        headingText2=" With "
         ParaTextOne="We collaborate with leading telecom operators, AI and cloud providers, infrastructure partners, and enterprises to deliver next-generation mobile connectivity."
         ParaTextTwo="By combining expertise and innovation, we help our partners enhance network performance, improve user experiences, and scale smarter solutions worldwide."
         imageParaText1="Telecom Operators"

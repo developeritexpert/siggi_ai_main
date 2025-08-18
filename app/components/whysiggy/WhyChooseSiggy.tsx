@@ -7,7 +7,7 @@ const WhyChooseSiggiy = () => {
       <div className="container mx-auto">
         <div className="w-full flex flex-col lg:flex-row-reverse lg:justify-between lg:items-center gap-[30px] md:gap-[79px] mt-[35px] md:mt-[100px] lg:max-w-[1288px] lg:mx-auto">
           <div className="w-full lg:w-1/2 ">
-            <h2 className="w-full font-normal text-[24px]  lg:text-[65px] lg:leading-[75px] mb-[20px] mx-auto">
+            <h2 className="w-full font-normal text-[24px]  lg:text-[65px] lg:leading-[75px] max-w-[400px] mb-[20px] ">
                Why 
               Choose
               <span className="text-[#8ED3FA]"> Siggy?</span>
