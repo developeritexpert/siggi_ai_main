@@ -3,7 +3,15 @@ import Image from 'next/image'
 import ImageText from './ImageText'
 const ImageTextContent = ({headingText1,headingText2,spanText,ParaTextOne,ParaTextTwo,imageParaText1,imageParaText2,imageParaText3,imageParaText4,image}) => {
   return (
-    <section className="px-[20px] pt-[0px] pb-[50px] lg:py-[100px]  lg:px-[60px] text-white">
+    <section className="px-[20px] pt-[0px] pb-[50px] lg:pb-[100px]  lg:pt-[51px] lg:px-[60px] text-white relative">
+         <div className="hidden  lg:absolute lg:right-0     lg:top-[-21px] sm:block">
+    {/* <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-full" /> */}
+
+<h2 className="text-[114px] font-extrabold text-[#FFFFFF05] tracking-wide">
+  SIGGY
+</h2>
+
+     </div>
       <div className="container mx-auto">
         <div className="w-full flex flex-col lg:flex-row lg:justify-between lg:items-center gap-[30px] md:gap-[79px] mt-[35px] lg:max-w-[1305px] lg:mx-auto">
           <div className="w-full lg:w-1/2 ">

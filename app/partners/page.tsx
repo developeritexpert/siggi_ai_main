@@ -4,6 +4,7 @@ import PartnersName from "../components/partners/PartnersName";
 import ImageText from "../components/common/ImageTextContent";
 import ImageTextContent from "../components/common/ImageTextContent";
 import FAQSection from "../components/home/FAQSection";
+import TestmonialSection from "../components/home/TestmonialSection";
 const page = () => {
   return (
     <main className="bg-[#161b21]">
@@ -28,6 +29,7 @@ const page = () => {
         image="Rectangle 28.png"
       />
       <FAQSection/>
+    
     </main>
   );
 };
