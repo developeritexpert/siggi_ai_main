@@ -14,6 +14,7 @@ const page = () => {
      
       <ImageTextContent
         headingText1="Smarter Signal. "
+        showSiggyText=""
         spanText=" Stronger "
         headingText2=" Connections "
         headingMaxWidth="max-w-[453px]"

@@ -17,6 +17,7 @@ const page = () => {
       />
       <PartnersName />
       <ImageTextContent
+      showSiggyText="yes"
       headingMaxWidth="max-w-400px"
         headingText1=" Who We "
         spanText=" Work "
