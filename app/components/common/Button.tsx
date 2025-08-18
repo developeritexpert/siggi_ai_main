@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <div
       className={`
-        w-[240px] lg:w-full text-center
+        w-[240px] lg:w-fit text-center
           text-[16px]
         lg:text-[18px]
           box-border leading-none

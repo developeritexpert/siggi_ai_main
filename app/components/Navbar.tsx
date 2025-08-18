@@ -8,7 +8,7 @@ const menuItems = [
   { name: "Features & Benefits", href: "features" },
   { name: "Why Siggy?", href: "whysiggy" },
   { name: "About Us", href: "about-us" },
-  { name: "Partners", href: "#partners" },
+  { name: "Partners", href: "partners" },
 ];
 
 const Navbar = () => {
@@ -107,7 +107,7 @@ const Navbar = () => {
             <Link href="#/contact">
               <Button
                 buttonText="Contact Us"
-                className=" text-white bg-[#0E1412]  px-[29px] py-[19px] lg:px-[29px] lg:py-[19px]  "
+                className=" text-white bg-[#0E1412]  px-[29px] py-[19px] lg:px-[29px] lg:py-[19px] "
               />
              </Link>
           </div>
