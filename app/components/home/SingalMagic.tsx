@@ -1,14 +1,16 @@
 import React from 'react'
 import SingnalMagicCard from './SingnalMagicCard'
-
+import Image from 'next/image';
 
 const SingalMagic = () => {
   return (
-    <section className="py-[50px] lg:py-[100px] px-[20px] lg:px-[60px] 2xl:pt-[162px]
-       lg:bg-[url('/assests/behindTheSignal.png')]    bg-no-repeat 
+    <section className="py-[50px] lg:pt-[100px] lg:pb-[25px] px-[20px] lg:px-[60px] 2xl:pt-[162px]
+      relative
     ">
+       <Image src="/assests/behindTheSignal.png" width={1946} height={459} alt="behind-the-signal" 
+       className="absolute left-0 bottom-[51px] z-1 xl:bottom-[-102px]"/>
       {/* Wrapped content inside container with mx-auto for horizontal centering */}
-      <div className="container mx-auto">
+      <div className="container mx-auto relative z-2">
         
         {/*  Ensured heading spacing is responsive and font is correct */}
         <h2 className="text-2xl sm:text-3xl md:text-[65px] sm:mb-[69px] xl:mb-[69px] text-center text-white mb-[30px] font-normal georgia-text">
