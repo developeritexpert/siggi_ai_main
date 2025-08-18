@@ -6,7 +6,7 @@ const OurStory = () => {
     <section className="py-[50px] lg:py-[100px] px-[20px] lg:px-[60px] text-white">
       <div className="container mx-auto">
         <div className="w-full flex flex-col lg:items-center  lg:flex-row lg:gap-[76px] lg:max-w-[1288px] lg:mx-auto">
-          <div className="w-full lg:w-1/2 ">
+          <div className="w-full lg:w-1/2 mt-[20px] lg:mt-0 max-w-[561px]">
             <h1 className="font-normal mb-[14px] lg:mb-[14px] text-[18px] lg:text-[65px] lg:leading-[75px]">
               Our Story
             </h1>

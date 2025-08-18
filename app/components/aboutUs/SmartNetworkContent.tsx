@@ -7,7 +7,7 @@ const SmartNetworkContent = ({heading,className}) => {
         <h4 className="font-normal text-white text-[18px] mb-[14px] lg:text-[40px] lg:mb-[14px]">
          {heading}
         </h4>
-            <p className="text-white mb-[14px] lg:mb-[14px] text-[14px] lg:text-[16px] font-normal lg:leading-[24px] max-w-[514px]">
+            <p className="text-white mb-[14px] lg:mb-[14px] text-[14px] lg:text-[16px] font-normal lg:leading-[24px] max-w-[517px]">
           To create a world where mobile connectivity is seamless, 
           intelligent, and universally reliable. We envision networks that adapt in real time, powered by AI that ensures every user, everywhere, stays connected to the strongest possible signal—without interruptions, delays, or complexity.
         </p>

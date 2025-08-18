@@ -13,7 +13,7 @@ const OurMisssion = () => {
               width={676}
               className="w-full lg:w-1/2"
             />
-            <div className="w-full lg:w-1/2 ">
+            <div className="w-full lg:w-1/2 mt-[20px] lg:mt-0">
               <h1 className="font-normal mb-[14px] lg:mb-[14px] text-[18px] lg:text-[65px] lg:leading-[75px]">
                Our Mission
               </h1>
