@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import Button from "./common/Button";
 import Link from "next/link";
 const menuItems = [
-  { name: "How it works", href: "#how" },
+  { name: "How it works", href: "how-it-works" },
   { name: "Features & Benefits", href: "features" },
   { name: "Why Siggy?", href: "whysiggy" },
   { name: "About Us", href: "about-us" },
