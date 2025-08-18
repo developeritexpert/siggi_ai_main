@@ -34,13 +34,13 @@ const HomeAboutSection = () => {
       
       <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[20px]">
         <div className="space-y-6 sm:space-y-8">
-          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[538px]">
+          <p className="text-sm sm:text-base lg:text-lg font-inter font-normal leading-relaxed text-white max-w-[542px]">
             <span className="block mb-4">
               Siggy was created with a simple goal: to make mobile signal stronger, smarter, and more reliable—no matter where you are.
             </span>
 
             <span className="block mb-4">
-              Traditional network connections often struggle in real-world conditions. Whether it&apos;s dropped calls, slow downloads, or frustrating dead zones, poor signal can disrupt your day. Siggy solves this with real-time, AI-powered optimization that helps your phone connect to the best available tower—automatically.
+              Traditional network connections often struggle in real-world conditions. Whether it&apos;s dropped calls, slow downloads, or frustrating dead zones, poor signal can disrupt your day. Siggy solves this with real-time, AI-powered optimization that helps your phone connect to the best available tower— &nbsp;automatically.
             </span>
 
             <span className="block mb-4">
