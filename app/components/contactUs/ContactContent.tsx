@@ -9,7 +9,7 @@ const ContactContent = () => {
      className="px-[20px] lg:px-[60px] py-[50px] lg:py-[100px]"
    >
      <div className="container mx-auto">
-        <div className="w-full flex flex-col lg:flex-row lg:ml-[22px] xl:ml-[28px] 2xl:ml-[42px]">
+        <div className="w-full flex flex-col lg:flex-row lg:ml-[18px] xl:ml-[22px] 2xl:ml-[30px]">
             <Connect/>
              <ContactForm/>
         </div>
