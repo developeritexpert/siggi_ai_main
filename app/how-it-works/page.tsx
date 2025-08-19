@@ -14,6 +14,7 @@ const page = () => {
       />
      
       <ImageTextContent
+      backGroundUrl={""}
         headingText1="Smarter Signal. "
         showSiggyText=""
         spanText=" Stronger "
