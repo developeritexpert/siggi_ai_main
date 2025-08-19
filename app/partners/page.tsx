@@ -16,7 +16,9 @@ const page = () => {
         buttonText="Let's Partner Up"
       />
       <PartnersName />
+     
       <ImageTextContent
+      backGroundUrl="bg-[url('/assests/XMLID_106_.png')]  bg-no-repeat bg-cover bg-bottom xl:pb-[220px]"
       showSiggyText="yes"
       headingMaxWidth="max-w-400px"
         headingText1=" Who We "
@@ -30,6 +32,7 @@ const page = () => {
         imageParaText4="Enterprises"
         image="Rectangle 28.png"
       />
+     
       <FAQSection/>
     
     </main>

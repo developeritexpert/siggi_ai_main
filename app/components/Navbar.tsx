@@ -108,7 +108,7 @@ const Navbar = () => {
             <Link href="#/contact">
               <div
               
-                className="ml-[26px] mt-[10px] curso"
+                className="ml-[27px] mt-[10px] curso"
               >
                 Contact Us
               </div>
