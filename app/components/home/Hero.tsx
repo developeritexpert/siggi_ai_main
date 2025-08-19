@@ -30,13 +30,13 @@ const Hero = () => {
                <Link href="#/discover">
               <Button
                 buttonText="Discover How It Works"
-                className=" px-[29px] py-[19px]   text-white bg-[#0E1412]  "
+                className=" px-[29px] py-[19px] border-[1px] border-[#0E1412]  text-white bg-[#0E1412]  "
               />
              </Link>
            <Link href="/contact-us">
               <Button
                  buttonText="Get in Touch"
-                className=" text-[#0E1412] px-[38px] py-[19px] border-[1px] border-[#0E1412]   hover:text-white hover:bg-[#0E1412]"
+                className=" text-[#0E1412] px-[39px] py-[19px] border-[1px] border-[#0E1412]   hover:text-white hover:bg-[#0E1412]"
               />
               </Link>
             </div>
