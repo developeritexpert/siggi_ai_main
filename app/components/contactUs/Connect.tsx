@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 const Connect = () => {
   return (
-    <div className="w-full lg:w-1/2">
-      <h2 className="text-white text-[27px] lg:text-[65px] lg:leading-[75px] font-normal ">
-        Let’s <span className="text-[#8ED3FA]">Connect </span>– We’re Here for
+    <div className="w-full lg:w-1/2 ">
+      <h2 className="text-white text-[27px] lg:text-[65px] lg:leading-[75px] font-normal max-w-[561px] ">
+        Let’s <span className="text-[#8ED3FA] ">Connect </span>– We’re Here for
         You
       </h2>
       <p className="text-white text-[14px] lg:text-[18px]  font-normal lg:leading-[28px] max-w-[561px] ">
