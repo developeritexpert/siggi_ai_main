@@ -24,7 +24,7 @@ const Connect = () => {
               width={40}
               height={40}
             />
-            <div className="flex flex-col ">
+            <div className="flex flex-col">
               <p className="text-[20px] font-semibold ">Phone:</p>
               <p className="text-[18px] font-normal leading-[28px]">
                 +1 (123) 456-7890
@@ -44,7 +44,7 @@ const Connect = () => {
               width={40}
               height={40}
             />
-            <div className="flex flex-col ">
+            <div className="flex flex-col">
               <p className="text-[20px] font-semibold ">Email:</p>
               <p className="text-[18px] font-normal leading-[28px]">
                 Support@siggy.com.

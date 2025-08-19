@@ -15,7 +15,7 @@ const SiggyLearn = () => {
         
           <p className="text-white text-[18px] lg:text-[24px]   mt-[20px] lg:mt-[46px] font-medium lg:leading-[34px] max-w-[1097px] mx-auto text-center">
             Over time, Siggy learns your habits and locations, fine-tuning your connectivity experience to
-ensure smoother streaming, clearer calls, and faster data. Whether you're in a busy city, remote area, or on the go, Siggy keeps you connected—smarter, faster, and stronger.
+ensure smoother streaming, clearer calls, and faster data. Whether you&apos;re  in a busy city, remote area, or on the go, Siggy keeps you connected—smarter, faster, and stronger.
           </p>
         </div>
         <div className="flex flex-col  lg:flex-row mx-auto gap-[30px] lg:gap-0  justify-between max-w-[683px] mt-[42px]">
