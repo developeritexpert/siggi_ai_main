@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/common/Hero'
 import ImageTextContent from '../components/common/ImageTextContent'
 import SiggyWork from '../components/how-it-works/SiggyWork'
+import SiggyLearn from '../components/how-it-works/SiggyLearn'
 const page = () => {
   return (
     <main className="bg-[#161b21]">
@@ -29,7 +30,7 @@ const page = () => {
         image="Rectangle 20 (2).png"
       />
       <SiggyWork/>
-    
+      <SiggyLearn/>
     </main>
   )
 }
