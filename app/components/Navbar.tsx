@@ -9,7 +9,7 @@ const menuItems = [
   { name: "Why Siggy?", href: "whysiggy" },
   { name: "About Us", href: "about-us" },
   { name: "Partners", href: "partners" },
-   { name: "Contact Us", href: "contact-us" },
+
 ];
 
 const Navbar = () => {
@@ -105,14 +105,14 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            {/* <Link href="#/contact">
+            <Link href="#/contact">
               <div
               
                 className="ml-[26px] mt-[10px] curso"
               >
                 Contact Us
               </div>
-             </Link> */}
+             </Link>
           </div>
     </div>
       </header>
