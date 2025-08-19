@@ -49,7 +49,7 @@ const Navbar = () => {
                 ))}
               </ul>
             </div>
-      <Link href="#/contact">
+      <Link href="/contact-us">
               <Button
                 buttonText="Contact Us"
                 className="hidden lg:block px-[42px] py-[19px]   text-white bg-[#0E1412]   "
@@ -105,7 +105,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <Link href="#/contact">
+            <Link href="/contact-us">
               <div
               
                 className="ml-[27px] mt-[10px] curso"
