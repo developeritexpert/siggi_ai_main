@@ -9,6 +9,7 @@ const menuItems = [
   { name: "Why Siggy?", href: "whysiggy" },
   { name: "About Us", href: "about-us" },
   { name: "Partners", href: "partners" },
+   { name: "Contact Us", href: "contact-us" },
 ];
 
 const Navbar = () => {
@@ -62,8 +63,8 @@ const Navbar = () => {
               aria-label="Toggle menu"
             >
               <span
-                className={`block w-6 h-0.5 bg-[#0E1412] mb-1 transition-all duration-300 ${
-                  isMenuOpen ? "rotate-45 translate-y-2" : ""
+                className={`block w-6 h-0.5 bg-[#0E1412] transition-all duration-300 ${
+                  isMenuOpen ? "rotate-45 translate-y-2 mb-[8px]" : "mb-1 "
                 }`}
               ></span>
               <span
@@ -81,22 +82,22 @@ const Navbar = () => {
 
           {/* Mobile Menu */}
           <div
-            className={`lg:hidden bg-white/80 backdrop-blur-md px-4 py-4 transition-all duration-300 ${
+            className={`lg:hidden !bg-white/80 backdrop-blur-md px-4 py-4 transition-all duration-300 ${
               isMenuOpen
-                ? "max-h-screen opacity-100"
+                ? " opacity-100"
                 : "max-h-0 opacity-0 overflow-hidden"
             }`}
           >
-            <ul className="flex flex-col gap-4 pl-5">
+            <ul className="flex flex-col gap-2 pl-5">
               {menuItems.map((item) => (
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    className={`block py-2 px-2 rounded transition-colors duration-200 ${
+                    className={`block py-2 px-2 rounded transition-colors duration-200 cursor-pointer ${
                       active === item.name
-                        ? "bg-blue-100 text-blue-700 font-semibold"
+                        ? "text-[#0E1412]"
                         : "text-[#0E1412]"
-                    } hover:bg-blue-200`}
+                    } hover:opacity-90`}
                     onClick={() => handleMenuClick(item.name)}
                   >
                     {item.name}
@@ -104,12 +105,14 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <Link href="#/contact">
-              <Button
-                buttonText="Contact Us"
-                className=" text-white bg-[#0E1412]  px-[29px] py-[19px] lg:px-[29px] lg:py-[19px] "
-              />
-             </Link>
+            {/* <Link href="#/contact">
+              <div
+              
+                className="ml-[26px] mt-[10px] curso"
+              >
+                Contact Us
+              </div>
+             </Link> */}
           </div>
     </div>
       </header>
