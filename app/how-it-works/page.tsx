@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/common/Hero'
 import ImageTextContent from '../components/common/ImageTextContent'
+import SiggyWork from '../components/how-it-works/SiggyWork'
 const page = () => {
   return (
     <main className="bg-[#161b21]">
@@ -26,7 +27,7 @@ const page = () => {
         imageParaText4="Seamless delivery via low-latency inference APIs"
         image="Rectangle 20 (2).png"
       />
-
+      <SiggyWork/>
     
     </main>
   )
