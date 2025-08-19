@@ -33,7 +33,7 @@ const Hero = () => {
                 className=" px-[29px] py-[19px]   text-white bg-[#0E1412]  "
               />
              </Link>
-           <Link href="#/contact">
+           <Link href="/contact">
               <Button
                  buttonText="Get in Touch"
                 className=" text-[#0E1412] px-[38px] py-[19px] border-[1px] border-[#0E1412]   hover:text-white hover:bg-[#0E1412]"
