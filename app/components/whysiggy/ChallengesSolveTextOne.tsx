@@ -15,7 +15,7 @@ const ChallengesSolveTextOne = ({heading,className}) => {
           <ChallegesSolveTextSubText
             imageParaText="Buildings, terrain, and weather can weaken signal strength."
           />
-          <ChallegesSolveTextSubText imageParaText="Carriers struggle with limited visibility into network performance. API Integration" />
+          <ChallegesSolveTextSubText imageParaText="Carriers struggle with limited visibility into network performance. " />
         </div>
       </div>
   );
