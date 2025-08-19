@@ -34,7 +34,7 @@ const Navbar = () => {
               <ul className="w-[712px] lg:w-[570px] xl:w-[772px] flex justify-between">
                 {menuItems.map((item) => (
                   <li key={item.name}>
-                    <a
+                    <Link
                       href={item.href}
                       className={`hover:opacity-90 transition no-underline${
                         active === item.name
@@ -44,7 +44,7 @@ const Navbar = () => {
                       onClick={() => handleMenuClick(item.name)}
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -91,7 +91,7 @@ const Navbar = () => {
             <ul className="flex flex-col gap-2 pl-5">
               {menuItems.map((item) => (
                 <li key={item.name}>
-                  <a
+                  <Link
                     href={item.href}
                     className={`block py-2 px-2 rounded transition-colors duration-200 cursor-pointer ${
                       active === item.name
@@ -101,7 +101,7 @@ const Navbar = () => {
                     onClick={() => handleMenuClick(item.name)}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

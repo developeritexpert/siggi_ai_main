@@ -62,10 +62,10 @@ const Footer: React.FC = () => {
                   Quick Links
                 </h2>
                 <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px]  space-y-1">
-                  <Link href="/#home" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Home</Link>
-                  <Link href="/#how-it-works" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">How it works</Link>
-                  <Link href="/#features" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Features & Benefits</Link>
-                  <Link href="/#why-siggy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Why Siggy?</Link>
+                  <Link href="/" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Home</Link>
+                  <Link href="/how-it-works" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">How it works</Link>
+                  <Link href="/features" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Features & Benefits</Link>
+                  <Link href="/whysiggy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Why Siggy?</Link>
                   <Link href="/compliance-and-privacy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Compliance & Privacy</Link>
                 </div>
               </div>
@@ -76,8 +76,8 @@ const Footer: React.FC = () => {
                   Help & Support
                 </h2>
                 <div className="flex flex-col text-sm sm:text-base lg:text-[16px] font-inter font-normal leading-8 sm:leading-9 lg:leading-[42px]  space-y-1">
-                  <Link href="/#about" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">About Us</Link>
-                  <Link href="/#contact" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Contact Us</Link>
+                  <Link href="/about-us" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">About Us</Link>
+                  <Link href="/contact-us" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Contact Us</Link>
                   <Link href="/#privacy-policy" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Privacy Policy</Link>
                   <Link href="/#terms" className="hover:text-blue-400 focus:text-blue-400 active:text-blue-500">Terms and Conditions</Link>
                 </div>
