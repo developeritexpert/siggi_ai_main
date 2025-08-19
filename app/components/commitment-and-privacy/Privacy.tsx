@@ -12,7 +12,7 @@ const Privacy = () => {
             Our Commitment to <span className="text-[#8ED3FA]">Privacy</span>
           </h1>
           <p className="font-normal text-[14px] lg:text-[18px] lg:leading-[28px] mt-[15px]">
-            At Siggy, safeguarding your data is not just a feature — it's a
+            At Siggy, safeguarding your data is not just a feature — it&apos;s a
             foundational commitment. From the architecture of our platform to
             our daily operations, privacy and compliance are deeply embedded in
             everything we do.
@@ -20,8 +20,8 @@ const Privacy = () => {
           <p className="font-normal text-[14px] lg:text-[18px] lg:leading-[28px] mt-[30px]">
             We proactively align with the world’s most rigorous data protection
             frameworks to ensure your trust is never compromised:At Siggy, data
-            protection isn't an afterthought — it's a founding principle. From
-            the start, we've built our platform to align with global privacy
+            protection isn&apos;t an afterthought — it&apos;s a founding principle. From
+            the start, we&apos;ve built our platform to align with global privacy
             laws and best practices, including:
           </p>
           <div className="mt-[35px]">
