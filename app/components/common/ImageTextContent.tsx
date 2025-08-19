@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import ImageText from './ImageText'
-const ImageTextContent = ({showSiggyText,headingMaxWidth,headingText1,headingText2,spanText,ParaTextOne,ParaTextTwo,imageParaText1,imageParaText2,imageParaText3,imageParaText4,image}) => {
+const ImageTextContent = ({backGroundUrl,showSiggyText,headingMaxWidth,headingText1,headingText2,spanText,ParaTextOne,ParaTextTwo,imageParaText1,imageParaText2,imageParaText3,imageParaText4,image}) => {
   return (
-    <section className="px-[20px] pt-[0px] pb-[50px] lg:pb-[100px]  lg:pt-[51px] lg:px-[60px] text-white relative">
+    <section className={`px-[20px] pt-[0px] pb-[50px] lg:pb-[100px]  lg:pt-[51px] lg:px-[60px] text-white relative ${backGroundUrl}`}>
     
     {showSiggyText.trim() !== "" &&
          <div className="hidden  lg:absolute lg:right-0     lg:top-[-21px] sm:block">
