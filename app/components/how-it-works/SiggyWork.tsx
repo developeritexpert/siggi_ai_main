@@ -8,7 +8,7 @@ const SiggyWork = () => {
     "
     >
       <div className="container mx-auto">
-        <div>
+        <div data-aos="zoom-in">
           <h1 className="w-full text-[24px] font-normal md:text-[65px] text-white text-center">
             How Siggy <span className="text-[#8ED3FA] "> Works </span>
           </h1>
@@ -20,6 +20,9 @@ const SiggyWork = () => {
           </p>
         </div>
         <div className="flex lg:flex-row lg:justify-between flex-col gap-[30px] lg:gap-0 mt-[83px] w-full">
+          <div  data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="0">
           <SiggyImageText
             imageUrl="Group 1707479401.png"
          
@@ -27,6 +30,10 @@ const SiggyWork = () => {
             paraText="Siggy constantly monitors real-time signal strength, tower availability, and network conditions
                  in your area."
           />
+          </div>
+          <div  data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="300">
           <SiggyImageText
             imageUrl="Group 1707479400.png"
             heading="Smart Tower Selection"
@@ -34,6 +41,10 @@ const SiggyWork = () => {
 Using advanced machine learning, it evaluates all available cell towers—not just the one your
 phone defaults to—and connects you to the best-performing one."
           />
+          </div>
+            <div  data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="600">
           <SiggyImageText
                imageUrl="Group 1707479399.png"
             heading="Dynamic Optimization"
@@ -41,6 +52,7 @@ phone defaults to—and connects you to the best-performing one."
 congestion, dead zones and dropped calls—without interrupting your service.
 Personalized Performance"
           />
+          </div>
         </div>
       </div>
     </section>

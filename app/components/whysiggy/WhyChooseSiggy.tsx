@@ -6,7 +6,7 @@ const WhyChooseSiggiy = () => {
     <section className="px-[20px] py-[50px] lg:pt-[10px] lg:pb-[50px] lg:px-[60px] text-white">
       <div className="container mx-auto">
         <div className="w-full flex flex-col lg:flex-row-reverse lg:justify-between lg:items-center gap-[30px] md:gap-[79px] mt-[35px] md:mt-[100px] lg:max-w-[1288px] lg:mx-auto">
-          <div className="w-full lg:w-1/2 ">
+          <div className="w-full lg:w-1/2 " data-aos="fade-left">
             <h2 className="w-full font-normal text-[24px]  lg:text-[65px] lg:leading-[75px] max-w-[400px] mb-[20px] ">
                Why 
               Choose
@@ -43,7 +43,7 @@ const WhyChooseSiggiy = () => {
             alt="power-feature-img"
             height={447}
             width={634}
-            className="w-full lg:w-1/2 h-auto"
+         data-aos="fade-right"   className="w-full lg:w-1/2 h-auto"
           />
         </div>
       </div>

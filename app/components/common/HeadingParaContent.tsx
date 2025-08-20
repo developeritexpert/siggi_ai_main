@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeadingParaContent = ({headingText,paraText}) => {
   return (
-    <div>
+    <div >
  <h2 className="font-normal text-[18px] lg:text-[40px] mt-[27px]">
            {headingText}
           </h2>

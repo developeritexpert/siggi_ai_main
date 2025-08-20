@@ -39,7 +39,7 @@ const FAQSection = () => {
   return (
        <section className="relative sm:pb-[120px] py-[50px]  lg:py-[100px]  px-[20px] lg:px-[60px]" >
     
-         <Image src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0" data-aos="fade-right"/>
+         <Image data-aos="fade-left" src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0" />
        
            <div  className="container mx-auto  flex flex-col lg:flex-row  w-full    gap-8 lg:gap-1">
           {/* FAQ Header */}

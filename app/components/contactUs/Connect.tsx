@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 const Connect = () => {
   return (
-    <div className="w-full lg:w-1/2 ">
+    <div className="w-full lg:w-1/2 "    data-aos="fade-right"
+ data-aos-duration="1000">
       <h2 className="text-white text-[27px] lg:text-[65px] lg:leading-[75px] font-normal max-w-[561px] ">
         Let’s <span className="text-[#8ED3FA] ">Connect </span>– We’re Here for
         You

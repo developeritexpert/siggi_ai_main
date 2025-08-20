@@ -4,7 +4,7 @@ const SiggyHero = () => {
   return (
       <section className="w-full pb-[149px] px-[20px] pt-[130px] md:pt-[226px] md:pb-[125px] 2xl:pb-[145px] 2xl:bg-bottom  md:px-[60px]
              bg-[url('/assests/HeroSection.svg')]  bg-no-repeat bg-cover ">
-             <div className="container mx-auto">
+             <div className="container mx-auto" data-aos="fade-right">
              <h1 className="text-[36px] leading-[40px]   max-w-[295px] md:text-[90px] md:leading-[89px] md:max-w-[705px] font-normal text-white">
                Why Your Signal Fails — And How We Fix It.
              </h1>

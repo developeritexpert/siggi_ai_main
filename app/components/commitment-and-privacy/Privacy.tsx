@@ -8,9 +8,11 @@ const Privacy = () => {
     <section className="px-[20px] lg:px-[60px] py-[50px] lg:py-[100px]">
       <div className="container mx-auto">
         <div className="max-w-[1300px] mx-auto text-white">
-          <h1 className="font-normal text-[27px] lg:text-[65px]">
+           <div data-aos="fade-up">
+          <h1  className="font-normal text-[27px] lg:text-[65px]" >
             Our Commitment to <span className="text-[#8ED3FA]">Privacy</span>
           </h1>
+         
           <p className="font-normal text-[14px] lg:text-[18px] lg:leading-[28px] mt-[15px]">
             At Siggy, safeguarding your data is not just a feature — it&apos;s a
             foundational commitment. From the architecture of our platform to
@@ -24,7 +26,8 @@ const Privacy = () => {
             the start, we&apos;ve built our platform to align with global privacy
             laws and best practices, including:
           </p>
-          <div className="mt-[35px]">
+          </div>
+          <div className="mt-[35px]" data-aos="fade-up">
           <ImageText
             imageParaText={"Data anonymization and pseudonymization"}
           />
@@ -45,12 +48,13 @@ const Privacy = () => {
             }
           />
           </div>
-          <div className="mt-[26px]">
+          <div className="mt-[26px]" data-aos="fade-up">
           <HeadingParaContent
             headingText="Data Protection"
             paraText="From day one, Siggy has been built with privacy by design—ensuring every feature, process, and decision puts user security first. As networks evolve and data grows more critical, our mission remains clear: to create AI-driven connectivity that is safe, transparent, and compliant with the world’s strictest regulations."
           />
           </div>
+          <div data-aos="fade-up">
           <h2 className="font-normal text-[18px] lg:text-[40px] mt-[33px]">
             How We Ensure Compliance
           </h2>
@@ -88,10 +92,14 @@ const Privacy = () => {
             }
           />
           </div>
+          </div>
+          <div data-aos="fade-up">
           <HeadingParaContent
             headingText="Responsible AI for Smarter Connectivity"
             paraText="Siggy’s AI is designed to enhance connectivity while respecting privacy. We collect only the data needed for network optimization and ensure it is anonymized and securely processed."
           />
+          </div>
+          <div data-aos="fade-up">
           <HeadingParaContent
             headingText="End-to-End Security"
             paraText="At Siggy, security is not an add‑on—it is a core foundation of our platform. We implement end‑to‑end encryption for all data at rest and in transit, ensuring that sensitive information is never exposed. Our infrastructure is hosted on secure, industry‑leading cloud platforms with multiple layers of defense, including firewalls, intrusion detection, and continuous monitoring."
@@ -105,10 +113,13 @@ const Privacy = () => {
             partners full confidence that their data is protected at every
             stage.
           </p>
+          </div>
+            <div data-aos="fade-up">
           <HeadingParaContent
             headingText="Our Privacy Philosophy"
             paraText="We believe AI should enhance experiences, not exploit data. Siggy’s AI models are designed to deliver optimized connectivity without collecting unnecessary personal information. Every technical decision balances innovation with responsibility—because user trust is non‑negotiable."
           />
+          </div>
         </div>
       </div>
     </section>

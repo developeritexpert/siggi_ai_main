@@ -15,9 +15,9 @@ const ImageTextContent = ({backGroundUrl,showSiggyText,headingMaxWidth,headingTe
 
      </div>
      }
-      <div className="container mx-auto">
+      <div className="container mx-auto" >
         <div className="w-full flex flex-col lg:flex-row lg:justify-between lg:items-center gap-[30px] md:gap-[79px] mt-[35px] lg:max-w-[1305px] lg:mx-auto">
-          <div className="w-full lg:w-1/2 ">
+          <div className="w-full lg:w-1/2 " data-aos="fade-right">
             <h2 className={`w-full font-normal text-[24px]  lg:text-[65px] lg:leading-[75px] mb-[20px] ${headingMaxWidth}`}>
             {headingText1}
               <span className="text-[#8ED3FA]">{spanText}</span>
@@ -50,7 +50,7 @@ const ImageTextContent = ({backGroundUrl,showSiggyText,headingMaxWidth,headingTe
             alt={`${image}-img`}
             height={447}
             width={634}
-            className="w-full lg:w-1/2 h-auto"
+          data-aos="fade-left"  className="w-full lg:w-1/2 h-auto"
           />
         </div>
       </div>

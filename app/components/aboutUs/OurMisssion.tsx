@@ -11,9 +11,9 @@ const OurMisssion = () => {
               alt="our-mission-image"
               height={634}
               width={676}
-              className="w-full lg:w-1/2"
+             data-aos="flip-right" className="w-full lg:w-1/2"
             />
-            <div className="w-full lg:w-1/2 mt-[20px] lg:mt-0">
+            <div className="w-full lg:w-1/2 mt-[20px] lg:mt-0" data-aos="fade-left">
               <h1 className="font-normal mb-[14px] lg:mb-[14px] text-[18px] lg:text-[65px] lg:leading-[75px]">
                Our Mission
               </h1>
