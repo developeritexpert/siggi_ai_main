@@ -50,7 +50,7 @@ const ImageTextContent = ({backGroundUrl,showSiggyText,headingMaxWidth,headingTe
             alt={`${image}-img`}
             height={447}
             width={634}
-          data-aos="fade-left"  className="w-full lg:w-1/2 h-auto"
+      className="w-full lg:w-1/2 h-auto"
           />
         </div>
       </div>

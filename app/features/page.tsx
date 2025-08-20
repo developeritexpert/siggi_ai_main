@@ -5,7 +5,7 @@ import TestmonialSection from '../components/home/TestmonialSection'
 import FAQSection from '../components/home/FAQSection'
 const page = () => {
   return (
-      <main className="bg-[#161b21]">
+      <main className="bg-[#161b21] overflow-x-hidden">
           <FeatureHero/>
            <PowerFeature/>
          <TestmonialSection/>

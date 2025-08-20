@@ -12,7 +12,7 @@ import DownloadSection from "./components/home/DownloadSection";
 export default function Home() {
   return (
     <>
-      <main className="bg-[#161b21]">
+      <main className="bg-[#161b21] overflow-x-hidden">
         <Hero />
         <SingalMagic />
         <CallSection />
