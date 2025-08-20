@@ -37,7 +37,7 @@ const FAQSection = () => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
   return (
-       <section className="relative py-[50px]  lg:py-[100px]  px-[20px] lg:px-[60px]" >
+       <section className="relative sm:pb-[120px] py-[50px]  lg:py-[100px]  px-[20px] lg:px-[60px]" >
     
          <Image src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0"/>
        
