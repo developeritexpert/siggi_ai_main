@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="w-[90%] mt-[38px] md:w-[50%]  lg:relative 2xl:w-[674px] ">
             {/* Phone Image */}
             <Image
-              src="/assests/GroupMobile.png"
+              src="/assests/grp123.png"
               alt="iPhone Mockup"
               width={363}
               height={515}
