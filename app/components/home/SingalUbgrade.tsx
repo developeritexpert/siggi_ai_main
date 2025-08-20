@@ -13,8 +13,8 @@ const SignalUpgrade = () => {
           backgroundPosition: "center",
         }}
       > */}
-        {/* Signal Towers - Hidden on mobile */}
-        {/* <div className="hidden lg:block absolute top-8 right-0 overflow-hidden ">
+      {/* Signal Towers - Hidden on mobile */}
+      {/* <div className="hidden lg:block absolute top-8 right-0 overflow-hidden ">
           <div className="flex space-x-4">
             <Image
               src="/images/img_vector.svg"
@@ -54,128 +54,139 @@ const SignalUpgrade = () => {
           </div>
         </div> */}
 
-        {/* Main Content */}
-       
-          {/* Feature Box */}
-         
-            <div className="w-full container mx-auto px-[16px] ">
-              <div className="w-full item-center flex justify-center">
-                <h2 className="max-w-[993px] text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
-                  The Signal Upgrade You Didn&apos;t Know You Needed
-                </h2>
-              </div>
-           
+      {/* Main Content */}
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
-              {/* Left Features */}
-              <div className="flex flex-col space-y-8">
-                {/* Feature 1 */}
-<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
-                  <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
-                    <Image
-                      src="/images/img_group_5.svg"
-                      alt="Feature Icon"
-                      width={28}
-                      height={28}
-                      className="w-6 sm:w-7 h-6 sm:h-7"
-                    />
-                  </div>
-                  <div className="flex flex-col md:block">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
-                    Stronger Signal, Fewer Drops
-                  </h3>
-                  <p className="text-sm md:text-[20px] max-w-[331px] font-normal text-[#0e1412] leading-relaxed">
-                    Enjoy more reliable calls and faster data—even in weak  coverage areas.
-                  </p>
-                  </div>
-                </div>
+      {/* Feature Box */}
 
-                {/* Feature 2 */}
-<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
-                  <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
-                    <Image
-                      src="/images/img_group_4.svg"
-                      alt="Feature Icon"
-                      width={32}
-                      height={32}
-                      className="w-6 sm:w-7 h-6 sm:h-7"
-                    />
-                  </div>
-                                    <div className="flex flex-col md:block">
+      <div className="w-full container mx-auto px-[16px] ">
+        <div className="w-full item-center flex justify-center">
+          <h2
+            data-aos="zoom-in"
+            className="max-w-[993px] text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16"
+          >
+            The Signal Upgrade You Didn&apos;t Know You Needed
+          </h2>
+        </div>
 
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
-                    Works Anywhere, Anytime
-                  </h3>
-                  <p className="text-sm md:text-[20px] font-inter font-normal max-w-[300px]   text-[#0e1412] leading-relaxed">
-                    Whether you&apos;re at home, commuting, or traveling, Siggy
-                    adapts to your environment.
-                  </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Center Graphic */}
-              <div className="flex flex-col items-center relative">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
+          {/* Left Features */}
+          <div className="flex flex-col space-y-8">
+            {/* Feature 1 */}
+            <div  data-aos="fade-up"
+              data-aos-duration="800"
+  data-aos-delay="0"
+            className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
+              <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
                 <Image
-                  src="/images/group_36366123.png"
-                  alt="Central Graphic"
-                  width={474}
-                  height={596}
-                  className="w-64 sm:w-80 md:w-96 lg:w-[400px] xl:w-[474px] h-auto"
+                  src="/images/img_group_5.svg"
+                  alt="Feature Icon"
+                  width={28}
+                  height={28}
+                  className="w-6 sm:w-7 h-6 sm:h-7"
                 />
               </div>
-
-              {/* Right Features */}
-              <div className="flex flex-col space-y-8">
-                {/* Feature 3 */}
-<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
-                  <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
-                    <Image
-                      src="/images/img_group_3.svg"
-                      alt="Feature Icon"
-                      width={28}
-                      height={28}
-                      className="w-6 sm:w-7 h-6 sm:h-7"
-                    />
-                  </div>
-                                    <div className="flex flex-col md:block">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412] ">
-                    Private & Secure
-                  </h3>
-                  <p className="text-sm md:text-[20px] max-w-[349px] font-inter font-normal text-[#0e1412] leading-relaxed">
-                    Your personal data stays protected. Siggy only uses
-                    what&apos;s necessary to enhance performance.
-                  </p>
-                </div>
-                </div>
-
-                {/* Feature 4 */}
-<div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
-                  <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
-                    <Image
-                      src="/images/img_group_2.svg"
-                      alt="Feature Icon"
-                      width={28}
-                      height={28}
-                      className="w-6 sm:w-7 h-6 sm:h-7"
-                    />
-                  </div>
-                                                      <div className="flex flex-col md:block">
-
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
-                    Battery Efficient
-                  </h3>
-                  <p className="text-sm md:text-[20px] font-inter font-normal max-w-[339px] text-[#0e1412] leading-relaxed">
-                    Optimized to run in the background without draining your
-                    phone&apos;s power.
-                  </p>
-                </div>
-                </div>
+              <div className="flex flex-col md:block">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
+                  Stronger Signal, Fewer Drops
+                </h3>
+                <p className="text-sm md:text-[20px] max-w-[331px] font-normal text-[#0e1412] leading-relaxed">
+                  Enjoy more reliable calls and faster data—even in weak
+                  coverage areas.
+                </p>
               </div>
             </div>
-         </div>
-        
-     
+
+            {/* Feature 2 */}
+            <div   data-aos="fade-up"
+             data-aos-duration="800"
+  data-aos-delay="200"
+            className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
+              <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
+                <Image
+                  src="/images/img_group_4.svg"
+                  alt="Feature Icon"
+                  width={32}
+                  height={32}
+                  className="w-6 sm:w-7 h-6 sm:h-7"
+                />
+              </div>
+              <div className="flex flex-col md:block">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
+                  Works Anywhere, Anytime
+                </h3>
+                <p className="text-sm md:text-[20px] font-inter font-normal max-w-[300px]   text-[#0e1412] leading-relaxed">
+                  Whether you&apos;re at home, commuting, or traveling, Siggy
+                  adapts to your environment.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Center Graphic */}
+          <div  data-aos="zoom-in" className="flex flex-col items-center relative">
+            <Image
+              src="/images/group_36366123.png"
+              alt="Central Graphic"
+              width={474}
+              height={596}
+              className="w-64 sm:w-80 md:w-96 lg:w-[400px] xl:w-[474px] h-auto"
+            />
+          </div>
+
+          {/* Right Features */}
+          <div data-aos="fade-up"
+           data-aos-duration="800"
+  data-aos-delay="400"
+           className="flex flex-col space-y-8">
+            {/* Feature 3 */}
+            <div className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
+              <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
+                <Image
+                  src="/images/img_group_3.svg"
+                  alt="Feature Icon"
+                  width={28}
+                  height={28}
+                  className="w-6 sm:w-7 h-6 sm:h-7"
+                />
+              </div>
+              <div className="flex flex-col md:block">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412] ">
+                  Private & Secure
+                </h3>
+                <p className="text-sm md:text-[20px] max-w-[349px] font-inter font-normal text-[#0e1412] leading-relaxed">
+                  Your personal data stays protected. Siggy only uses
+                  what&apos;s necessary to enhance performance.
+                </p>
+              </div>
+            </div>
+
+            {/* Feature 4 */}
+            <div data-aos="fade-up"
+             data-aos-duration="800"
+  data-aos-delay="600"
+             className="flex flex-row md:!flex-col gap-[30px] md:gap-[0px] items-start space-y-3 sm:space-y-4">
+              <div className="border-2 border-[#0e1412] rounded-full p-3 sm:p-4">
+                <Image
+                  src="/images/img_group_2.svg"
+                  alt="Feature Icon"
+                  width={28}
+                  height={28}
+                  className="w-6 sm:w-7 h-6 sm:h-7"
+                />
+              </div>
+              <div className="flex flex-col md:block">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-inter font-bold text-[#0e1412]">
+                  Battery Efficient
+                </h3>
+                <p className="text-sm md:text-[20px] font-inter font-normal max-w-[339px] text-[#0e1412] leading-relaxed">
+                  Optimized to run in the background without draining your
+                  phone&apos;s power.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

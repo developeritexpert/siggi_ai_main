@@ -9,7 +9,7 @@ const HomeAboutSection = () => {
     <section className="py-[50px] px-[20px] lg:py-[100px]  lg:px-[60px]">
       <div className="container mx-auto">
            {/* Connecting You Section */}
-          <div className="flex flex-col md:flex-row w-full items-center justify-between ">
+          <div data-aos="fade-right" className="flex flex-col md:flex-row w-full items-center justify-between ">
             <div className=" flex items-center justify-center md:!block mb-8 sm:mb-12 lg:mb-16">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[90px] georgia-text font-normal leading-tight text-white max-w-[813px] mx-auto">
                 <span className="text-white">Connecting You to Whats</span>
@@ -19,7 +19,7 @@ const HomeAboutSection = () => {
             </div>
 
             {/* Logo Circle */}
-            <div className="hidden sm:block sm:-top-12 bg-[#90d5fc] rounded-full p-3 sm:p-4 lg:p-6 shadow-xl">
+            <div data-aos="flip-left" className="hidden sm:block sm:-top-12 bg-[#90d5fc] rounded-full p-3 sm:p-4 lg:p-6 shadow-xl">
               <Image
                 src="/images/img_siggy_logo_4.png"
                 alt="Siggy Logo"
@@ -30,7 +30,7 @@ const HomeAboutSection = () => {
             </div>
           </div>
   
-    <div className="flex flex-col lg:flex-row justify-between mx-auto  sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-4 gap-8 lg:gap-12">
+    <div data-aos="fade-right" className="flex flex-col lg:flex-row justify-between mx-auto  sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-4 gap-8 lg:gap-12">
       
       <div className="w-full lg:w-[50%] order-2 lg:order-1 mt-[20px]">
         <div className="space-y-6 sm:space-y-8">

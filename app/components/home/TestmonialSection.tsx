@@ -73,7 +73,7 @@ export default function TestmonialSection() {
      </div>
       <div className="flex flex-col w-full  container mx-auto">
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
+        <h2 data-aos="zoom-in" className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
           What Users Are Saying
         </h2>
 

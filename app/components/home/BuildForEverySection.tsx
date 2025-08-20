@@ -4,7 +4,7 @@ const BuildForEverySection = () => {
   return (
     <section className=" py-[50px]  lg:py-[100px] w-full l px-[20px] lg:px-[60px]">
       <div className="container mx-auto flex flex-col justify-center items-center w-full">
-      <h2 className="max-w-[1033px] heading-h2 georgia-text">
+      <h2 className="max-w-[1033px] heading-h2 georgia-text" data-aos="zoom-in">
         <span className="text-white ">
           Built for Everyone Who Depends on Their{" "}
         </span>
@@ -62,6 +62,9 @@ const BuildForEverySection = () => {
               ].map((userType, index) => (
                 <div
                   key={index}
+         data-aos="fade-up"
+ data-aos-delay={`${String(index * 200)}`}
+  data-aos-duration="800"
                   className="flex items-center space-x-4 bg-[#ffffff07] border border-[#ffffff33] rounded-xl p-4 sm:p-6 shadow-lg backdrop-blur-sm hover:bg-[#ffffff10] transition-all duration-300"
                 >
                   <div className="bg-[#8ed3fa] rounded-full p-3 sm:p-4 flex-shrink-0">

@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import AOSProvider from "./providers/AOSProvider";
 
 
 const inter = Inter({
@@ -42,7 +43,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.variable}>
         <Navbar />
-        {children}
+        <AOSProvider>
+            {children}
+        </AOSProvider>
+      
         <Footer />
       </body>
     </html>
