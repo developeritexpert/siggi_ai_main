@@ -52,6 +52,7 @@ const Hero = () => {
               height={515}
               className="w-full  lg:relative lg:z-10 h-auto object-cover"
               priority
+                sizes="(max-width: 768px) 100vw, 50vw"
             />
             <div className="absolute hidden  lg:block xl:z-[1] bottom-[-20px] right-[-40px] lg:bottom-[-23px] lg:right-[-18px] xl:bottom-[-50px] xl:right-[-39px] 2xl:bottom-[-103px] ">
             <Image
