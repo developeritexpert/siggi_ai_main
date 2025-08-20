@@ -6,8 +6,8 @@ import SmartNetworkContent from "./SmartNetworkContent";
 const SmartNetwork = () => {
   return (
     <section className="px-[20px] lg:px-[60px] py-[50px] lg:py-[100px] ">
-      <div className="container mx-auto">
-        <div className="max-w-[1252px] text-white flex flex-col lg:flex-row justify-between items-center mx-auto">
+      <div className="container mx-auto" >
+        <div data-aos="zoom-in"  className="max-w-[1252px] text-white flex flex-col lg:flex-row justify-between items-center mx-auto">
           <h1 className="w-full lg:w-1/2 font-normal text-[24px] lg:text-[65px] lg:leading-[75px]">
             Vision for <span className="text-[#8ED3FA]">Smarter</span> Networks
           </h1>
@@ -19,15 +19,15 @@ const SmartNetwork = () => {
           </p>
         </div>
       
-          <div className="flex lg:flex-row flex-col bg-[#1A222B]  lg:rounded-[35px] w-full gap-[30px] lg:gap-0 mt-[43px]  ">
-            <div className="w-full  lg:w-1/2  flex lg:flex-row flex-col items-center  ">
+          <div      className="flex lg:flex-row flex-col bg-[#1A222B]  lg:rounded-[35px] w-full gap-[30px] lg:gap-0 mt-[43px]  ">
+            <div data-aos="fade-right" className="w-full  lg:w-1/2  flex lg:flex-row flex-col items-center  ">
               <SmartNetworkContent
                 heading={"Our Vision"}
                 className="py-[20px] pl-[20px] pr-[20px] lg:pl-[43px] lg:pr-[0px] lg:py-0 "
               />
             </div>
 
-            <div className="w-full lg:w-1/2 ">
+            <div data-aos="fade-left" className="w-full lg:w-1/2 ">
               <Image
                 src="/images/smartNetwork.png"
                 width={817}

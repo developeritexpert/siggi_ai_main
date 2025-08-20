@@ -4,7 +4,7 @@ const DownloadSection = () => {
        {/* Download Section - Mobile responsive */}
   return (
        
-        <section className=" px-[20px] lg:px-[60px] py-[50px] flex flex-col items-center w-full lg:py-[100px] ">
+        <section data-aos="zoom-in" className=" px-[20px] lg:px-[60px] py-[50px] flex flex-col items-center w-full lg:py-[100px] ">
           <div className="container mx-auto flex flex-col  items-center w-full">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] font-georgia font-normal leading-tight text-center text-white mb-4 sm:mb-6 max-w-4xl">
             <span className="text-white">Download </span>

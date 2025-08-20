@@ -39,12 +39,12 @@ const FAQSection = () => {
   return (
        <section className="relative sm:pb-[120px] py-[50px]  lg:py-[100px]  px-[20px] lg:px-[60px]" >
     
-         <Image src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0"/>
+         <Image data-aos="fade-left" src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0" />
        
-           <div className="container mx-auto  flex flex-col lg:flex-row  w-full    gap-8 lg:gap-1">
+           <div  className="container mx-auto  flex flex-col lg:flex-row  w-full    gap-8 lg:gap-1">
           {/* FAQ Header */}
-          <div className="w-full lg:w-[50%] ">
-            <h2 className="text-[24px] lg:max-w-[584px] md:text-4xl lg:text-[65px] font-georgia font-normal leading-tight text-left text-white mb-4 sm:mb-6">
+          <div data-aos="fade-right" className="w-full lg:w-[50%] ">
+            <h2  className="text-[24px] lg:max-w-[584px] md:text-4xl lg:text-[65px] font-georgia font-normal leading-tight text-left text-white mb-4 sm:mb-6">
               Frequently Asked Questions
             </h2>
             <p className="text-sm sm:text-base lg:text-[22px] lg:max-w-[518px] font-inter font-light leading-relaxed text-left text-white">

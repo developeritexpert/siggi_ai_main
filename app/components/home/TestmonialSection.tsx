@@ -66,14 +66,14 @@ export default function TestmonialSection() {
       <div className="hidden  lg:absolute lg:left-0     lg:bottom-[-38px] sm:block">
     {/* <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-full" /> */}
 
-<h2 className="text-[100px] font-extrabold text-[#FFFFFF05] tracking-wide">
+<h2 data-aos="fade-right" className="text-[100px] font-extrabold text-[#FFFFFF05] tracking-wide">
   GGY
 </h2>
 
      </div>
       <div className="flex flex-col w-full  container mx-auto">
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
+        <h2 data-aos="zoom-in" className="text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-white mb-6 sm:mb-[55px]">
           What Users Are Saying
         </h2>
 

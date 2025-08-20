@@ -2,7 +2,8 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className="text-white w-full lg:w-1/2 mt-[30px] lg:mt-[0px] ">
+    <div data-aos="fade-left"
+ data-aos-duration="1000" className="text-white w-full lg:w-1/2 mt-[30px] lg:mt-[0px] ">
       <h2 className="text-[18px] lg:text-[40px] font-normal text-white mb-[21px]">
 Get A Quote
       </h2>

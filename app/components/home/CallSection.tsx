@@ -24,7 +24,7 @@ const CallSection = () => {
 
             {/* Content */}
             <div className="flex flex-col gap-[20px] md:flex-row md:gap-[92px] items-center justify-center lg:max-w-[1287px] mx-auto ">
-              <div className="w-full  ">
+              <div className="w-full  " data-aos="fade-right">
                 <h2 className="text-2xl flex justify-center gap-[10px] md:block georgia-text sm:text-2xl md:text-3xl lg:text-[65px]  font-normal leading-tight text-left text-white mb-3 sm:mb-4">
                   <span className="text-white">Never Drop a </span>
                   <p>

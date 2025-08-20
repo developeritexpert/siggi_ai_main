@@ -13,14 +13,17 @@ const SingalMagic = () => {
       <div className="container mx-auto relative z-2">
         
         {/*  Ensured heading spacing is responsive and font is correct */}
-        <h2 className="text-2xl sm:text-3xl md:text-[65px] sm:mb-[69px] xl:mb-[69px] text-center text-white mb-[30px] font-normal georgia-text">
+        <h2  data-aos="zoom-in" 
+ 
+        
+        className="text-2xl sm:text-3xl md:text-[65px] sm:mb-[69px] xl:mb-[69px] text-center text-white mb-[30px] font-normal georgia-text">
           <span className="text-white">Behind the </span>
           <span className="text-[#8ed3fa]">Signal</span>
           <span className="text-white"> Magic</span>
         </h2>
 
         {/*Grid layout with gap between cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" data-aos="fade-up" >
           <SingnalMagicCard 
             imageUrl="/assests/img_group_34565.svg" 
             title="Scan" 

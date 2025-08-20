@@ -20,10 +20,10 @@ const SingnalMagicCard : React.FC<SingnalMagicCardProps>  = ({imageUrl,title,sub
                        className="w-8 sm:w-10 lg:max-w-[106px] xl:w-14 h-auto"
                      />
                    </div>
-                   <h3 className="text-lg mt-[17px] sm:text-xl md:text-2xl lg:text-[32px] georgia-text font-normal text-center text-white">
+                   <h3  className="text-lg mt-[17px] sm:text-xl md:text-2xl lg:text-[32px] georgia-text font-normal text-center text-white">
                      {title}
                    </h3>
-                   <p className="text-sm mt[14px] max-w-[241px] sm:text-base lg:text-base font-inter font-normal leading-[24px]  text-center text-white">
+                   <p   className="text-sm mt[14px] max-w-[241px] sm:text-base lg:text-base font-inter font-normal leading-[24px]  text-center text-white">
                     {subTitle}
                    </p>
                  </div>

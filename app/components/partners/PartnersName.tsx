@@ -18,14 +18,18 @@ const PartnersName = () => {
   return (
      <section className="px-[20px] lg:px-[60px] py-[50px] lg:py-[100px] ">
         <div className="container mx-auto">
-          <h1 className="font-normal text-[24px] lg:text-[65px] mx-auto text-white max-w-[636px] mb-[36px]">
+          <h1 data-aos="zoom-in"  className="font-normal text-[24px] lg:text-[65px] mx-auto text-white max-w-[636px] mb-[36px]">
             Some Of Our
              <span className="text-[#8ED3FA]"> Partners</span>
           </h1>
           <div>
              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
                 {logos.map((logo,index)=>(
-                    <div key={index} className="flex items-center justify-center rounded-[10px] border-[1px] border-[#FFFFFF1F] p-6 hover:scale-105 transition-transform duration-200">
+                    <div
+                       data-aos="fade-up"
+ data-aos-delay={`${String(index * 200)}`}
+  data-aos-duration="800"
+                     key={index} className="flex items-center justify-center rounded-[10px] border-[1px] border-[#FFFFFF1F] p-6 hover:scale-105 transition-transform duration-200">
                         <Image
                 src={logo}
                 alt={`logo-${index}`}

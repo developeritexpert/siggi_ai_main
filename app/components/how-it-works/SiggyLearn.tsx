@@ -10,7 +10,7 @@ const SiggyLearn = () => {
             width={1440}
             height={663}
             alt="over-time-img"
-            className="w-full h-auto"
+            data-aos="zoom-in" className="w-full h-auto"
           />
         
           <p className="text-white text-[18px] lg:text-[24px]   mt-[20px] lg:mt-[46px] font-medium lg:leading-[34px] max-w-[1097px] mx-auto text-center">
