@@ -24,30 +24,50 @@ const SingalMagic = () => {
 
         {/*Grid layout with gap between cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" data-aos="fade-up" >
+          <div                  
+             data-aos="fade-up"
+ data-aos-delay="300"
+  data-aos-duration="1200">
           <SingnalMagicCard 
             imageUrl="/assests/img_group_34565.svg" 
             title="Scan" 
             subTitle="Siggy constantly monitors signal conditions and available towers."
             altText="Scan Icon"
           />
+          </div>
+                 <div                  
+             data-aos="fade-up"
+ data-aos-delay="600"
+  data-aos-duration="1200">
           <SingnalMagicCard 
             imageUrl="/assests/img_group_34566.svg" 
             title="Analyze" 
             subTitle="Our AI evaluates which tower offers the best performance."
             altText="Analyze Icon"
           />
+          </div>
+                 <div                  
+             data-aos="fade-up"
+ data-aos-delay="900"
+  data-aos-duration="1200">
           <SingnalMagicCard 
             imageUrl="/assests/img_group_34567.svg" 
             title="Connect" 
             subTitle="Siggy securely reconfigures your device's connection on the fly."
             altText="Connect Icon"
           />
+          </div>
+                 <div                  
+             data-aos="fade-up"
+ data-aos-delay="1200"
+  data-aos-duration="1200">
           <SingnalMagicCard 
             imageUrl="/assests/img_group.svg" 
             title="Optimize" 
             subTitle="Continuous learning ensures better performance over time."
             altText="Optimize Icon"
           />
+          </div>
         </div>
       </div>
     </section>

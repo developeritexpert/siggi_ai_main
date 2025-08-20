@@ -65,9 +65,7 @@ const BuildForEverySection = () => {
                 ].map((userType, index) => (
                   <div
                     key={index}
-                    data-aos="fade-up"
-                    data-aos-delay={`${String(index * 200)}`}
-                    data-aos-duration="800"
+                  
                     className="flex items-center space-x-4 bg-[#ffffff07] border border-[#ffffff33] rounded-xl p-4 sm:p-6 shadow-lg backdrop-blur-sm hover:bg-[#ffffff10] transition-all duration-300"
                   >
                     <div className="bg-[#8ed3fa] rounded-full p-3 sm:p-4 flex-shrink-0">

@@ -5,7 +5,7 @@ const CallSection = () => {
     
    <section className="relative w-full py-[50px] lg:pt-[45px] xl:pt-[100px] lg:pb-[148] 2xl:pb-[230px]
              bg-[url('/images/img_xmlid107.png')] bg-cover bg-center px-[20px] lg:px-[60px]">
-    <div className="hidden md:block w-[270px]  right-0 top-[75px] absolute z-9 lg:top-[5px]  lg:right-0 lg:w-[318px] xl:w-[500px] 2xl:w-[661px]  xl:top-[-0px] xl:right-0  ">
+    <div  className="hidden md:block w-[270px]  right-0 top-[75px] absolute z-9 lg:top-[5px]  lg:right-0 lg:w-[318px] xl:w-[500px] 2xl:w-[661px]  xl:top-[-0px] xl:right-0  ">
       <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/>
     </div>
   
