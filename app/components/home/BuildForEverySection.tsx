@@ -5,7 +5,7 @@ const BuildForEverySection = () => {
     <section className=" py-[50px]  lg:py-[100px] w-full l px-[20px] lg:px-[60px]">
       <div className="container mx-auto flex flex-col justify-center items-center w-full">
         <h2
-          className="max-w-[957px] heading-h2 georgia-text"
+          className="max-w-[953px] heading-h2 georgia-text"
           data-aos="zoom-in"
         >
           <span className="text-white ">
