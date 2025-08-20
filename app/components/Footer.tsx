@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   return (
     <footer
-      className="w-full mt-[-3px]  pt-[107px]  bg-[#161B21] lg:pt-[254px] xl:pt-[254px] 2xl:pt-[330px] lg:pb-[25px]  bg-contain lg:bg-cover bg-no-repeat  bg-top lg:bg-bottom relative text-white "
+      className="w-full mt-[-3px]  pt-[107px]  bg-[#161B21] lg:pt-[254px] xl:pt-[254px] 2xl:pt-[330px] lg:pb-[0px]  bg-contain lg:bg-cover bg-no-repeat  bg-top lg:bg-bottom relative text-white "
       style={{ backgroundImage: "url('/images/img_mask_group.png')" }}
     
     >
