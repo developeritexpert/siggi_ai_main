@@ -60,7 +60,7 @@ const SignalUpgrade = () => {
          
             <div className="w-full container mx-auto px-[16px] ">
               <div className="w-full item-center flex justify-center">
-                <h2 className="max-w-[1033px] text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
+                <h2 className="max-w-[993px] text-2xl sm:text-3xl md:text-4xl lg:text-[65px] georgia-text font-normal leading-tight text-center text-[#0e1412] mb-8 sm:mb-12 lg:mb-16">
                   The Signal Upgrade You Didn&apos;t Know You Needed
                 </h2>
               </div>
