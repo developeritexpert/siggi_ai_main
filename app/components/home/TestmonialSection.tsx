@@ -63,11 +63,11 @@ export default function TestmonialSection() {
   return (
     <section className="bg-[#1A222B] py-[50px] px-[20px] lg:py-[100px] lg:px-[60px] relative">
       
-      <div className="hidden  lg:absolute lg:left-0     lg:bottom-[-38px] sm:block">
+      <div className="hidden  lg:absolute lg:left-[-40px]    lg:bottom-[-38px] sm:block">
     {/* <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-full" /> */}
 
 <h2 data-aos="fade-right" className="text-[100px] font-extrabold text-[#FFFFFF05] tracking-wide">
-  GGY
+  SIGGY
 </h2>
 
      </div>
