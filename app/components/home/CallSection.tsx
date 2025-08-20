@@ -5,13 +5,17 @@ const CallSection = () => {
     
    <section className="relative w-full py-[50px] lg:pt-[45px] xl:pt-[100px] lg:pb-[148] 2xl:pb-[230px]
              bg-[url('/images/img_xmlid107.png')] bg-cover bg-center px-[20px] lg:px-[60px]">
-    <div  className="hidden md:block w-[270px]  right-0 top-[75px] absolute z-9 lg:top-[5px]  lg:right-0 lg:w-[318px] xl:w-[500px] 2xl:w-[661px]  xl:top-[-0px] xl:right-0  ">
-      <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/>
+    <div  className="hidden md:block   right-0 md:top-[54px] lg:top-[-2px]  xl:top-[-15px] 2xl:top-[-54px] absolute z-9  ">
+      {/* <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/> */}
+    <h2 data-aos="fade-right" className=" md:text-[80px]  lg:text-[92px]  xl:text-[125px]  2xl:text-[166px] font-extrabold text-[#FFFFFF05] tracking-wide">
+  SIGGY
+</h2>
+    
     </div>
   
             {/* Signal Towers - Hidden on mobile for better performance */}
            
-            <div className="container mx-auto  "> 
+            <div className="container mx-auto relative z-10 "> 
             {/* <div className="hidden md:block  bottom-126 right-10 absolute lg:top-0 lg:right-10 xl:-top-[-100px] xl:right-[-29px] ">
               <div className="flex flex-row  items-center space-x-2 lg:space-x-5">
                 <Image src="/assests/img_vector.svg" alt="Signal Tower" width={96} height={140} className="w-12 lg:w-16 xl:w-26 h-auto" />

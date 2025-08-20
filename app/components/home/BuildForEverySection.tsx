@@ -5,7 +5,7 @@ const BuildForEverySection = () => {
     <section className=" py-[50px]  lg:py-[100px] w-full l px-[20px] lg:px-[60px]">
       <div className="container mx-auto flex flex-col justify-center items-center w-full">
         <h2
-          className="max-w-[1033px] heading-h2 georgia-text"
+          className="max-w-[957px] heading-h2 georgia-text"
           data-aos="zoom-in"
         >
           <span className="text-white ">
@@ -24,7 +24,7 @@ const BuildForEverySection = () => {
             className="hidden sm:block absolute top-[-43px] left-[-28px] lg:top-[-47px] lg:left-[-34px] w-20 sm:w-24 lg:w-[185px] h-auto z-8 "
           />
           <div
-            className="w-full flex justify-end items-end max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-hidden
+            className="w-full rounded-[35px] flex justify-end items-end max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-hidden
             relative  z-9 bg-[url('/images/img_rectangle_21.png')] pt-6 pr-[0px] md:pr-[73px] bg-no-repeat bg-cover  bg-center bg-[#161b21]"
           >
             <div className="w-full  max-w-[576px] max-h-[400px] sm:max-h-[500px] lg:max-h-[750px] overflow-y-auto scrollbar-thin scrollbar-thumb-[#8ed3fa]/50  no-scrollbar scrollbar-track-transparent pl-2 md:pl-0 pr-2">
