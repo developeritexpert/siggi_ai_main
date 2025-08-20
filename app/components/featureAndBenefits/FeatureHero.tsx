@@ -8,7 +8,7 @@ const FeatureHero = () => {
              <h1 className="text-[36px] leading-[40px]   max-w-[295px] lg:text-[90px] lg:leading-[89px] lg:max-w-[665px] font-normal text-white">
                 Packed with Power. Built for Everyone
              </h1>
-             <p className="font-normal leading-[27px] mt-[10px] text-[16px] md:text-[18px] lg:leading-[28px] max-w-[461px] lg:mt-[18px]">
+             <p className="font-normal leading-[27px] mt-[10px] text-[16px] md:text-[18px] lg:leading-[28px] max-w-[524px] lg:mt-[18px]">
                Siggy combines advanced AI and real-time analytics to deliver seamless connectivity
              </p>
              </div>

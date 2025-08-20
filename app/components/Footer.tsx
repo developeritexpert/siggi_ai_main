@@ -6,14 +6,16 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   return (
     <footer
-      className="w-full pt-[50px] pb-[25px] lg:pt-[254px] xl:pt-[254px] 2xl:pt-[270px] lg:pb-[25px] px-[20px]   bg-cover md:px-[60px] bg-no-repeat bg-[#161b21] bg-bottom relative text-white mt-[-2px]"
+      className="w-full mt-[-3px]  pt-[107px]  bg-[#161B21] lg:pt-[254px] xl:pt-[254px] 2xl:pt-[330px] lg:pb-[25px]  bg-contain lg:bg-cover bg-no-repeat  bg-top lg:bg-bottom relative text-white "
       style={{ backgroundImage: "url('/images/img_mask_group.png')" }}
     
     >
-      <div className="container mx-auto  ">
+      <div className=" mt-[0px] sm:mt-[69px] md:mt-[90px] lg:mt-[0px] px-[20px] lg:px-[60px] bg-[#080a0c] ">
+         <div className="container mx-auto ">
         <div className="flex flex-col lg:flex-row justify-between  gap-8 lg:mt-[62px] ">
           {/* Left Column */}
           <div className="flex flex-col  w-full lg:w-[50%] ">
+            
             <Image
               src="/images/img_group_34593.svg"
               alt="Siggy Logo"
@@ -27,7 +29,7 @@ const Footer: React.FC = () => {
               alt="App Preview"
               width={70}
               height={130}
-              className="w-[35px] sm:w-[52px] md:w-[61px] lg:w-[70px] h-auto ml-4 sm:ml-6 md:ml-8 lg:ml-[20px] mt-2 sm:mt-3 md:mt-4 lg:mt-[16px]"
+              className="w-[35px] sm:w-[52px] md:w-[61px] lg:w-[70px] h-auto ml-2 sm:ml-2 md:ml-2 lg:ml-[20px] mt-2 sm:mt-3 md:mt-4 lg:mt-[16px]"
             />
 
             <p className="text-sm max-w-[448px] sm:text-base lg:text-[16px] font-inter font-normal leading-6 sm:leading-7 lg:leading-[28px] w-full ">
@@ -55,7 +57,7 @@ const Footer: React.FC = () => {
           {/* Right Column */}
        
             {/* Links Section */}
-            <div className=" pb-[25px] lg:w-[50%] mt-0  lg:mt-[96px] flex flex-col lg:flex-row justify-between  w-full gap-6  lg:gap-4">
+            <div className=" pb-[25px] lg:w-[50%] mt-0  lg:mt-[48px] flex flex-col lg:flex-row justify-between  w-full gap-6  lg:gap-4">
               {/* Quick Links */}
               <div>
                 <h2 className="text-base  lg:text-[26px] georgia-text font-normal leading-6   lg:leading-[30px]   mb-2 lg:mb-4">
@@ -88,10 +90,14 @@ const Footer: React.FC = () => {
       
         </div>
       </div>
+      </div>
+     
        {/* Copyright */}
-            <p className=" container mx-auto pt-[25px] lg:mt-[32px] lg:pt-[25px] px-[20px] lg:px-[60px]  lg:text-[16px]  font-inter font-normal leading-7  lg:leading-[26px] text-center border-t-1 border-[#FFFFFF1A] ">
+            <div className=" bg-[#080a0c] pb-[25px]  pt-[25px] lg:mt-[32px] lg:pt-[25px] px-[20px] lg:px-[60px]  lg:text-[16px]  font-inter font-normal leading-7  lg:leading-[26px] text-center border-t-1 border-[#FFFFFF1A] ">
+              <p className=" container mx-auto">
               Copyright © 2025 Siggy. All Rights Reserve
-            </p>
+              </p>
+            </div>
     </footer>
   );
 };

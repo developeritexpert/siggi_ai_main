@@ -17,17 +17,17 @@ const OurMisssion = () => {
               <h1 className="font-normal mb-[14px] lg:mb-[14px] text-[18px] lg:text-[65px] lg:leading-[75px]">
                Our Mission
               </h1>
-              <p className="font-normal text-[14px] mb-[14px] lg:mb-[14px] lg:text-[18px] lg:leading-[28px]">
+              <p className="font-normal text-[14px] mb-[14px] lg:mb-[30px] lg:text-[18px] lg:leading-[28px]">
 To deliver seamless, AI-driven mobile experiences by transforming how devices connect to networks. We believe connectivity should be adaptive, efficient, and intelligent—no matter 
 where you are or what you do.
                 
               </p>
-              <p className="font-normal mb-[14px] lg:mb-[14px] text-[14px] lg:text-[18px] lg:leading-[28px]">
+              <p className="font-normal mb-[14px] lg:mb-[30px] text-[14px] lg:text-[18px] lg:leading-[28px]">
                We’re working with carriers, enterprises, and innovators around the world to reshape connectivity. Want to be part of the movement?
 
               </p>
             
-             <Button className="bg-[#8ED3FA] py-[19px] px-[38px] lg:!w-fit text-[#0E1412]" buttonText="Become a Patner"/>
+             <Button className="bg-[#8ED3FA] py-[19px] px-[38px] lg:!w-fit text-[#0E1412]" buttonText="Become a Partner"/>
 
             
             </div>
