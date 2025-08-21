@@ -54,7 +54,7 @@ const HomeAboutSection = () => {
 
        <ButtonCustomize
                 buttonText="Read Our Story"
-                className=" bg-[#8ED3FA] text-[#0E1412] py-[19px] px-[50px]  "
+                className=" bg-[#8ED3FA] text-[#0E1412] py-[19px] px-[50px] border-[1px] border-[#8ED3FA] hover:!bg-transparent hover:!text-white"
               />
         </div>
       </div>

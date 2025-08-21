@@ -7,7 +7,7 @@ const CallSection = () => {
              bg-[url('/images/img_xmlid107.png')] bg-cover bg-center px-[20px] lg:px-[60px]">
     <div  className="hidden md:block   right-0 md:top-[54px] lg:top-[-2px]  xl:top-[-15px] 2xl:top-[-54px] absolute z-9  ">
       {/* <Image src="/images/group_3457011.png"  alt="Signal Tower"  width={96} height={140} className="w-full h-auto"/> */}
-    <h2 data-aos="fade-right" className=" md:text-[80px]  lg:text-[92px]  xl:text-[125px]  2xl:text-[166px] font-extrabold text-[#FFFFFF05] tracking-wide">
+    <h2  className="animate-slide md:text-[80px]  lg:text-[92px]  xl:text-[125px]  2xl:text-[166px] font-extrabold text-[#FFFFFF05] tracking-wide">
   SIGGY
 </h2>
     

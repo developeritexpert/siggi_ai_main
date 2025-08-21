@@ -56,6 +56,8 @@ export default function TestmonialSection() {
     slidesToScroll: 1,
     arrows: true,
     fade:true,
+      autoplay: true,       
+  autoplaySpeed:3000,  
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
@@ -66,7 +68,7 @@ export default function TestmonialSection() {
       <div className="hidden  lg:absolute lg:left-[-40px]    lg:bottom-[-38px] sm:block">
     {/* <Image src="/images/group_00003.png" alt="siggy_image" width={20} height={20} className="w-full" /> */}
 
-<h2 data-aos="fade-right" className="text-[100px] font-extrabold text-[#FFFFFF05] tracking-wide">
+<h2  className="animate-slide text-[100px] font-extrabold text-[#FFFFFF05] tracking-wide">
   SIGGY
 </h2>
 
