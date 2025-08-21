@@ -39,7 +39,7 @@ const FAQSection = () => {
   return (
        <section className="relative sm:pb-[120px] py-[50px]  lg:py-[100px]  px-[20px] lg:px-[60px]" >
     
-         <Image data-aos="fade-left" src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0" />
+         <Image  src="/images/group_0001.png"  alt="Signal Tower"  width={96} height={140} className="animate-slide w-[200px] hidden sm:w-[300px] sm:block absolute z-9  bottom-0 right-0" />
        
            <div  className="container mx-auto  flex flex-col lg:flex-row  w-full    gap-8 lg:gap-1">
           {/* FAQ Header */}
@@ -75,18 +75,21 @@ const FAQSection = () => {
                         alt="Toggle FAQ"
                         width={18}
                         height={10}
-                        className={`w-4 sm:w-5 h-auto transition-transform duration-600 flex-shrink-0 ${
+                        className={`w-4 sm:w-5 h-auto transition-transform duration-300 flex-shrink-0 ${
                           expandedFaq === index ? 'rotate-180' : ''
                         }`}
                       />
                     </div>
-                    {expandedFaq === index && (
-                      <div className=" pt-[15px]  border-[#ffffff1a]">
-                        <p className="text-sm sm:text-base font-inter font-normal leading-[28px] md:max-w-[719px] text-white/90">
-                          {faq.answer}
-                        </p>
-                      </div>
-                    )}
+   {/* Answer with smooth transition */}
+      <div
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+          expandedFaq === index ? "max-h-96 opacity-100 mt-3" : "max-h-0 opacity-0"
+        }`}
+      >
+        <p className="text-sm sm:text-base font-inter font-normal leading-[28px] md:max-w-[719px] text-white/90">
+          {faq.answer}
+        </p>
+      </div>
                   </div>
                 </div>
               ))}
