@@ -16,7 +16,7 @@ const Connect = () => {
         <div>
           {/* Phone */}
           <a
-            href="tel:+11234567890"
+            href="tel:+15412614784"
             className="flex  items-center gap-[20px] hover:opacity-90 transition"
           >
             <Image
@@ -28,7 +28,7 @@ const Connect = () => {
             <div className="flex flex-col">
               <p className="text-[20px] font-semibold ">Phone:</p>
               <p className="text-[18px] font-normal leading-[28px]">
-                +1 (123) 456-7890
+                +1 (541) 261-4784
               </p>
             </div>
           </a>
@@ -36,7 +36,7 @@ const Connect = () => {
         <div>
           {/* email */}
           <a
-            href="mailto:support@siggy.com"
+            href="mailto:sanjeev@siggy.ai"
             className="flex  items-center gap-[20px] hover:opacity-90 transition"
           >
             <Image
@@ -48,7 +48,7 @@ const Connect = () => {
             <div className="flex flex-col">
               <p className="text-[20px] font-semibold ">Email:</p>
               <p className="text-[18px] font-normal leading-[28px]">
-                Support@siggy.com.
+                 sanjeev@siggy.ai
               </p>
             </div>
           </a>
@@ -56,9 +56,10 @@ const Connect = () => {
         <div>
           {/* google map */}
           <a
-            href="https://www.google.com/maps?q=123+Innovation+Park,+Suite+400,+San+Francisco,+CA+94105"
-            className="flex  items-center gap-[20px] hover:opacity-90 transition"
-          >
+ href="https://www.google.com/maps?q=PO+Box+1032,+Estacada,+OR+97023"            className="flex  items-center gap-[20px] hover:opacity-90 transition"
+         target="_blank"
+  rel="noopener noreferrer"
+        >
             <Image
               src="/images/location_1234.png"
               alt="phone-img"
@@ -68,7 +69,7 @@ const Connect = () => {
             <div className="flex flex-col ">
               <p className="text-[20px] font-semibold ">Locations:</p>
               <p className="text-[18px] font-normal leading-[28px]">
-                123 Innovation Park, Suite 400 San Francisco, CA 94105
+               PO Box 1032, Estacada, OR 97023
               </p>
             </div>
           </a>
