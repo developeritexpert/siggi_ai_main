@@ -37,6 +37,11 @@ const Footer: React.FC = () => {
             </p>
 
             <div className="flex flex-row gap-4  items-center w-auto mt-2 sm:mt-3 lg:mt-[26px]">
+              <a
+    href="https://www.facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
               <Image
                 src="/images/img_group_34602.svg"
                 alt="Facebook"
@@ -44,6 +49,12 @@ const Footer: React.FC = () => {
                 height={44}
                 className="w-[45px] sm:w-[33px] md:w-[38px] lg:w-[44px] h-[51px] sm:h-[33px] md:h-[38px] lg:h-[44px]"
               />
+              </a>
+                <a
+    href="https://www.instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
               <Image
                 src="/images/img_group_34603.svg"
                 alt="Twitter"
@@ -51,6 +62,7 @@ const Footer: React.FC = () => {
                 height={44}
                 className="w-[45px] sm:w-[33px] md:w-[38px] lg:w-[44px] h-[51px] sm:h-[33px] md:h-[38px] lg:h-[44px]"
               />
+              </a>
             </div>
           </div>
 
